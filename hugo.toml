@@ -1,0 +1,6 @@
+baseURL = 'http://record.rat.la/'
+languageCode = 'es-ES'
+title = 'record.rat.la'
+theme = 'hugo-theme-recordratla'
+enableRobotsTXT = true
+enableGitInfo = true
