@@ -4,8 +4,6 @@ date: 2022-09-24T16:59:00+01:00
 draft: false
 ---
 
-# CD fuzzy finder
-
 Presento aquí mi solución personal al problema de moverse rápido entre
 directorios por la Shell de GNU/Linux.
 

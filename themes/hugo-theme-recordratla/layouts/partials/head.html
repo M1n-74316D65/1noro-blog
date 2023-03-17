@@ -1,0 +1,140 @@
+<style>
+    @font-face {
+        font-family: 'eb-garamond';
+        src: local('EB Garamond'), local('EBGaramond'),
+            url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/eb-garamond/EBGaramond-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'eb-garamond';
+        src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/eb-garamond/EBGaramond-Italic.ttf');
+        font-weight: normal;
+        font-style: italic;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'eb-garamond';
+        src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/eb-garamond/EBGaramond-Bold.ttf');
+        font-weight: bold;
+        font-style: normal;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'eb-garamond';
+        src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/eb-garamond/EBGaramond-BoldItalic.ttf');
+        font-weight: bold;
+        font-style: italic;
+        /* font-display: swap; */
+    }
+
+    body {
+        background-color: #f6f5e3;
+        color: #000000;
+        /* font-family: 'Times New Roman', Times, serif; */
+        /* font-family: Helvetica, sans-serif; */
+        font-family: 'eb-garamond', serif;
+        font-size: 1.30em;
+    }
+
+    /* --- Enlaces --- */
+    /* Es importante mantener el orden: link - visited - hover - active */
+    a:link {color: #000000;}
+    a:visited {color: #000000;}
+    a:active {color: #ff4500;}
+
+    a.title_link:link {color: #000000;}
+    a.title_link:visited {color: #000000;}
+    a.title_link:active {color: #000000;}
+
+    /* --- Contenedores HEADER y FOOTER --- */
+    header, footer {text-align: center;}
+
+    svg#title_rat {
+        width: initial;
+        height: 0.8em;
+        vertical-align: -0.7px;
+    }
+
+    svg#title_rat path {
+        fill: #000000;
+    }
+
+    header div#web_title {
+        /* este valor multiplica al valor definido en el body */
+        font-size: 1.9em;
+        font-weight: bold;
+        margin: 16px 0px; /* porque es un <div> y no un <p> */
+    }
+
+    /* este valor multiplica al valor definido en el body */
+    header p#web_nav {font-size: 1.4em;}
+    header p#header_quote, footer p#license_text {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    fieldset#cookie_compliance_notice {
+        max-width: 400px;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        margin: 10px 10px;
+        background-color: #F8F8F8;
+        font-size: medium;
+        text-align: left;
+        padding: 10px 25px;
+    }
+
+    fieldset#cookie_compliance_notice nav {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 16px;
+    }
+
+    /* --- contenedor MAIN --- */
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    main p, blockquote {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    h1, h2, h3, h4, h5, h6 {color: #000000;}
+    figure {margin: auto 0px; text-align: center;}
+    img {width: 100%;}
+    img.half {
+        width: 40%;
+        min-width: 300px;
+    }
+    img.float {
+        width: 40%;
+        min-width: 300px;
+    }
+    @media only screen and (min-width: 600px) {
+        img.float {
+            float: right;
+            margin: 0px 0px 20px 20px;
+        }
+    }
+    pre {padding: 10px; overflow: auto;}
+    code {padding: 1px;}
+
+    pre, code {
+        background-color: #F8F8F8;
+        color: #000000;
+    }
+
+    iframe.embeddedVideo {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+</style>

@@ -4,8 +4,6 @@ date: 2022-11-12T21:11:00+01:00
 draft: false
 ---
 
-# Emocionado por crear un link blog
-
 Últimamente sentía cierta presión porque tenía muchas ganas de retomar
 el blog pero no sabía con qué. Sin dar nunca este sitio por muerto,
 sentía que la cosa no avanzaba al ritmo que me gustaría. Ando bastante

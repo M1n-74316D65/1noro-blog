@@ -4,8 +4,6 @@ date: 2020-09-26T12:32:00+01:00
 draft: false
 ---
 
-# Reflexión sobre los \"Buenos días\" en los chats on-line
-
 Nos ponemos en situación; tu estás en un chat en el que puedes, o no,
 conocer a todos los integrantes, pongamos que te levantas a las 6:00 AM
 (típica hora rutinaria durante el curso escolar) y como no hay mensajes
