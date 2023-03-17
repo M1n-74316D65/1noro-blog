@@ -148,3 +148,17 @@ a.header__rss {
     line-height: 1.28571;
     margin-bottom: 24px;
 }
+
+/* --- PAGE FOOTER ---------------------------------------------------------- */
+
+.siteFooter {
+    padding-top: 48px;
+    border-top: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 1127.98px) {
+    .siteFooter {
+        padding-top: 40px;
+    }
+}

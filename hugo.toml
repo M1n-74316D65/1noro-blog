@@ -4,12 +4,12 @@ title = 'record.rat.la'
 theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
 enableGitInfo = true
-Paginate = 3
+Paginate = 5
 
 [params]
   description = 'record.rat.la'
-  author = '1noro'
-  twitter = '1noro'
-  github = '1noro'
-  linkedin = '1noro'
-#   email = ''
+  author = 'Inoro'
+  github = 'https://github.com/1noro'
+  gitlab = 'https://gitlab.com/1noro'
+  mastodon = 'https://tilde.zone/@1noro'
+  # email = ''
