@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="post">
+	<header class="container">
+		<div class="post__header">
+			<h1 class="post__title">{{ .Title }}</h1>
+			<div class="post__meta">
+				<span class="postt__byline">
+					Por {{ with .Params.author }}
+					<a href="/author/{{ . | urlize }}">{{ . }}</a>
+					{{ else }}
+					<a href="/author/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
+					{{ end }}
+				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date.Format "January 2, 2006" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+					{{ range (.GetTerms "tags") }}
+					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
+					{{end}}
+				</span>
+			</div>
+			{{ if .Params.image }}
+			<figure class="post__featuredMedia">
+				<img src="{{ .Params.image }}" alt="{{ .Title }}">
+			</figure>
+			{{ end }}
+		</div>
+	</header>
+
+	<div>
+		{{ .Content }}
+	</div>
+
+	<!--Related-->
+	{{ $related := .Site.RegularPages.Related . | first 5 }}
+	{{ with $related }}
+	<h3>See Also</h3>
+	<ul>
+		{{ range . }}
+		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+	{{ end }}
+
+</article>
+{{ end }}

@@ -1,6 +1,6 @@
 public/
 resources/
 themes/*
-!themes/hugo-theme-recordratla
+!themes/hugo-theme-recordratla*
 .hugo_build.lock
 

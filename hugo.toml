@@ -1,7 +1,15 @@
 baseURL = 'http://record.rat.la/'
 languageCode = 'es-ES'
 title = 'record.rat.la'
-theme = 'hugo-theme-recordratla'
+theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
 enableGitInfo = true
-Paginate = 1
+Paginate = 3
+
+[params]
+  description = 'record.rat.la'
+  author = '1noro'
+  twitter = '1noro'
+  github = '1noro'
+  linkedin = '1noro'
+#   email = ''

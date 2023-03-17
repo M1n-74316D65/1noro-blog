@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/public-sans/PublicSans-VariableFont_wght.woff2') format('woff2-variations');
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/public-sans/PublicSans-Italic-VariableFont_wght.woff2') format('woff2-variations');
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: italic;
+}
+
+/* --- GENERAL -------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    color: #222;
+}
+
+a {
+    color: #222;
+    font-weight: 500;
+}
+
+/* --- PAGE HEADER ---------------------------------------------------------- */
+
+.header {
+    border-bottom: 1px solid #ddd;
+    height: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header__logo {
+    float: left;
+    margin-top: 24px;
+    margin-right: 6px;
+}
+
+svg#title_rat {
+    height: 32px;
+    width: 30px;
+}
+
+svg#title_rat path {
+    fill: #222;
+}
+
+a.header__site {
+    float: left;
+    display: block;
+    margin-top: 12px;
+    padding: 12px 0;
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33333;
+    letter-spacing: -.53px;
+    text-decoration: none;
+}
+
+/* svg#title_rat {
+    width: initial;
+    height: 0.9em;
+    vertical-align: -0.7px;
+} */
+
+a.header__rss {
+    float: right;
+    display: block;
+    margin-top: 12px;
+    padding: 12px 0;
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33333;
+    letter-spacing: -.53px;
+    text-decoration: none;
+}
+
+/* --- PAGE MAIN ------------------------------------------------------------ */
+
+.post {
+    margin-bottom: 120px;
+} 
+
+.container {
+    box-sizing: border-box;
+    max-width: 1760px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+@media (max-width: 743.98px) {
+    .container {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 1127.98px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.post__header {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.post__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.13043;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 743.98px) {
+    .post__title {
+        font-size: 26px;
+        line-height: 1.15385;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 949.98px) {
+    .post__title {
+        font-size: 32px;
+        line-height: 1.125;
+    }
+}
+
+.post__meta {
+    font-size: 14px;
+    line-height: 1.28571;
+    margin-bottom: 24px;
+}
