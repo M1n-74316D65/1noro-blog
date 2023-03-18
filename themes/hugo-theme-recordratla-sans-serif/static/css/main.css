@@ -1,3 +1,6 @@
+
+/* --- FONTS ---------------------------------------------------------------- */
+
 @font-face {
     font-family: 'Public Sans';
     src: url('https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/public-sans/PublicSans-VariableFont_wght.woff2') format('woff2-variations');
@@ -14,7 +17,7 @@
     font-style: italic;
 }
 
-/* --- GENERAL -------------------------------------------------------------- */
+/* --- COMMON --------------------------------------------------------------- */
 
 body {
     margin: 0;
@@ -28,6 +31,38 @@ body {
 a {
     color: #222;
     font-weight: 500;
+}
+
+iframe, img {
+    max-width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1760px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+@media (max-width: 1127.98px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 743.98px) {
+    .container {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 }
 
 /* --- PAGE HEADER ---------------------------------------------------------- */
@@ -90,35 +125,28 @@ a.header__rss {
 
 .post {
     margin-bottom: 120px;
-} 
+}
 
-.container {
-    box-sizing: border-box;
-    max-width: 1760px;
-    width: 100%;
+/* --- post header --- */
+
+.post__header {
+    width: calc(50% - 8px);
     margin-right: auto;
     margin-left: auto;
-    padding-right: 80px;
-    padding-left: 80px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 1439.98px) {
+    .post__header {
+        width: calc(66.66667% - 5.33333px);
+    }
 }
 
 @media (max-width: 743.98px) {
-    .container {
-        padding-right: 24px;
-        padding-left: 24px;
+    .post__header {
+        width: 100%;
     }
-}
-
-@media (max-width: 1127.98px) {
-    .container {
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-}
-
-.post__header {
-    margin-top: 64px;
-    margin-bottom: 32px;
 }
 
 .post__title {
@@ -126,6 +154,13 @@ a.header__rss {
     font-weight: 600;
     line-height: 1.13043;
     margin-bottom: 24px;
+}
+
+@media (max-width: 949.98px) {
+    .post__title {
+        font-size: 32px;
+        line-height: 1.125;
+    }
 }
 
 @media (max-width: 743.98px) {
@@ -136,17 +171,82 @@ a.header__rss {
     }
 }
 
-@media (max-width: 949.98px) {
-    .post__title {
-        font-size: 32px;
-        line-height: 1.125;
-    }
-}
-
 .post__meta {
     font-size: 14px;
     line-height: 1.28571;
     margin-bottom: 24px;
+}
+
+/* --- post summary --- */
+
+.post__summary {
+    width: calc(50% - 8px);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.post__summary {
+    display: none;
+}
+
+@media (max-width: 1439.98px) {
+    .post__summary {
+        width: calc(66.66667% - 5.33333px);
+    }
+}
+
+@media (min-width: 744px) {
+    .post__summary {
+        display: block;
+    }
+}
+
+/* --- post featuredMedia --- */
+
+.post__featuredMedia {
+    width: calc(83.33333% - 2.66667px);
+    margin: 64px auto;
+}
+
+@media (max-width: 949.98px) {
+    .post__featuredMedia {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 743.98px) {
+    .post__featuredMedia {
+        width: 100%;
+    }
+}
+
+@media (max-width: 743.98px) {
+    .post__featuredMedia {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+.post__featuredImage {
+    padding-bottom: 66.66667%;
+    position: relative;
+    height: 0;
+}
+
+.post__featuredImage img {
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.post__featuredImage > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* --- PAGE FOOTER ---------------------------------------------------------- */

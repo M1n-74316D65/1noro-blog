@@ -16,12 +16,19 @@
 					{{end}}
 				</span>
 			</div>
-			{{ if .Params.image }}
-			<figure class="post__featuredMedia">
-				<img src="{{ .Params.image }}" alt="{{ .Title }}">
-			</figure>
-			{{ end }}
 		</div>
+		{{ if .Params.summary }}
+		<div class="post__summary">
+			<p>{{ .Params.summary }}</p>
+		</div>
+		{{ end }}
+		{{ if .Params.image }}
+		<figure class="post__featuredMedia">
+			<div class="post__featuredImage">
+				<img src="{{ .Params.image }}" alt="{{ .Title }}">
+			</div>
+		</figure>
+		{{ end }}
 	</header>
 
 	<div>
@@ -29,7 +36,7 @@
 	</div>
 
 	<!--Related-->
-	{{ $related := .Site.RegularPages.Related . | first 5 }}
+	<!-- {{ $related := .Site.RegularPages.Related . | first 5 }}
 	{{ with $related }}
 	<h3>See Also</h3>
 	<ul>
@@ -37,7 +44,7 @@
 		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 		{{ end }}
 	</ul>
-	{{ end }}
+	{{ end }} -->
 
 </article>
 {{ end }}
