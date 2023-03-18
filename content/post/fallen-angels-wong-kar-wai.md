@@ -46,7 +46,9 @@ Takeshi Kaneshiro, que interpreta al chico mudo, hace un trabajo
 conmovedor al mostrar las dificultades que enfrenta su personaje para
 adaptarse al mundo que lo rodea.
 
-Para concluir, Fallen Angels (1995) es una película fascinante y
+## Conclusión
+
+Fallen Angels (1995) es una película fascinante y
 emocionante que combina elementos de cine noir con un enfoque innovador
 y experimental. La película es una experiencia visual y emocional única
 que te dejará con la mirada clavada en la pantalla. Si eres fanático del

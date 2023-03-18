@@ -1,5 +1,6 @@
 baseURL = 'http://record.rat.la/'
 languageCode = 'es-ES'
+defaultContentLanguage = 'es'
 title = 'record.rat.la'
 theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
@@ -13,3 +14,8 @@ Paginate = 5
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'
   # email = ''
+
+[languages]
+  [languages.es]
+    languageName = 'Spanish'
+    weight = 1

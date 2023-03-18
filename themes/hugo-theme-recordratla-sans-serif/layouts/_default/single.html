@@ -10,7 +10,7 @@
 					{{ else }}
 					<a href="/author/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
 					{{ end }}
-				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date.Format "January 2, 2006" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
 					{{ range (.GetTerms "tags") }}
 					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
 					{{end}}
@@ -31,7 +31,7 @@
 		{{ end }}
 	</header>
 
-	<div>
+	<div class="container post__entryContent">
 		{{ .Content }}
 	</div>
 
