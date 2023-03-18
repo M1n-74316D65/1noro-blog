@@ -1,12 +1,12 @@
-description = "Fully functional basic Hugo theme with no css, no javascript."
-features    = []
-homepage    = "https://sk1.jsiu.dev/"
-license     = "MIT"
-licenselink = "https://github.com/J-Siu/hugo-theme-sk1/blob/master/LICENSE"
-min_version = "0.65.0"
-name        = "SK1"
-tags        = ["blog", "clean", "minimal", "personal", "simple"]
+description = "New sans-serif theme for record.ra.la"
+features = []
+homepage = "https://record.rat.la/"
+license = "GPL-3.0"
+licenselink = "https://github.com/1noro/record.rat.la-static/blob/main/LICENSE"
+min_version = "0.0.1"
+name = "recordratla-sans-serif"
+tags = ["blog", "clean", "minimal", "personal", "simple", "white"]
 
 [author]
-homepage = "https://johnsiu.com/"
-name     = "John Siu"
+homepage = "https://github.com/1noro"
+name = "Inoro"
