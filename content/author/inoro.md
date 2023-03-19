@@ -3,10 +3,9 @@ title: "Inoro"
 date: 2022-09-24T16:59:00+01:00
 draft: false
 summary: "Sobre Inoro, el autor de este blog"
-# image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp"
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp"
+featuredImage: false
 ---
-
-<!-- ![Inoro profile picture](https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp) -->
 
 Joven muchacho entusiasta de las redes, la programación y el mundo del
 *software* libre, que tuvo la idea de crear un blog/web personal con el
@@ -16,7 +15,7 @@ Por el momento, soy el único administrador de este sítio y asimismo
 ---pero efectivo--- sistema de usuarios---.
 
 {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp" alt="Inoro profile picture" >}}
-<em>¿Dónde se derramará mi alma?</em>
+<em>Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.</em>
 {{< /blockMediaText >}}
 
 Aquí no voy a contar mucho sobre mi. Solo voy a comentar la anodina
