@@ -3,13 +3,13 @@ title: "Gitlab con Nginx reverse proxy"
 date: 2021-03-07T11:07:00+01:00
 draft: false
 tags: ["gitlab", "nginx", "reverse-proxy", "ssl", "letsencrypt", "certbot"]
-summary: "Voy a documentar el proceso de instalación de Gitlab en una máquina virtual detrás de un Nginx reverse proxy."
+# summary: "Voy a documentar el proceso de instalación de Gitlab en una máquina virtual detrás de un Nginx reverse proxy."
 ---
 
-<!-- # Gitlab con Nginx reverse proxy
+<!-- # Gitlab con Nginx reverse proxy -->
 
 Voy a documentar el proceso de instalación de Gitlab en una máquina
-virtual detrás de un Nginx reverse proxy. -->
+virtual detrás de un Nginx haciendo de _reverse proxy_.
 
 <!-- ## Escenario -->
 
