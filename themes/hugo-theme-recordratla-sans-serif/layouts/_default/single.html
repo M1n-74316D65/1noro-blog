@@ -20,7 +20,7 @@
 			</div>
 			{{ end }}
 		</div>
-		{{ if and .Params.summary (in .Permalink "/post/") }}
+		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
 		<div class="post__summary">
 			<p>{{ .Params.summary }}</p>
 		</div>

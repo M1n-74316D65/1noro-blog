@@ -5,15 +5,16 @@ title = 'record.rat.la'
 theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
 enableGitInfo = true
-Paginate = 5
+Paginate = 20
 
 [Params]
+  webRepo = 'https://github.com/1noro/record.rat.la-static'
   description = 'record.rat.la'
   author = 'Inoro'
   github = 'https://github.com/1noro'
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'
-  # email = ''
+  email = ''
   gpgPubKey = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/publickey.ppuubblliicc%40protonmail.com.asc'
 
 [languages]

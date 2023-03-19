@@ -3,6 +3,7 @@ title: "Inoro"
 date: 2022-09-24T16:59:00+01:00
 draft: false
 summary: "Sobre Inoro, el autor de este blog"
+displaySummary: false
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp"
 featuredImage: false
 ---

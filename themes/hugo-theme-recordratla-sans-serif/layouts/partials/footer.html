@@ -15,16 +15,16 @@
 				<div class="siteFooter__columnTitle">Enlaces de interés</div>
 				<ul id="menu-support" class="siteFooter__navColumn">
 					<li class="menu-item"><a href="#">Archivo</a></li>
-					<li class="menu-item"><a href="#">FAQ</a></li>
-					<li class="menu-item"><a href="#">Génesis de esta web</a></li>
-					<li class="menu-item"><a href="#">Apoya mi trabajo</a></li>
+					<li class="menu-item"><a href="{{ "info" | relURL }}">Sobre esta web</a></li>
+					<li class="menu-item"><a href="{{ "faq" | relURL }}">FAQ</a></li>
+					<li class="menu-item"><a href="{{ "donaciones" | relURL }}">Apoya mi trabajo</a></li>
 					<li class="menu-item"><a href="#">Sobre las Cookies</a></li>
 				</ul>
 			</div>
 			<div class="siteFooter__columnWrap siteFooter__disclaimer col-lg-6">
-				<div class="siteFooter__columnTitle">Cita</div>
+				<div class="siteFooter__columnTitle">Disclaimer</div>
 				<p class="siteFooter__disclaimerText">
-					Y el pobre anciano Masson se hundió en la negrura de la muerte, con los locos chillidos de las ratas taladrándole los oídos – Henry Kuttner
+					Esta es una página web estática generada con <a href="https://gohugo.io/">HUGO</a>, puedes ver el código fuente en <a href="{{ .Site.Params.webRepo }}">este repositorio de GitHub</a>. Estoy utilizando un tema propio muy inspirado —por no usar la palabra plagiado— en <a href="https://news.airbnb.com/">el blog de noticias de Airbnb</a>.
 				</p>
 			</div>
 		</div>
