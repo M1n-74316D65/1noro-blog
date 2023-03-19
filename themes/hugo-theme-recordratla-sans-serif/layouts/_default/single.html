@@ -3,6 +3,8 @@
 	<header class="container">
 		<div class="post__header">
 			<h1 class="post__title">{{ .Title }}</h1>
+			<!-- only show this section if is a post -->
+			{{ if in .Permalink "/post/" }}
 			<div class="post__meta">
 				<span class="postt__byline">
 					Por {{ with .Params.author }}
@@ -16,8 +18,9 @@
 					{{end}}
 				</span>
 			</div>
+			{{ end }}
 		</div>
-		{{ if .Params.summary }}
+		{{ if and .Params.summary (in .Permalink "/post/") }}
 		<div class="post__summary">
 			<p>{{ .Params.summary }}</p>
 		</div>

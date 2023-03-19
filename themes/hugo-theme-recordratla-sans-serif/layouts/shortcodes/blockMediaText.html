@@ -1,0 +1,29 @@
+<!-- <figure>
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "ImageObject",
+            "contentUrl": "https://record.rat.la/img/profile.webp",
+            "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "acquireLicensePage": "https://record.rat.la/faq#acquireLicense",
+            "creditText": "record.rat.la",
+            "creator": {
+                "@type": "Person",
+                "name": "Inoro"
+            },
+            "copyrightNotice": "Inoro"
+        }
+    </script>
+</figure> -->
+<div class="wp-block-media-text is-stacked-on-mobile">
+    <figure class="wp-block-media-text__media">
+        <img loading="lazy" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="wp-image-353046 size-full">
+    </figure>
+    <div class="wp-block-media-text__content">
+        <p>
+            <!-- <a href="#"><strong>Megan</strong></a><strong> (British Columbia, Canada)</strong><br>"We wanted to have an opportunity to share our space with visitors to the Cowichan Valley. There are limited options available in the area for accommodations and we live in a busy tourist area surrounded by wineries. We can't wait to take on a new opportunity to make the best use of our home and help travelers explore what our community has to offer." -->
+            {{ .Inner }}
+        </p>
+    </div>
+</div>
