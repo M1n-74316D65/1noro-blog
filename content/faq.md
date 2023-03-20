@@ -1,27 +1,26 @@
 ---
 title: "Preguntas frecuentes"
 draft: false
-summary: "Preguntas que yo ya sé que vas a hacer."
+summary: "Aquí intentaré aclarar algunas de las cuestiones sobre esta web."
 ---
 
 ## ¿Qué es esto?
 
-[record.rat.la](/) es un blog/web personal auto-gestionado donde iré
-registrando mis proyectos y mis líos mentales.
+La página `record.rat.la` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
 
-Para una respuesta más detallada visita la [descripción](description).
+En el apartado ["sobre esta web"]({{< relref "info" >}}) puedes encontrar una descripción más detallada.
 
 ## ¿Porqué rat.la?
 
-Compré el dominio `rat.la`{.sample} en busca de tres cosas: un nombre
+Compré el dominio `rat.la` en busca de tres cosas: un nombre
 fácil de recordar, corto y asequible. Busqué durante mucho tiempo,
 probando múltiples combinaciones de letras, intentando evitar los
 números y descartando los dominios de nivel superior muy largos, estilo
-`.website`{.sample}. Incluso llegué a utilizar generadores de palabras
+`.website`. Incluso llegué a utilizar generadores de palabras
 aleatorias para conseguir las palabras con 3 letras que encajasen mejor
 con mis requisitos.
 
-Tras esa ardua búsqueda encontré en oferta el dominio `.la`{.sample} y
+Tras esa ardua búsqueda encontré en oferta el dominio `.la` y
 pensando un subdominio adecuado se me ocurrió \"rat\", como una rata
 cantando *La, la, la*.
 
@@ -43,7 +42,7 @@ tomar la horrible decisión de relegarla a un segundo plano. Pero en
 compensación la he trasladado a esta página para que no caiga en mi
 olvido, y posibilitando su futuro retorno al primer plano.
 
-## ¿Cómo puede ser que esta web utilice Cookies?
+<!-- ## ¿Cómo puede ser que esta web utilice Cookies?
 
 Pues resulta que estoy interesado en experimentar con Google Analytics 4
 y sus herramientas de espionaje. Así que si aceptas el magnifico
@@ -53,7 +52,7 @@ sobre tus gustos y hábitos dentro de esta web 😈.
 Puedes leer mas detalladamente todas mis razones para utilizar esta
 tecnología del averno en [esta página](/cookie), donde también podrás
 encontrar la [política de cookies de la
-web](/cookie#politica_de_cookies).
+web](/cookie#politica_de_cookies). -->
 
 ## ¿Puedo compartir, citar o copiar el contenido o la totalidad de un post? {#acquireLicense}
 
@@ -85,9 +84,9 @@ Muy sencillo, solo tienes que descargarte un lector de RSS en tu PC o tu
 ## ¿En que zona horaria están las fechas de las publicaciones?
 
 Todas las fechas de la web están actualmente localizadas en la zona
-horaria `Europe/Madrid`{.sample}. Si en el futuro esto se
+horaria `Europe/Madrid`. Si en el futuro esto se
 internacionaliza más podría plantearme el cambiarlo todo a
-`UTC`{.sample}.
+`UTC`.
 
 ## ¿Qué software utilizas?
 

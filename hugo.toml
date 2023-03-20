@@ -6,11 +6,15 @@ theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
 enableGitInfo = true
 Paginate = 20
+copyright = 'Esta obra está bajo una Licencia Creative Commons BY-SA-4.0. Y el código HTML y CSS bajo la GNU GPL v3.'
+rssLimit = 20
+
+[author]
+  name = 'Inoro'
 
 [Params]
   webRepo = 'https://github.com/1noro/record.rat.la-static'
   description = 'record.rat.la'
-  author = 'Inoro'
   github = 'https://github.com/1noro'
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'
@@ -21,3 +25,8 @@ Paginate = 20
   [languages.es]
     languageName = 'Spanish'
     weight = 1
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 1

@@ -7,7 +7,7 @@ image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/ra
 
 Hola, me presento, puedes llamarme [Inoro]({{< relref "author/inoro" >}}).
 
-La página record.rat.la es un blog/web personal autogestionado donde
+La página `record.rat.la` es un blog/web personal autogestionado donde
 iré registrando mis proyectos y mis líos mentales.
 
 Debido a que siempre estoy iniciando y abandonando nuevos proyectos, y

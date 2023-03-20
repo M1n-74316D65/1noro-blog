@@ -1,0 +1,47 @@
+{{ define "main" }}
+<!-- <header class="homepage-header">
+	<h1>{{.Title}}</h1>
+	{{ with .Params.subtitle }}
+	<span class="subtitle">{{.}}</span>
+	{{ end }}
+</header> -->
+<div class="homepage-content">
+	{{ .Content }}
+</div>
+
+<!--$paginator-->
+{{ $p := .Pages }}
+{{ if .IsHome }}
+	{{ $p = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ else if eq .Kind "taxonomy" }}
+	{{ $p = $p.ByTitle }}
+{{ end }}
+{{ $paginator := .Paginate $p }}
+
+<!--list-->
+<ul>
+	{{ range $paginator.Pages }}
+	<li>{{ .Date.Format "2006-01-02" }} - <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+
+<!--pagination-->
+<!-- {{ template "_internal/pagination.html" . }} -->
+<!-- custom pagination -->
+{{ if gt $paginator.TotalPages 1 }}
+<p>
+	<nav class="pagination" style="text-align: center;">
+		{{ if $paginator.HasNext }}
+		<a class="older-posts" href="{{ $paginator.Next.URL }}">&laquo; Anterior</a>
+		{{ end }}
+		{{ if and $paginator.HasNext $paginator.HasPrev }}
+		/
+		{{ end }}
+		{{ if $paginator.HasPrev }}
+		<a class="newer-posts" href="{{ $paginator.Prev.URL }}">Posterior &raquo;</a>
+		{{ end }}
+	</nav>
+</p>
+{{ end }}
+
+{{ end }}
