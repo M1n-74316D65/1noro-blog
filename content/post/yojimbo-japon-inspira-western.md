@@ -2,19 +2,24 @@
 title: "Yojimbo, japón inspira al western"
 date: 2021-07-24T20:57:00+02:00
 draft: false
-tags: ["japón", "akira kurosawa", "toshiro mifune", "western"]
+tags: ["cine", "japón", "akira kurosawa", "samuráis", "acción", "western", "toshiro mifune"]
+summary: "Yojimbo (用心棒) - Japón, Akira Kurosawa (1961) es una película de acción japonesa ambientada en el Japón feudal, donde un samurái llega a un pueblo bajo el conflicto contínuo."
 ---
 
-用心棒 - Japón, Akira Kurosawa (1961) *acción, japón feudal, samuráis,
-Toshiro Mifune, western*
-
-![Representación de Stable Diffusion 2.1 de Eijirō Tōno como Gonji, el
-tabernero del pueblo.](img/20210724/yojimbo-375.jpg){.float}
+<!-- todo: retocar el primer párrafo o la descripción para que no entren en conflicto -->
 
 Un samurái llega a un pueblo desolado bajo el conflicto contínuo entre
 dos familias, observando el panorama se percata de que gracias a sus
 habilidades con la espada puede sacar provecho de la situación a pesar
 de las advertencias de la población local.
+
+{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210724/yojimbo.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
+<em>—¿Qué ha pasado? ¿Por qué estás tan triste? Tu negocio debería estar en auge.<br>
+—No. Cuando los combates son tan graves, no se molestan en hacer ataúdes.</em>
+<p>Diálogo entre Hansuke y el tonelero.</p>
+<!-- <em>Mata a uno o a cien. Sólo te cuelgan una vez</em>
+<p>—Isuzu Yamada en el papel de Orin.</p> -->
+{{< /blockMediaText >}}
 
 Posiblemente el germen que dió lugar al *spaghetti western* debido a que
 Sergio Leone, precursor del género, plagió el argumento de esta película

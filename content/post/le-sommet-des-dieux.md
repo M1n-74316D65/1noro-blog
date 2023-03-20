@@ -18,7 +18,7 @@ efectivamente llegó a la cima del Everest en 1924 antes de desaparecer
 para siempre, 29 años antes del primer ascenso oficial.
 
 {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
-<p>"Mis ojos se fijaron en un par de pequeños puntos negros [...] El primero se acercó entonces al gran escalón de roca y pronto emergió en la cima; el segundo hizo lo mismo. Entonces toda la fascinante visión se desvaneció, envuelta en nubes una vez más".</p>
+<em>Mis ojos se fijaron en un par de pequeños puntos negros [...] El primero se acercó entonces al gran escalón de roca y pronto emergió en la cima; el segundo hizo lo mismo. Entonces toda la fascinante visión se desvaneció, envuelta en nubes una vez más</em>
 <p>—Noel Odell, escalador de apoyo y último hombre que vio a Mallory e Irvine con vida. 8 de junio de 1924.</p>
 {{< /blockMediaText >}}
 
