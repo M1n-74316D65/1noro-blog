@@ -2,14 +2,10 @@
 title: "La cinta blanca, un film de época por Michael Haneke"
 date: 2022-11-30T19:04:00+01:00
 draft: false
-tags: ["cine", "michael-haneke"]
+tags: ["cine", "alemania", "michael haneke", "primera guerra mundial", "puritanismo", "religión", "b&w", "cine de época"]
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221130/la-cinta-blanca-1300.jpg"
+summary: "Das Weisse Band - Alemania, Michael Haneke (2009) es una película que nos presenta una reflexión sobre la maldad humana que durante su visionado te arranca más de un escalofrío."
 ---
-
-*Das weisse Band* - Alemania, Michael Haneke (2009) *primera guerra
-mundial, puritanismo, religión, b&w, cine de época*
-
-![Representación artística de la cinta
-blanca.](img/20221130/la-cinta-blanca-375.jpg){.float}
 
 Una puritana aldea alemana en 1913 y una serie de desgracias de
 misteriosa autoría. Esta podría ser una buena frase para introducir la

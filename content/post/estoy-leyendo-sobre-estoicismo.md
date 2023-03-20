@@ -13,9 +13,8 @@ autocontrol es el estoicismo. Esta corriente de pensamiento ha sido
 abrazada por muchas personas como una forma de vivir una vida más
 significativa y plena en un mundo cada vez más complejo.
 
-El otro día navegando por YouTube me encontré con un video que me
-pareció interesante. En él, [Massimo
-Pigliucci](https://en.wikipedia.org/wiki/Massimo_Pigliucci) habla sobre
+El otro día navegando por YouTube me encontré con [un video que me pareció muy interesante](https://www.youtube.com/watch?v=WisWde4lZdQ).
+En él, [Massimo Pigliucci](https://en.wikipedia.org/wiki/Massimo_Pigliucci) habla sobre
 el estoicismo y sobre cómo esta antigua filosofía está resurgiendo en la
 actualidad. Me pareció muy interesante y me ha llevado a querer
 investigar más sobre esta forma de pensar. Os dejo el vídeo a

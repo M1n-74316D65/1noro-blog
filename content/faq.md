@@ -24,12 +24,6 @@ Tras esa ardua búsqueda encontré en oferta el dominio `.la` y
 pensando un subdominio adecuado se me ocurrió \"rat\", como una rata
 cantando *La, la, la*.
 
-<!-- <figure>
-<a href="https://www.instagram.com/pepunto.reik"
-aria-label="Artista: @pepunto.reik"><img src="img/ratBbg.webp"
-alt="Logotipo de la web, una rata cantando: la la la." /></a>
-</figure> -->
-
 {{< blockHorizontalImage src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/ratBbg.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
 
 Esta imagen ilustra bien la chorrada en la que estaba pensando a la hora
