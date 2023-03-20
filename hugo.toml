@@ -5,9 +5,9 @@ title = 'record.rat.la'
 theme = 'hugo-theme-recordratla-sans-serif'
 enableRobotsTXT = true
 enableGitInfo = true
-Paginate = 20
+Paginate = 50
 copyright = 'Esta obra está bajo una Licencia Creative Commons BY-SA-4.0. Y el código HTML y CSS bajo la GNU GPL v3.'
-rssLimit = 20
+rssLimit = 15
 
 [author]
   name = 'Inoro'

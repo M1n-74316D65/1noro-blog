@@ -1,6 +1,5 @@
 ---
 title: "Montar un servidor para record.rat.la"
-20200919T0140
 date: 2020-09-19T01:40:00+02:00
 draft: false
 tags: ["nginx", "debian", "php", "web"]

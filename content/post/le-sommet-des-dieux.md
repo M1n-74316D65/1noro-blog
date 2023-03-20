@@ -3,14 +3,10 @@ title: "La cumbre de los dioses, la película que reafirma mi ansia de subir una
 date: 2022-12-05T20:20:00+01:00
 draft: false
 tags: ["animación", "alpinismo", "manga", "himalaya", "everest", "fotografía"]
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux-750.jpg"
+featuredImage: false
+summary: "Le Sommet des Dieux - Francia, Patrick Imbert (2021) es una película que me ha tocado la fibra sensible y me ha dejado con ganas de más historias de alpinismo."
 ---
-
-*Le Sommet des Dieux* - Francia, Patrick Imbert (2021) *animación,
-alpinismo, manga, himalaya, everest, fotografía*
-
-![Imagen generada por Stable Diffusion 2.1 de unos alpinistas
-ascendiendo al
-Everest.](img/20221205/le-sommet-des-dieux-375.jpg){.float}
 
 Adaptación francesa del manga homónimo escrito por Jiro Taniguchi que
 narra la historia de Makoto Fukamachi, un aventurero y fotógrafo japonés
@@ -20,6 +16,11 @@ que este podría tener bajo su custodia una cámara perteneciente a
 revelado de ese carrete podría desvelar el misterio de si Mallory
 efectivamente llegó a la cima del Everest en 1924 antes de desaparecer
 para siempre, 29 años antes del primer ascenso oficial.
+
+{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
+<p>"Mis ojos se fijaron en un par de pequeños puntos negros [...] El primero se acercó entonces al gran escalón de roca y pronto emergió en la cima; el segundo hizo lo mismo. Entonces toda la fascinante visión se desvaneció, envuelta en nubes una vez más".</p>
+<p>—Noel Odell, escalador de apoyo y último hombre que vio a Mallory e Irvine con vida. 8 de junio de 1924.</p>
+{{< /blockMediaText >}}
 
 Nos encontramos ante un precioso film que, a través de sus imponentes
 planos generales de paisajes montañosos, intenta ahondar en ese

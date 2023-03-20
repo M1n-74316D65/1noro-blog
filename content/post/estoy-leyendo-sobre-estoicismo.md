@@ -1,6 +1,5 @@
 ---
 title: "Estoy leyendo sobre el Estoicismo"
-20230304T1600
 date: 2021-09-24T17:00:00+01:00
 draft: false
 tags: ["lecturas", "filosofía"]
