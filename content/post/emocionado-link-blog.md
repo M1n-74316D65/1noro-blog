@@ -3,6 +3,8 @@ title: "Emocionado por crear un link blog"
 date: 2022-11-12T21:11:00+01:00
 draft: false
 tags: ["blog", "gemini", "gopher", "small internet"]
+summary: "Me emociona mucho poder compartir con vosotros un nuevo proyecto, un link blog en Gemini y Gopher."
+displaySummary: false
 ---
 
 Últimamente sentía cierta presión porque tenía muchas ganas de retomar

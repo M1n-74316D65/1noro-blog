@@ -3,6 +3,8 @@ title: "Arañas antiguas, la transcripción de un sueño esotérico"
 date: 2021-07-22T00:46:00+01:00
 draft: false
 tags: ["esoterismo", "sueños"]
+summary: "Transcripción de un sueño que tuve hace unos años."
+displaySummary: false
 ---
 
 Voy a transcribir un sueño que tuve la noche del 22 de octubre de 2018.

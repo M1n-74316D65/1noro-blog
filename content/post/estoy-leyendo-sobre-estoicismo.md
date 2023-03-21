@@ -1,8 +1,9 @@
 ---
 title: "Estoy leyendo sobre el Estoicismo"
-date: 2021-09-24T17:00:00+01:00
+date: 2023-03-04T16:00:00+01:00
 draft: false
 tags: ["lecturas", "filosofía"]
+summary: "He visto una charla sobre Estoicismo y me ha entrado ganas de leer sobre el tema."
 ---
 
 En un mundo lleno de incertidumbre y cambio constante, cada vez más

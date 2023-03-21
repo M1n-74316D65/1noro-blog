@@ -2,7 +2,8 @@
 title: "Montar un servidor para record.rat.la"
 date: 2020-09-19T01:40:00+02:00
 draft: false
-tags: ["nginx", "debian", "php", "web"]
+tags: ["nginx", "debian", "php", "fpm", "web", "linux"]
+summary: "Configuración de un servidor web Nginx con PHP-fpm en Debian 10."
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con la

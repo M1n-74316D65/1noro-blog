@@ -2,11 +2,9 @@
 title: "CD fuzzy finder"
 date: 2022-09-24T16:59:00+01:00
 draft: false
-tags: ["bash", "zsh", "fzf", "cli"]
+tags: ["bash", "fzf", "cli", "terminal", "tips", "shell", "linux"]
+summary: "Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux."
 ---
-
-Presento aquí mi solución personal al problema de moverse rápido entre
-directorios por la Shell de GNU/Linux.
 
 ## El problema
 

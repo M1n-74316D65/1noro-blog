@@ -4,6 +4,7 @@ date: 2020-09-18T14:57:00+02:00
 modified: 2022-12-15T19:57:00+01:00
 draft: false
 tags: ["web", "genesis", "php", "html5", "css3", "javascript", "diseño"]
+summary: "Intento reflexionar sobre el origen de esta web, su estructura y su estilo."
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con

@@ -3,6 +3,8 @@ title: "La forma más rápida de hacer un git push"
 date: 2020-09-30T12:40:00+01:00
 draft: false
 tags: ["git", "comandos"]
+summary: "Subir tus cambios de un repositorio git a un origen remoto de forma rápida y sencilla."
+displaySummary: false
 ---
 
 Estos tres comandos, que se deben copiar y pegar en bloque, son la forma

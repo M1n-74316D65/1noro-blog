@@ -3,6 +3,7 @@ title: "Configurar los drivers de Nvidia en Arch Linux"
 date: 2021-03-29T22:56:00+01:00
 draft: false
 tags: ["arch", "linux", "nvidia"]
+summary: "Configurar los drivers de Nvidia en Arch Linux con Gnome y Xorg."
 ---
 
 Yo antes solo utilizaba mi fabulosa tarjeta gráfica integrada de **Intel

@@ -3,7 +3,11 @@ title: "Software que utilizo habitualmente"
 date: 2021-09-24T17:01:00+01:00
 draft: false
 tags: ["software", "programas"]
+summary: "Listado de programas que componen mi workflow."
+displaySummary: false
 ---
+
+<!-- todo: actualizar, no refleja la realidad -->
 
 Escribo esto a modo de reflexión sobre qué programas realmente utilizo,
 cuales me hacen ser más productivo en mi día a día, y si debería obviar

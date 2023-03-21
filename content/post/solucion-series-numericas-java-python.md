@@ -3,11 +3,11 @@ title: "Solución a algunas series numéricas en Java y Python"
 date: 2020-10-04T11:36:00+01:00
 draft: false
 tags: ["java", "python", "programación"]
+summary: "Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase."
+displaySummary: false
 ---
 
-Lista del código que calcula las diferentes series numéricas propuestas
-en el Ejercicio evaluable 1 de la asignatura Programación Multimedia y
-Dispositivos Móviles.
+Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase.
 
 > *Voy a tomar como regla que todas las listas serán de 100 elementos
 > como máximo.*
