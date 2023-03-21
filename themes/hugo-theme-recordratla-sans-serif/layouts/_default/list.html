@@ -1,5 +1,16 @@
 {{define "main"}}
 
+<header class="container">
+	<div class="post__header">
+		<h1 class="post__title">{{ .Title }}</h1>
+	</div>
+	{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+	<div class="post__summary">
+		<p>{{ .Params.summary }}</p>
+	</div>
+	{{ end }}
+</header>
+
 <!--$paginator-->
 {{$p := .Pages}}
 {{if .IsHome}}
@@ -9,47 +20,25 @@
 {{end}}
 {{$paginator := .Paginate $p}}
 
-<!--list-->
-<ul>
+<div class="container post__entryContent">
+	<!--list-->
 	{{range $paginator.Pages}}
-	<li>{{.Date.Format "2006-01-02"}} - <a href="{{.RelPermalink}}">{{.Title}}</a></li>
+	<div class="list__item">
+		<div class="list__itemHeader">
+			<h2 class="list__itemTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+			<div class="post__meta">
+				<time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+					{{ range (.GetTerms "tags") }}
+					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
+					{{end}}
+				</span>
+			</div>
+		</div>
+		<p>
+			{{.Summary}}
+		</p>
+	</div>
 	{{end}}
-</ul>
-
-<!-- <article>
-	{{range $paginator.Pages}}
-	<h1><a class="title_link" href="{{.RelPermalink}}">{{.Title}}</a></h1>
-	{{.Content}}
-	<p>
-		Publicado el <time datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "2006-01-02"}}</time>.
-	</p>
-	{{if .Params.tags}}
-	<p>
-		{{range .Params.tags}}
-		<a href="/tags/{{.}}">{{.}}</a>
-		{{end}}
-	</p>
-	{{end}}
-	{{end}}
-</article> -->
-
-<!--pagination-->
-<!-- {{template "_internal/pagination.html" .}} -->
-<!-- custom pagination -->
-{{if gt $paginator.TotalPages 1}}
-<p>
-	<nav class="pagination" style="text-align: center;">
-		{{if $paginator.HasNext}}
-		<a class="older-posts" href="{{ $paginator.Next.URL }}">&laquo; Anterior</a>
-		{{end}}
-		{{if and $paginator.HasNext $paginator.HasPrev}}
-		/
-		{{end}}
-		{{if $paginator.HasPrev}}
-		<a class="newer-posts" href="{{ $paginator.Prev.URL }}">Posterior &raquo;</a>
-		{{end}}
-	</nav>
-</p>
-{{end}}
+</div>
 
 {{end}}

@@ -532,6 +532,44 @@ a.header__rightElement {
     }
 }
 
+/* --- LIST --------------------------------------------------------------- */
+
+/* .list__item {
+    border-left: 3px solid #ddd;
+    padding-left: 16px;
+} */
+
+.list__item {
+    border-bottom: 1px solid #ddd;
+}
+
+.list__itemTitle a {
+    font-size: 26px;
+    font-weight: 600;
+    /* line-height: 1.13043; */
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.list__itemTitle a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 949.98px) {
+    .list__itemTitle a {
+        font-size: 26px;
+        /* line-height: 1.125; */
+    }
+}
+
+@media (max-width: 743.98px) {
+    .list__itemTitle a {
+        font-size: 20px;
+        /* line-height: 1.15385; */
+        margin-bottom: 16px;
+    }
+}
+
 /* --- EXTRAS --------------------------------------------------------------- */
 
 /* --- post image large --- */
