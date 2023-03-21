@@ -20,7 +20,7 @@ actualidad. Me pareció muy interesante y me ha llevado a querer
 investigar más sobre esta forma de pensar. Os dejo el vídeo a
 continuación.
 
-<!-- ::: iframe
+<!--- ::: iframe
 ::: {#player}
 :::
 
@@ -33,7 +33,7 @@ www.youtube.com](https://www.youtube.com/watch?v=WisWde4lZdQ){target="_blank"}
 o habilita JavaScript si está desactivado en tu navegador.
 :::
 :::
-::: -->
+::: --->
 
 Después de ver la entrevista me entraron ganas de leer sobre el tema y
 he decidido empezar por [*Meditaciones*, de Marco

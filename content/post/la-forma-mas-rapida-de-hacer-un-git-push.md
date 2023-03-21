@@ -6,18 +6,15 @@ tags: ["git", "comandos"]
 ---
 
 Estos tres comandos, que se deben copiar y pegar en bloque, son la forma
-más sencilla para subir tus cambios de un repositorio a la nube.
+más sencilla para subir tus cambios de un repositorio git a un origen remoto, como *GitHub*, *GitLab*, etc.
 
-## Requisitos previos a la ejecución
-
--   Haber configurado el usuario y el correo electrónico.
--   Situar la terminal en la carpeta raíz del repositorio (la primera).
+> Como requisito previo, se debe haber configurado el usuario y el correo electrónico. Y situar la terminal en la carpeta raíz del repositorio (la primera).
 
 Para configurar el usuario y el correo electrónico se deben ejecutar los
 siguientes comandos:
 
-    git config --global user.name "nombre"
-    git config --global user.email "email@example.com"
+    git config ---global user.name "nombre"
+    git config ---global user.email "email@example.com"
 
 Una vez se hayan cumplido los requisitos previos, solo hay que copiar
 **todos** los comandos que vienen a continuación y los pegamos en la

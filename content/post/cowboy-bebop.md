@@ -3,20 +3,16 @@ title: "Cowboy Bebop, the real folk blues"
 date: 2020-09-28T18:10:00+02:00
 draft: false
 tags: ["anime", "series", "western", "japón", "música", "espacio", "ciencia ficción"]
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cover.webp"
+summary: "Cowboy Bebop - Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop."
 ---
 
-> *I think it\'s time to blow this scene.\
-> Get everybody and their stuff together.\
-> Okay, three, two, one ¡Let\'s jam!*
-
-Este artículo lo publiqué originalmente en un antiguo blog que hoy en
-día está desaparecido. Y ya que últimamente estoy haciendo
-reorganización y borrado de *backups* encuentro muchas antiguas joyas.
-Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero
-que os anime a ver esta maravillosa serie, por la que sigo sintiendo el
-mismo aprecio que se ve reflejado aquí.
-
-![Portada del artículo.](img/202009281810/cover.webp)
+> Este artículo lo publiqué originalmente en un antiguo blog que hoy en
+> día está desaparecido. Y ya que últimamente estoy haciendo
+> reorganización y borrado de *backups* encuentro muchas antiguas joyas.
+> Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero
+> que os anime a ver esta maravillosa serie, por la que sigo sintiendo el
+> mismo aprecio que se ve reflejado aquí.
 
 La humanidad en el año 2071, una época decadente en la que todo acaba,
 donde los hombres se dedican a explorar los confines del vasto universo,
@@ -36,6 +32,14 @@ intergaláctico con fundamentos muy arraigados en el cine negro y algún
 guiño de géneros como el *cyberpunk* al estilo de Blade Runner, una
 combinación perfecta de imagen y sonido que producen un sinfín de
 sensaciones mientras estás sentado tranquilamente frente a tu televisor.
+
+{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cowboy-bebop-ed.jpg" alt="Ed haciendo equilibrios con su PC sobre la cabeza." >}}
+<em>
+    I think it's time to blow this scene.<br>
+    Get everybody and their stuff together.<br>
+    Okay, three, two, one ¡Let's jam!
+</em>
+{{< /blockMediaText >}}
 
 La historia se centra en la tripulación de la nave bautizada como
 *Bebop*, formada por un grupo de personajes muy variopintos: **Spike**;

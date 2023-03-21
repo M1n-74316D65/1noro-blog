@@ -3,7 +3,7 @@ title: "Genesis de record.rat.la"
 date: 2020-09-18T14:57:00+02:00
 modified: 2022-12-15T19:57:00+01:00
 draft: false
-tags: ["web", "genesis"]
+tags: ["web", "genesis", "php", "html5", "css3", "javascript", "diseño"]
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con
@@ -26,8 +26,8 @@ y un contenido.
 ## Estructura interna
 
 La página en sí tiene poca cosa, consta únicamente de un
-`index.php`{.sample} y una carpeta *articles* donde se guardan los
-diferentes posts. El `index.php`{.sample}, fiel al concepto original de
+`index.php` y una carpeta *articles* donde se guardan los
+diferentes posts. El `index.php`, fiel al concepto original de
 la web, es únicamente un marco de header-footer donde en en el medio se
 coloca el contenido. Además he extremado la simplicidad basándome en que
 por el momento no hay suficientes lineas de código en este archivo como
@@ -37,10 +37,10 @@ tener que cargar archivos remotos, exceptuando el texto del artículo.
 Los archivos de los posts, o artículos, tienen una estructura muy
 simple, lo único que se debe respetar son dos cocas; una es el formato
 del nombre para el archivo:
-`AAAAMMDDhhmma-titulo-del-articulo.html`{.sample}, donde `AAAA`{.sample}
-es el año, `MM`{.sample} es el mes, `DD`{.sample} es el día,
-`hh`{.sample} es la hora, `mm`{.sample}, son los minutos y donde
-`a`{.sample} es el id del autor. Y otra es que la primera línea del
+`AAAAMMDDhhmma-titulo-del-articulo.html`, donde `AAAA`
+es el año, `MM` es el mes, `DD` es el día,
+`hh` es la hora, `mm`, son los minutos y donde
+`a` es el id del autor. Y otra es que la primera línea del
 archivo debe contener el título rodeado de los tags HTML `<h2></h2>`. El
 resto del artículo es HTML puro, por lo general siempre debería
 prevalecer la sintaxis básica de etiquetas HTML5 pero en caso de ser
@@ -106,16 +106,16 @@ Puede que la selección de colores resulte un tanto\... como decirlo\...
 horrorosa. Pero en mi defensa diré que me he basado en un
 [paper](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf){rel="nofollow"}
 para elegir la combinación de colores fondo/letra. Esta tonalidad de
-fondo `#edd1b0`{.sample} (melocotón) sobre el negro de la tipografía es
+fondo `#edd1b0` (melocotón) sobre el negro de la tipografía es
 la que más me ha convencido de las tres opciones que daba el artículo
-como conclusión. Según el, tanto el `#edd1b0`{.sample} (melocotón), como
-el `#EDDD6E`{.sample} (naranja) o el `#F8FD89`{.sample} (amarillo),
+como conclusión. Según el, tanto el `#edd1b0` (melocotón), como
+el `#EDDD6E` (naranja) o el `#F8FD89` (amarillo),
 todos ellos con letra negra, facilitan la lectura de texto en pantalla
 para personas con, o sin dislexia.
 
 De todas formas una elección de color si que va en contra completamente
 de lo que indica el anterior artículo. Se trata de el verde
-(`#dfdebe`{.sample}) que escogí para resaltar los cuadros de código
+(`#dfdebe`) que escogí para resaltar los cuadros de código
 sobre el fondo melocotón. Para llegar a este color lo consulté con la
 [encicolorpedia](https://encycolorpedia.es/edd1b0){rel="nofollow"} y lo
 encontré en la sección de análogos.
@@ -128,9 +128,9 @@ cada vez más popular *dark mode*, entre otros que a mi me gusten.
 
 Con respecto a la fuente las cosas han sido más fáciles. Posiblemente
 porque no leí tanto para elegirla, y debido a que ya tenía una idea en
-la cabeza de que debería ser una estilo `Serif`{.sample}. Todo esto
-motivado por mi obsesión con `LaTeX`{.sample} y que su fuente por
-defecto es la `Computer Modern`{.sample}.
+la cabeza de que debería ser una estilo `Serif`. Todo esto
+motivado por mi obsesión con `LaTeX` y que su fuente por
+defecto es la `Computer Modern`.
 
 Otro elemento fundamental con respecto a la selección de la fuente fue
 que, para garantizar el principio de simplicidad máximo que me propuse,
@@ -138,11 +138,11 @@ debía cargarse de forma local desde el equipo (lo que se denomina como
 *Web Safe Font*), no descargarse desde el servidor remoto junto a la
 página, como se hace hoy día en muchos sitios.
 
-Por estos dos motivos elegí la letra `Times`{.sample} para los
+Por estos dos motivos elegí la letra `Times` para los
 dispositivos que la tuvieran instalada y, como segunda opción,
 concretamente porque los dispositivos Android no traen la letra
-`Times`{.sample} instalada, indico que el dispositivo elija la letra
-estilo `Serif`{.sample} que tenga por defecto.
+`Times` instalada, indico que el dispositivo elija la letra
+estilo `Serif` que tenga por defecto.
 
 ## Inspiraciones
 

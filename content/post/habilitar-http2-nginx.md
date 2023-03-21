@@ -5,8 +5,7 @@ draft: false
 tags: ["nginx", "http2"]
 ---
 
-Utilizando la configuración de Nginx ya explicada en [este
-artículo](/show?filename=configurando-nginx-para-esta-web.html) para
+Utilizando la configuración de Nginx ya explicada en [este artículo]({{< relref "post/configurando-nginx-para-esta-web" >}}) para
 esta misma página. Vamos a habilitar el protocolo HTTP/2 para mejorar la
 eficiencia y la seguridad a la hora de ofrecer la web al usuario final.
 
@@ -24,7 +23,7 @@ Y las modificamos de esta forma.
     listen [::]:443 ssl http2 ipv6only=on; # managed by Certbot
     listen 443 ssl http2; # managed by Certbot
 
-Ahora buscamos esta otra línea y la comentamos con un `#`{.sample}.
+Ahora buscamos esta otra línea y la comentamos con un `#`.
 
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 
@@ -36,7 +35,7 @@ Guardamos el archivo y comprobamos si la configuración es correcta con
 `nginx -t`. Si todo está correcto, continuamos.
 
 Editamos o creamos el archivo
-`/etc/nginx/snippets/ssl-params.conf`{.sample}, y localizamos la
+`/etc/nginx/snippets/ssl-params.conf`, y localizamos la
 siguiente línea.
 
     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
@@ -46,7 +45,7 @@ siguiente línea.
     ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
 
 > Puede darse el caso en el que el archivo
-> `/etc/nginx/snippets/ssl-params.conf`{.sample} esté vacío, o no
+> `/etc/nginx/snippets/ssl-params.conf` esté vacío, o no
 > exista. En ese caso solo tendremos que agregar la línea modificada.
 
 Volvemos a comprobar la configuración con `nginx -t`. Si es correcta,

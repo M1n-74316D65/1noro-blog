@@ -33,7 +33,7 @@ Como parto de mi situación real, veo útil explicar los pasos que seguí
 durante la desinstalación de los drivers de **Intel** que estaban
 configurados previamente en mi PC.
 
-Editamos el archivo `/etc/mkinitcpio.conf`{.sample} y eliminamos del
+Editamos el archivo `/etc/mkinitcpio.conf` y eliminamos del
 array `MODULES` el módulo `i915`. Como yo no tenía ningún modulo más,
 previamente mi array quedaría de la siguiente manera.
 
@@ -44,7 +44,7 @@ Y ejecutamos el `mkinitcpio`.
     sudo mkinitcpio -p linux
 
 Configuramos el **GRUB**, para que no cargue el módulo de *kernel* que
-acabamos de quitar, editando el archivo `/etc/default/grub`{.sample}.
+acabamos de quitar, editando el archivo `/etc/default/grub`.
 
 Eliminamos el parámetro `i915.enable_guc=2` de la línea
 `GRUB_CMDLINE_LINUX_DEFAULT`. Quedando, en mi caso, de la siguiente
@@ -84,14 +84,14 @@ Generamos una configuración automática.
 
     sudo nvidia-xconfig
 
-Revisamos `/etc/xorg.conf`{.sample} para ver si nos convencen los
+Revisamos `/etc/xorg.conf` para ver si nos convencen los
 parámetros auto-generados, y **comentamos** la siguiente línea si está
 presente.
 
     # Load        "dri"
 
 Agregamos los siguientes módulos al kernel editando el array `MODULES`
-del archivo `/etc/mkinitcpio.conf`{.sample}.
+del archivo `/etc/mkinitcpio.conf`.
 
     MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 
@@ -101,7 +101,7 @@ Y ejecutamos el `mkinitcpio`.
 
 Definimos el parámetro `nvidia-drm.modeset=1` de arranque del kernel en
 la línea `GRUB_CMDLINE_LINUX_DEFAULT` de la configuración del **GRUB**,
-editando el archivo `/etc/default/grub`{.sample}.
+editando el archivo `/etc/default/grub`.
 
 El resultado sería el siguiente.
 

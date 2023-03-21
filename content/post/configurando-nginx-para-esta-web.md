@@ -21,7 +21,7 @@ Aprovechando que siempre quise tener una web bajo un servidor
 para aprender.
 
 Como primer paso voy a descargar mi web en el directorio
-`/var/wwww`{.sample}.
+`/var/wwww`.
 
     cd /var/wwww
     git clone https://github.com/1noro/record.rat.la.git
@@ -31,25 +31,25 @@ Como primer paso voy a descargar mi web en el directorio
 
     apt install git nginx php-fpm
 
-En el archivo `/etc/php/7.3/fpm/php.ini`{.sample} cambiamos
+En el archivo `/etc/php/7.3/fpm/php.ini` cambiamos
 `;cgi.fix_pathinfo=1` por `cgi.fix_pathinfo=0`.
 
     systemctl restart php7.3-fpm.service
 
 Hacemos una copia de seguridad del archivo
-`/etc/nginx/sites-available/default`{.sample} antes de modificarlo.
+`/etc/nginx/sites-available/default` antes de modificarlo.
 
-Tomando como referencia `/etc/nginx/sites-available/default`{.sample}
-creamos `/etc/nginx/conf.d/record.rat.la.conf`{.sample}.
+Tomando como referencia `/etc/nginx/sites-available/default`
+creamos `/etc/nginx/conf.d/record.rat.la.conf`.
 
     cp /etc/nginx/sites-available/default /etc/nginx/conf.d/record.rat.la.conf
 
 Luego comentamos todas las lineas de
-`/etc/nginx/sites-available/default`{.sample} para que quede \"vacío\".
+`/etc/nginx/sites-available/default` para que quede \"vacío\".
 
-Ahora editamos `/etc/nginx/conf.d/record.rat.la.conf`{.sample}.
+Ahora editamos `/etc/nginx/conf.d/record.rat.la.conf`.
 
-### `record.rat.la.conf`{.sample} original
+### `record.rat.la.conf` original
 
     server {
         listen 80 default_server;
@@ -125,23 +125,23 @@ Ahora editamos `/etc/nginx/conf.d/record.rat.la.conf`{.sample}.
 
 ### Modificaciones
 
--   En primer lugar, necesitamos agregar `index.php`{.sample} como el
+-   En primer lugar, necesitamos agregar `index.php` como el
     primer valor de nuestra directiva de índice para que los archivos
-    denominados `index.php`{.sample} se sirvan, si están disponibles,
+    denominados `index.php` se sirvan, si están disponibles,
     cuando se solicita un directorio.
 -   Podemos modificar la directiva `server_name` para apuntar al nombre
     de dominio de nuestro servidor o a la dirección IP pública.
 -   Para el procesamiento real de PHP, solo necesitamos descomentar un
     segmento del archivo que maneja las solicitudes de PHP. Éste será el
     bloque de ubicación `~.php$`, el fragmento
-    `fastcgi-php.conf`{.sample} incluido y el socket asociado con
+    `fastcgi-php.conf` incluido y el socket asociado con
     `php-fpm`.
 -   También hay que eliminar los comentarios del bloque de ubicación que
-    trata con archivos `.htaccess`{.sample}. Nginx no procesa estos
+    trata con archivos `.htaccess`. Nginx no procesa estos
     archivos. Si alguno de estos archivos encuentra la forma de llegar a
     un documento root, no deben ser servidos a los visitantes.
 
-### `record.rat.la.conf`{.sample} modificado
+### `record.rat.la.conf` modificado
 
     server {
         listen 80 default_server;
@@ -228,9 +228,9 @@ Instalaciones iniciales:
     apt install python3-certbot-nginx
 
 Con el *Virtual Host* correctamente configurado en Nginx (como se indica
-en el apartado anterior), ejecutamos el `certbot`{.sample}
+en el apartado anterior), ejecutamos el `certbot`
 
-    certbot --nginx -d record.rat.la
+    certbot ---nginx -d record.rat.la
 
 Respondemos a todas las preguntas a nuestro gusto y al final aparece
 esto:
@@ -254,8 +254,8 @@ esto:
        Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
        Donating to EFF:                    https://eff.org/donate-le
 
-Si volvemos a `record.rat.la.conf`{.sample} veremos que
-`certbot`{.sample} ha agregado unas lineas a nuestra configuración.
+Si volvemos a `record.rat.la.conf` veremos que
+`certbot` ha agregado unas lineas a nuestra configuración.
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
     listen 443 ssl; # managed by Certbot
@@ -271,12 +271,12 @@ Nos aseguramos de que cron se está ejecutando.
     systemctl enable cron
     systemctl start cron
 
-Una vez instalado `certbot`{.sample} se agrega automáticamente a
-`cron`{.sample} para ejecutarse dos veces al día. De todas formas
+Una vez instalado `certbot` se agrega automáticamente a
+`cron` para ejecutarse dos veces al día. De todas formas
 podemos probar que esto funciona correctamente ejecutando un simulacro
 de renovación.
 
-    certbot renew --dry-run
+    certbot renew ---dry-run
 
 ## Script para actualizar la web desde mi PC personal
 
@@ -287,8 +287,8 @@ Para facilitar la actualización de la web, este script puede ser muy
 
 ## Habilitar el header HTTP, *charset* UTF-8
 
-Editamos el archivo `/etc/nginx/nginx.conf`{.sample} y agregamos la
-siguiente línea a la configuración del bloque `http`{.sample}.
+Editamos el archivo `/etc/nginx/nginx.conf` y agregamos la
+siguiente línea a la configuración del bloque `http`.
 
     charset UTF-8;
 

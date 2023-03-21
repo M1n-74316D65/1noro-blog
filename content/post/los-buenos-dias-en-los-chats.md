@@ -52,14 +52,14 @@ pretende transmitir con ese comunicado: podría significar un mero
 \"Buenos días\" en su sentido más estricto, resumiendo, que nos anima a
 que pasemos un buen día (esto es lo que, probablemente, les pase por la
 cabeza al resto de usuarios que lo leyesen). Pero eso no es suficiente
-para ti, tu piensas \--No puede ser tan simple\--, a lo mejor la
+para ti, tu piensas \---No puede ser tan simple\---, a lo mejor la
 intención del emisor es nula, una simple excusa para iniciar una
 conversación anodina, pero en su subconsciente podríamos hallar un
 significado oculto, un segundo motivo, o más de uno. Ese segundo motivo
-podría ser algo como \--Me acabo de levantar de la cama a las 5:00 PM,
+podría ser algo como \---Me acabo de levantar de la cama a las 5:00 PM,
 voy a escribir \"Buenos días\" en el chat para que todo el mundo se de
 cuenta de que soy más chulo que un ocho por levantarme tarde. A ver si
-así me preguntan lo que estuve haciendo hasta tan tarde ayer noche\--.
+así me preguntan lo que estuve haciendo hasta tan tarde ayer noche\---.
 Esta reflexión del subconsciente es factible debido a que si recalcamos
 la segunda observación, en caso de que no todos los integrantes del chat
 se encuentren en el mismo uso horario que el emisor no tendría sentido

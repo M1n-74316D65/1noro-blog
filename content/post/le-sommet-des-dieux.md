@@ -39,5 +39,5 @@ más historias de este tipo. Creo que es una película fácil de ver y
 recomendable para todo el que quiera pasar un buen rato disfrutando de
 una emocionante aventura.
 
-> --Ya era hora de romper la racha de películas difíciles de digerir
-> 😅--.
+> ---Ya era hora de romper la racha de películas difíciles de digerir
+> 😅---.

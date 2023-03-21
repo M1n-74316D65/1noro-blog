@@ -3,14 +3,8 @@ title: "Git quick reference"
 date: 2021-04-13T21:59:00+01:00
 draft: false
 tags: ["git", "comandos"]
+summary: "Listado de los comandos más recurrentes en el día a día con git."
 ---
-
-Listado de los comandos más recurrentes en el día a día con *git*.
-
-## Elementos a tener en cuenta antes de leer los comandos
-
--   Siempre que puedas poner un único archivo (`<file>`) en un comando,
-    puedes poner un `.` para referirte a todos de forma recursiva.
 
 ## Obtener un repositorio --- *clone*
 
@@ -28,6 +22,9 @@ Ver los cambios realizados sobre un archivo desde el último commit.
 
     git diff <file>
 
+> Nótese que siempre que puedas poner un único archivo (`<file>`) en un comando,
+> puedes poner un `.` para referirte a todos de forma recursiva.
+
 Restaurar todos los cambios de un archivo al punto del último commit.
 
     git restore <file>
@@ -40,7 +37,7 @@ Agregar un archivo al *staging area*.
 
 Quitar un archivo del *staging area*.
 
-    git restore --staged <file>
+    git restore ---staged <file>
 
 ## Confirmar los cambios --- *commit*
 
@@ -72,7 +69,7 @@ Listar ramas **locales**.
 
     git branch
 
-> Agregando la opción `--all` se pueden ver también las **ramas
+> Agregando la opción `---all` se pueden ver también las **ramas
 > remotas**.
 
 Crear una rama nueva y moverte a ella.
@@ -89,4 +86,5 @@ Borrar una rama local.
 
 Borrar una rama remota.
 
-    git push origin --delete <branch_name>
+    git push origin ---delete <branch_name>
+

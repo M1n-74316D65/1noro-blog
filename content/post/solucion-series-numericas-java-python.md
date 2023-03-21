@@ -14,7 +14,7 @@ Dispositivos Móviles.
 
 ## 1. La serie de Fibonacci
 
-Mi explicación: Empezando con `[0, 1]`{.sample}, el siguiente se calcula
+Mi explicación: Empezando con `[0, 1]`, el siguiente se calcula
 con la suma de los dos anteriores.
 
 ### Fibonacci en Java
@@ -46,7 +46,7 @@ con la suma de los dos anteriores.
 
 ## 2. La serie de Tribonacci
 
-Mi explicación: Empezando con `[1, 1, 2]`{.sample}, el siguiente se
+Mi explicación: Empezando con `[1, 1, 2]`, el siguiente se
 calcula con la suma de los tres anteriores.
 
 ### Tribonacci en Java
@@ -79,7 +79,7 @@ calcula con la suma de los tres anteriores.
 
 ## 3. La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
 
-Mi explicación: Empezamos con la lista `[1, 1]`{.sample}.
+Mi explicación: Empezamos con la lista `[1, 1]`.
 
 -   Si el último es impar, se suman los 2 últimos para calcular el
     siguiente.
@@ -135,7 +135,7 @@ Tengo dudas, no sé si se refiere a esto:
             int i = 0;
             while (i < lista.length) {
                 lista[i] = numero * numero;
-                numero--;
+                numero---;
                 i++;
             }
             for (i = 0; i < lista.length; i++) {

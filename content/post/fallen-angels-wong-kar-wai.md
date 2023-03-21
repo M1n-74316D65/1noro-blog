@@ -18,8 +18,8 @@ duda todos tenían razón, la película me ha encantado, me gusta tanto que
 me ha quitado el sueño y me ha dado fuerzas para escribir este post.
 ¿Por dónde empezaré?
 
-<!-- ![Michelle Reis en el metro de Hong
-Kong.](img/20230318/fallen-angels-750.jpg) -->
+<!--- ![Michelle Reis en el metro de Hong
+Kong.](img/20230318/fallen-angels-750.jpg) --->
 
 En primer lugar, creo que la dirección de Wong Kar-Wai es impresionante.
 El uso de la cámara es innovador y arriesgado, con muchos planos que

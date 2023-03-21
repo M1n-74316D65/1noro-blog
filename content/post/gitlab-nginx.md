@@ -6,14 +6,14 @@ tags: ["gitlab", "nginx", "reverse-proxy", "ssl", "letsencrypt", "certbot"]
 # summary: "Voy a documentar el proceso de instalación de Gitlab en una máquina virtual detrás de un Nginx reverse proxy."
 ---
 
-<!-- # Gitlab con Nginx reverse proxy -->
+<!--- # Gitlab con Nginx reverse proxy --->
 
 Voy a documentar el proceso de instalación de Gitlab en una máquina
 virtual detrás de un Nginx haciendo de _reverse proxy_.
 
-<!-- ## Escenario -->
+<!--- ## Escenario --->
 
-<!-- ![Diagrama.](img/202103071107/gitlab-nginx.webp) -->
+<!--- ![Diagrama.](img/202103071107/gitlab-nginx.webp) --->
 
 ### Características
 
@@ -71,7 +71,7 @@ recargamos la configuración.
 Con el Virtual Host correctamente configurado en Nginx, ejecutamos el
 certbot.
 
-    certbot --nginx -d git.example.com
+    certbot ---nginx -d git.example.com
 
 > Durante el proceso de creación del certificado indicamos que queremos
 > redireccionar el tráfico HTTP al HTTPs.
