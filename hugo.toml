@@ -19,7 +19,7 @@ rssLimit = 15
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'
   email = ''
-  gpgPubKey = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/publickey.ppuubblliicc%40protonmail.com.asc'
+  pgpPubKey = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/publickey.ppuubblliicc%40protonmail.com.asc'
 
 [languages]
   [languages.es]
