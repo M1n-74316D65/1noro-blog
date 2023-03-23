@@ -2,7 +2,7 @@
 title: "Häxan. La brujería a través de los tiempos"
 date: 2021-07-27T19:02:00+01:00
 draft: false
-tags: ["documental", "cine mudo", "años 20", "brujería", "esoterismo", "religión"]
+tags: ["documental", "cine", "cine mudo", "años 20", "brujería", "esoterismo", "religión"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210727/haxan-1300.jpg"
 summary: "Häxan - Suecia, Benjamin Christensen (1922) es un documental mudo que recorre la historia de la brujería a través de los tiempos."
 ---

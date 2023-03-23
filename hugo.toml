@@ -30,3 +30,7 @@ rssLimit = 15
   changefreq = 'weekly'
   filename = 'sitemap.xml'
   priority = 1
+
+[taxonomies]
+  tag = 'tags'
+  # category = 'categories'
