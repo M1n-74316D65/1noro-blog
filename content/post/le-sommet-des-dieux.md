@@ -2,7 +2,7 @@
 title: "La cumbre de los dioses, la película que reafirma mi ansia de subir una montaña"
 date: 2022-12-05T20:20:00+01:00
 draft: false
-tags: ["animación", "alpinismo", "manga", "himalaya", "everest", "fotografía"]
+tags: ["cine", "animación", "alpinismo", "manga", "himalaya", "everest", "fotografía"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux-750.jpg"
 featuredImage: false
 summary: "Le Sommet des Dieux - Francia, Patrick Imbert (2021) es una película que me ha tocado la fibra sensible y me ha dejado con ganas de más historias de alpinismo."

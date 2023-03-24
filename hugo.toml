@@ -20,6 +20,7 @@ rssLimit = 15
   mastodon = 'https://tilde.zone/@1noro'
   email = ''
   pgpPubKey = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/publickey.ppuubblliicc%40protonmail.com.asc'
+  articleDefaultImage = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/article_default_img_peach.jpg'
 
 [languages]
   [languages.es]

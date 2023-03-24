@@ -1,0 +1,87 @@
+{{define "main"}}
+
+<header class="container">
+	<div class="post__header">
+		{{ if eq .Kind "term" }}
+		<h1 class="post__title">Tag: {{ .Title }}</h1>
+		{{ else }}
+		<h1 class="post__title">{{ .Title }}</h1>
+		{{ end }}
+	</div>
+	{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+	<div class="post__summary">
+		<p>{{ .Params.summary }}</p>
+	</div>
+	{{ end }}
+</header>
+
+<!--$paginator-->
+{{$p := .Pages}}
+{{if .IsHome}}
+{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+{{else if eq .Kind "taxonomy"}}
+{{$p = $p.ByTitle}}
+{{end}}
+{{$paginator := .Paginate $p}}
+
+<!-- <div class="container post__entryContent">
+	{{range $paginator.Pages}}
+	<div class="list__item">
+		<div class="list__itemHeader">
+			<h2 class="list__itemTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+			<div class="post__meta">
+				<time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+					{{ range (.GetTerms "tags") }}
+					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
+					{{end}}
+				</span>
+			</div>
+		</div>
+		<p>
+			{{.Summary}}
+		</p>
+	</div>
+	{{end}}
+</div> -->
+
+<div class="d-flex flex-wrap gutter-spacious">
+	{{range $paginator.Pages}}
+	<article id="term-post-70478" class="col-12 tease--thirds post-70478 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-open-source tag-ai tag-node tag-python">
+		<div class="border-top"></div>
+		<div class="py-4 d-flex flex-column flex-md-row flex-md-row-reverse gutter-spacious">
+			<div class="col-12 col-lg-8">
+				<a href="{{ .RelPermalink }}" class="d-block position-relative rounded-2 mb-3 mb-md-0 overflow-hidden tease-thumbnail">
+					{{ if .Params.image }}
+					<img src="{{ .Params.image }}" alt="{{ .Title }}" class="d-block width-full height-auto rounded-2 tease-thumbnail__img cover-image">
+					{{ else }}
+					<img src="https://picsum.photos/1300/715/?blur=3" alt="{{ .Title }}" class="d-block width-full height-auto rounded-2 tease-thumbnail__img cover-image">
+					{{ end }}
+				</a>
+			</div>
+			<div class="col-12 col-lg-4 pt-lg-4">
+				<h2 class="h4-mktg mb-12px">
+					<a class="Link--primary" href="{{ .RelPermalink }}">{{ .Title }}</a>
+				</h2>
+				<p class="f4-mktg color-fg-muted">{{.Summary}}</p>
+				<div class="mt-14px">
+					<div class="d-flex flex-items-center">
+						<div class="d-flex flex-items-end flex-wrap" style="margin-top: -4px;">
+							<span class="authors-wrap mr-12px mt-1 f5-mktg text-bold">
+								{{ with .Params.author }}
+								<a class="d-inline-block Link--primary color-fg-default" href="/author/{{ . | urlize }}">{{ . }}</a>
+								{{ else }}
+								<a class="d-inline-block Link--primary color-fg-default" href="/author/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
+								{{ end }}
+							</span>
+							<time datetime="{{ .Date.Format "2006-01-30" }}" class="d-inline-block f5-mktg text-mono color-fg-muted mt-1">{{ .Date | time.Format ":date_long" }}</time>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	{{end}}
+</div>
+
+
+{{end}}

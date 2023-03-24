@@ -1,3 +1,131 @@
-div {
 
+/* --- PAGE HEADER ---------------------------------------------------------- */
+
+.page-header {
+    margin-top: 12px;
+}
+
+@media (min-width: 744px) {
+    .page-header {
+        margin-top: 48px;
+    }
+}
+
+.page-header--gridTitle {
+    margin-top: 80px;
+}
+
+@media (max-width: 949.98px) {
+    .page-header--gridTitle {
+        margin-top: 48px;
+    }
+}
+
+.postTeaser__gridTitle {
+    font-size: 32px;
+    line-height: 1.125;
+    margin-bottom: 24px;
+    grid-column: 1/-1;
+}
+
+@media (max-width: 1439.98px) {
+    .postTeaser__gridTitle {
+        font-size: 26px;
+        line-height: 1.15385;
+    }
+}
+
+.page-header--gridTitle .postTeaser__gridTitle {
+    margin-bottom: 48px;
+}
+
+/* --- POST TEASER ---------------------------------------------------------- */
+
+.postTeaser {
+    word-break: break-word;
+    position: relative;
+}
+
+.postTeaser, .postTeaser.post {
+    margin-bottom: 24px;
+}
+
+@media (min-width: 744px) {
+    .postTeaser, .postTeaser.post {
+        margin-bottom: 32px;
+    }
+}
+
+/* --- image --- */
+
+.postTeaser__image {
+    position: relative;
+    height: 0;
+    margin-bottom: 16px;
+    padding-bottom: 66.7%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.postTeaser__imageLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.postTeaser a {
+    text-decoration: none;
+}
+
+.postTeaser__imageLink img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- title --- */
+
+@media (min-width: 744px) {
+    .postTeaser__textWrap {
+        padding-right: 16px;
+    }
+}
+
+.postTeaser__title {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.postTeaser__title--standard {
+    font-size: 18px;
+    line-height: 1.33333;
+}
+
+.postTeaser__titleLink, .postTeaser__titleLink:focus, .postTeaser__titleLink:hover {
+    color: #222;
+    font-weight: inherit;
+}
+
+.postTeaser a {
+    text-decoration: none;
+}
+
+/* --- meta --- */
+
+.postTeaser__meta {
+    font-size: 14px;
+    line-height: 1.28571;
+    margin-top: 4px;
+    color: #717171;
+}
+
+@media (max-width: 1127.98px) {
+    .postTeaser__meta {
+        font-size: 12px;
+        line-height: 1.33333;
+        margin-top: 8px;
+    }
 }
