@@ -9,16 +9,13 @@
 		{{ end }}
 	</div>
 	<div class="postTeaser__groupInner row">
-		{{ $p := .Pages }}
-		{{ if .IsHome }}
-			{{ $p = where site.RegularPages "Type" "in" site.Params.mainSections }}
-		{{ else if eq .Kind "taxonomy" }}
-			{{ $p = $p.ByTitle }}
-		{{ end }}
-		{{ $paginator := .Paginate $p }}
-
-		{{ range $paginator.Pages }}
+		{{ $articles := .Paginate .Pages }}
+		{{ range $index, $article := $articles.Pages }}
+		{{ if lt $index 3 }}
 		<article class="postTeaser col-md-2 col-mdpl-4 post-363012 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-public-policy tag-economic-empowerment tag-hosts">
+		{{ else }}
+		<article class="postTeaser col-md-2 col-mdpl-3 post-363012 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-public-policy tag-economic-empowerment tag-hosts">
+		{{ end }}
 			<div class="postTeaser__image postTeaser__image--standard">
 				<a class="postTeaser__imageLink" href="{{ .RelPermalink }}" tabindex="-1">
 					{{ if .Params.image }}

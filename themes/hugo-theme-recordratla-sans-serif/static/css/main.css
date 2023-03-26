@@ -193,8 +193,24 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.col-mdpl-3 {
+    position: relative;
+}
+
+@media (min-width: 950px) {
+    .col-mdpl-3 {
+        grid-column: span 3;
+    }
+}
+
 .col-mdpl-4 {
     position: relative;
+}
+
+@media (min-width: 950px) {
+    .col-mdpl-4 {
+        grid-column: span 4;
+    }
 }
 
 .col-lg-3 {
