@@ -1,7 +1,9 @@
 ---
 title: "Preguntas frecuentes"
 draft: false
-summary: "Aquí intentaré aclarar algunas de las cuestiones sobre esta web."
+summary: "Aquí intentaré aclarar algunas de las cuestiones que, se me ocurre, pueden surgir a la hora de visitar esta web."
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/faq-rats-1024.jpg"
+featuredImage: false
 ---
 
 ## ¿Qué es esto?
@@ -9,6 +11,14 @@ summary: "Aquí intentaré aclarar algunas de las cuestiones sobre esta web."
 La página `record.rat.la` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
 
 En el apartado ["sobre esta web"]({{< relref "info" >}}) puedes encontrar una descripción más detallada.
+
+{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/faq-rats-1024.jpg" alt="Un puñado de ratas preguntándose cosas." >}}
+<em>
+    Y el pobre anciano Masson se hundió en la negrura de la muerte, con los locos chillidos de las ratas taladrándole los oídos.
+</em>
+<br>
+– Henry Kuttner
+{{< /blockMediaText >}}
 
 ## ¿Porqué rat.la?
 
@@ -85,7 +95,7 @@ internacionaliza más podría plantearme el cambiarlo todo a
 ## ¿Qué software utilizas?
 
 Me he currado una lista bastante detallada sobre el software que utilizo
-habitualmente en [esta página](/show?filename=mi-software.html). Espero
+habitualmente en [esta página]({{< relref "mi-software" >}}). Espero
 que responda a la pregunta.
 
 ## ¡Mi pregunta no aparece en la lista!
