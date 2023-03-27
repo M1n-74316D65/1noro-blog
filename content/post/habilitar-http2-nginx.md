@@ -2,7 +2,7 @@
 title: "Habilitar HTTP/2 en Nginx"
 date: 2020-09-27T13:30:00+01:00
 draft: false
-tags: ["nginx", "http2"]
+tags: ["nginx", "linux"]
 summary: "Aumentar la eficiencia y la seguridad de una web con el protocolo HTTP/2."
 ---
 

@@ -2,7 +2,8 @@
 title: "Cowboy Bebop, the real folk blues"
 date: 2020-09-28T18:10:00+02:00
 draft: false
-tags: ["anime", "series", "western", "japón", "música", "espacio", "ciencia ficción"]
+# tags: ["anime", "series", "western", "japón", "música", "espacio", "ciencia ficción"]
+tags: ["anime", "series", "cultura asiática"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cover.webp"
 summary: "Cowboy Bebop - Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop."
 ---

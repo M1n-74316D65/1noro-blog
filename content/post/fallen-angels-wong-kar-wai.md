@@ -2,7 +2,8 @@
 title: "Fallen Angels, neo noir en Hong Kong"
 date: 2023-03-18T01:09:00+01:00
 draft: false
-tags: ["cine", "hong kong", "Wong Kar-Wai", "neo noir", "china"]
+# tags: ["cine", "hong kong", "Wong Kar-Wai", "neo noir", "china"]
+tags: ["cine", "cultura asiática"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20230318/fallen-angels-1300-2.jpg"
 summary: "Fallen Angels - Hong Kong, Wong Kar-Wai (1995) es una película cautivadora y original que combina elementos de cine noir con un enfoque innovador y experimental."
 ---

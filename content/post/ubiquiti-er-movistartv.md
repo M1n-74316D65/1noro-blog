@@ -2,7 +2,7 @@
 title: "Configurar Ubiquiti EdgeRouter para Movistar TV"
 date: 2020-09-20T01:44:00+01:00
 draft: true
-tags: ["ubiquiti", "movistar", "tv"]
+tags: ["redes", "ubiquiti"]
 summary: "Configurar el router Ubiquiti EdgeRouter para poder ver la televisión de Movistar Plus."
 ---
 

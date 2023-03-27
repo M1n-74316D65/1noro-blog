@@ -2,7 +2,8 @@
 title: "Expandir una partición EXT4 de forma dinámica"
 date: 2021-11-14T21:16:00+01:00
 draft: false
-tags: ["linux", "comandos", "ext4", "particiones", "discos"]
+# tags: ["linux", "comandos", "ext4", "particiones", "discos"]
+tags: ["linux", "shell"]
 summary: "Aumentar el tamaño de una partición EXT4 sin tener que formatear el disco duro."
 ---
 

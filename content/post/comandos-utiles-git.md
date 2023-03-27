@@ -2,7 +2,7 @@
 title: "Git quick reference"
 date: 2021-04-13T21:59:00+01:00
 draft: false
-tags: ["git", "comandos"]
+tags: ["git", "shell"]
 summary: "Listado de los comandos más recurrentes en el día a día con git."
 ---
 
