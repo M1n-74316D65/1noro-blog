@@ -61,6 +61,12 @@
     }
 }
 
+@media (min-width: 744px) {
+    .post__title {
+        font-size: 46px;
+    }
+}
+
 .post__meta {
     font-size: 14px;
     line-height: 1.28571;
@@ -87,8 +93,34 @@
     }
 }
 
+@media (max-width: 743.98px) {
+    .post__summary {
+        width: 100%;
+    }
+}
+
 @media (min-width: 744px) {
     .post__summary {
+        display: block;
+    }
+}
+
+.post__summary--mobileOnly {
+    display: none;
+}
+
+@media (max-width: 743.98px) {
+    .post__summary--mobileOnly {
+        display: block;
+    }
+}
+
+.post__summary--desktopOnly {
+    display: none;
+}
+
+@media (min-width: 744px) {
+    .post__summary--desktopOnly {
         display: block;
     }
 }
@@ -97,6 +129,7 @@
 
 .post__featuredMedia {
     width: calc(83.33333% - 2.66667px);
+    /* width: calc(75% - 2.66667px); */
     margin: 64px auto;
 }
 
