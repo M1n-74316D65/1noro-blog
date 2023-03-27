@@ -41,6 +41,15 @@
 
 	<div class="container post__entryContent">
 		{{ .Content }}
+
+		{{ if in .Permalink "/post/" }}
+		<p style="margin-top: 80px; text-align: center;">
+			<a class="btn btn--gradient" href="{{ "post" | relURL }}">
+				<!-- <span class="thermal-bg" style="background-position: calc((100 - var(--mouse-x)) * 1%) calc((100 - var(--mouse-y)) * 1%); --mouse-x: 127; --mouse-y: 32;"></span> -->
+				<span>Más posts</span>
+			</a>
+		</p>
+		{{ end }}
 	</div>
 
 	<!--Related-->

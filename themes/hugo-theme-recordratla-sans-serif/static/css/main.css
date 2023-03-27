@@ -234,6 +234,58 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 120px;
 }
 
+/* --- .btn --- */
+
+.btn {
+    display: inline-block;
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #222;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 14px 24px;
+}
+
+.btn--gradient {
+    /* background-image: -webkit-gradient(linear,left top,right top,color-stop(1.83%,#e61e4d),color-stop(50.07%,#e31c5f),color-stop(96.34%,#d70466));
+    background-image: -webkit-linear-gradient(left,#e61e4d 1.83%,#e31c5f 50.07%,#d70466 96.34%);
+    background-image: linear-gradient(90deg,#e61e4d 1.83%,#e31c5f 50.07%,#d70466 96.34%); */
+    /* https://colordesigner.io/gradient-generator/?mode=lch#1793D1-0F2B46 */
+    /* background-image: -webkit-gradient(linear,left top,right top,color-stop(1.83%,#1e6697),color-stop(50.07%,#1b527b),color-stop(96.34%,#163e60));
+    background-image: -webkit-linear-gradient(left,#1e6697 1.83%,#1b527b 50.07%,#163e60 96.34%); */
+    background-image: linear-gradient(90deg,#1e6697 1.83%,#1b527b 50.07%,#163e60 96.34%);
+    position: relative;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* 
+.btn--gradient span {
+    z-index: 1;
+    position: relative;
+}
+
+.btn--gradient .thermal-bg {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 1.25s;
+    background-size: 200%;
+    background-image: radial-gradient(circle at center center,#ff385c 0,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100%);
+} */
+
 /* --- PAGE HEADER ---------------------------------------------------------- */
 
 .header {
