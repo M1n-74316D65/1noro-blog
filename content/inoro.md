@@ -12,8 +12,7 @@ Joven muchacho entusiasta de las redes, la programación y el mundo del
 *software* libre, que tuvo la idea de crear un blog/web personal con el
 afán de tener un lugar donde escribir y trastear con tecnologías web.
 Por el momento, soy el único administrador de este sítio y asimismo
-único creador de contenido ---a pesar de haber implementado un sencillo
----pero efectivo--- sistema de usuarios---.
+único creador de contenido.
 
 {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp" alt="Inoro profile picture" >}}
 <em>Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.</em>
