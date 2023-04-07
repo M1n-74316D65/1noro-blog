@@ -5,7 +5,7 @@ summary: "Intentaré describir de la forma más clara posible el motivo de esta 
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/rat-la-la-la.jpg"
 ---
 
-Hola, me presento, puedes llamarme [Inoro]({{< relref "author/inoro" >}}).
+Hola, me presento, puedes llamarme [Inoro]({{< relref "inoro" >}}).
 
 La página `record.rat.la` es un blog/web personal autogestionado donde
 iré registrando mis proyectos y mis líos mentales.

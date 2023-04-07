@@ -68,9 +68,9 @@
 						<div class="d-flex flex-items-end flex-wrap" style="margin-top: -4px;">
 							<span class="authors-wrap mr-12px mt-1 f5-mktg text-bold">
 								{{ with .Params.author }}
-								<a class="d-inline-block Link--primary color-fg-default" href="/author/{{ . | urlize }}">{{ . }}</a>
+								<a class="d-inline-block Link--primary color-fg-default" href="/{{ . | urlize }}">{{ . }}</a>
 								{{ else }}
-								<a class="d-inline-block Link--primary color-fg-default" href="/author/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
+								<a class="d-inline-block Link--primary color-fg-default" href="/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
 								{{ end }}
 							</span>
 							<time datetime="{{ .Date.Format "2006-01-30" }}" class="d-inline-block f5-mktg text-mono color-fg-muted mt-1">{{ .Date | time.Format ":date_long" }}</time>

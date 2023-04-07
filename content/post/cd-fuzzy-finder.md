@@ -5,6 +5,8 @@ draft: false
 # tags: ["bash", "fzf", "cli", "terminal", "tips", "shell", "linux"]
 tags: ["linux", "shell"]
 summary: "Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux."
+image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20220924/fzf-1300.jpg"
+featuredImage: false
 ---
 
 ## El problema

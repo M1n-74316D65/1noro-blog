@@ -12,9 +12,9 @@
 			<div class="post__meta">
 				<span class="postt__byline">
 					Por {{ with .Params.author }}
-					<a href="/author/{{ . | urlize }}">{{ . }}</a>
+					<a href="/{{ . | urlize }}">{{ . }}</a>
 					{{ else }}
-					<a href="/author/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>
+					<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>
 					{{ end }}
 				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
 					{{ range (.GetTerms "tags") }}
