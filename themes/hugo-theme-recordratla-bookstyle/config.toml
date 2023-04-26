@@ -1,0 +1,9 @@
+[params]
+  assetDir = "assets"
+#   enableInlineShortcodes = true
+#   buildDrafts = true
+
+[module]
+  [[module.mounts]]
+    source = "assets/scss"
+    target = "assets/css"

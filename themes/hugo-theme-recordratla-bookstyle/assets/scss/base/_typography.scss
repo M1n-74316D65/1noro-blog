@@ -1,0 +1,136 @@
+// $font-family-black: 'montserrat-black';
+// $font-family-black-italic: 'montserrat-black-italic';
+// $font-family-extra-bold: 'montserrat-extra-bold';
+// $font-family-extra-bold-italic: 'montserrat-extra-bold-italic';
+// $font-family-bold: 'montserrat-bold';
+// $font-family-semibold: 'montserrat-semibold';
+// $font-family: 'montserrat';
+// $font-family-light: 'montserrat-light';
+
+// @font-face {
+//   font-family: $font-family-black-italic;
+//   src: url('~src/assets/fonts/Montserrat-BlackItalic.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-black;
+//   src: url('~src/assets/fonts/Montserrat-Black.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-extra-bold-italic;
+//   src: url('~src/assets/fonts/Montserrat-ExtraBoldItalic.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-extra-bold;
+//   src: url('~src/assets/fonts/Montserrat-ExtraBold.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-bold;
+//   src: url('~src/assets/fonts/Montserrat-Bold.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-semibold;
+//   src: url('~src/assets/fonts/Montserrat-SemiBold.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family;
+//   src: url('~src/assets/fonts/Montserrat-Regular.ttf');
+// }
+
+// @font-face {
+//   font-family: $font-family-light;
+//   src: url('~src/assets/fonts/Montserrat-Light.ttf');
+// }
+
+
+/* eb-garamond-regular */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 400;
+    src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url(eb-garamond-regular.woff2) format("woff2");
+}
+
+/* eb-garamond-medium */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 500;
+    src: local("EB Garamond Medium"), local("EBGaramond-Medium"), url(eb-garamond-medium.woff2) format("woff2");
+}
+
+/* eb-garamond-semibold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 400;
+    src: local("EB Garamond SemiBold"), local("EBGaramond-SemiBold"), url(eb-garamond-semibold.woff2) format("woff2");
+}
+
+/* eb-garamond-bold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 700;
+    src: local("EB Garamond Bold"), local("EBGaramond-Bold"), url(eb-garamond-bold.woff2) format("woff2");
+}
+
+/* eb-garamond-extrabold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 400;
+    src: local("EB Garamond ExtraBold"), local("EBGaramond-ExtraBold"), url(eb-garamond-extrabold.woff2) format("woff2");
+}
+
+/* eb-garamond-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 400;
+    src: local("EB Garamond Italic"), local("EBGaramond-Italic"), url(eb-garamond-italic.woff2) format("woff2");
+}
+
+/* eb-garamond-medium-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 500;
+    src: local("EB Garamond Medium Italic"), local("EBGaramond-MediumItalic"), url(eb-garamond-medium-italic.woff2) format("woff2");
+}
+
+/* eb-garamond-semibold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 400;
+    src: local("EB Garamond SemiBold Italic"), local("EBGaramond-SemiBoldItalic"), url(eb-garamond-semibold-italic.woff2) format("woff2");
+}
+
+/* eb-garamond-bold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 700;
+    src: local("EB Garamond Bold Italic"), local("EBGaramond-BoldItalic"), url(eb-garamond-bold-italic.woff2) format("woff2");
+}
+
+/* eb-garamond-extrabold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 400;
+    src: local("EB Garamond ExtraBold Italic"), local("EBGaramond-ExtraBoldItalic"), url(eb-garamond-extrabold-italic.woff2) format("woff2");
+}
+
+h1, h2, h3, h4 {
+    // font-family: $font-family-black-italic;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}

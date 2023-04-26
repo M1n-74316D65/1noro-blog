@@ -1,0 +1,67 @@
+{{ define "main" }}
+<article class="post">
+	<header class="container">
+		<div class="post__header">
+			<h1 class="post__title">{{ .Title }}</h1>
+			<!-- only show this section if is a post -->
+			{{ if in .Permalink "/post/" }}
+			<div class="post__meta">
+				<span class="postt__byline">
+					Por {{ with .Params.author }}
+					<a href="/{{ . | urlize }}">{{ . }}</a>
+					{{ else }}
+					<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>
+					{{ end }}
+				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+					{{ range (.GetTerms "tags") }}
+					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
+					{{end}}
+				</span>
+			</div>
+			{{ end }}
+		</div>
+		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+		<div class="post__summary post__summary--desktopOnly">
+			<p>{{ .Params.summary }}</p>
+		</div>
+		{{ end }}
+		{{ if and .Params.image (not (eq .Params.featuredImage false)) }}
+		<figure class="post__featuredMedia">
+			<div class="post__featuredImage">
+				<img src="{{ .Params.image }}" alt="{{ .Title }}">
+			</div>
+		</figure>
+		{{ end }}
+		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+		<div class="post__summary post__summary--mobileOnly">
+			<p>{{ .Params.summary }}</p>
+		</div>
+		{{ end }}
+	</header>
+
+	<div class="container post__entryContent">
+		{{ .Content }}
+
+		{{ if in .Permalink "/post/" }}
+		<p style="margin-top: 80px; text-align: center;">
+			<a class="btn btn--gradient" href="{{ "post" | relURL }}">
+				<!-- <span class="thermal-bg" style="background-position: calc((100 - var(--mouse-x)) * 1%) calc((100 - var(--mouse-y)) * 1%); --mouse-x: 127; --mouse-y: 32;"></span> -->
+				<span>Más posts</span>
+			</a>
+		</p>
+		{{ end }}
+	</div>
+
+	<!--Related-->
+	<!-- {{ $related := .Site.RegularPages.Related . | first 5 }}
+	{{ with $related }}
+	<h3>See Also</h3>
+	<ul>
+		{{ range . }}
+		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+	{{ end }} -->
+
+</article>
+{{ end }}

@@ -1,0 +1,45 @@
+{{define "main"}}
+
+<div class="container">
+	<div class="page-header page-header--gridTitle">
+		{{ if eq .Kind "term" }}
+		<h1 class="h2 postTeaser__gridTitle">Tag: {{ .Title }}</h1>
+		{{ else }}
+		<h1 class="h2 postTeaser__gridTitle">{{ .Title }}</h1>
+		{{ end }}
+	</div>
+	<div class="postTeaser__groupInner row">
+		{{ $articles := .Paginate .Pages }}
+		{{ range $index, $article := $articles.Pages }}
+		{{ if lt $index 3 }}
+		<article class="postTeaser col-md-2 col-mdpl-4 post-363012 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-public-policy tag-economic-empowerment tag-hosts">
+		{{ else }}
+		<article class="postTeaser col-md-2 col-mdpl-3 post-363012 post type-post status-publish format-standard has-post-thumbnail hentry category-community category-public-policy tag-economic-empowerment tag-hosts">
+		{{ end }}
+			<div class="postTeaser__image postTeaser__image--standard">
+				<a class="postTeaser__imageLink" href="{{ .RelPermalink }}" tabindex="-1">
+					{{ if .Params.image }}
+						<img alt="Portada del artículo {{ .Title }}" src="{{ .Params.image }}">
+					{{ else }}
+						<img alt="Portada del artículo {{ .Title }}" src="{{ .Site.Params.articleDefaultImage }}">
+					{{ end }}
+				</a>
+			</div>
+			<div class="postTeaser__textWrap">
+				<header>
+					<h3 class="postTeaser__title postTeaser__title--standard">
+						<a class="postTeaser__titleLink" href="{{ .RelPermalink }}">{{ .Title }}</a>
+					</h3>
+					<div class="postTeaser__hdrMeta">
+						<div class="postTeaser__meta">
+							<time datetime="{{ .Date.Format "2006-01-30" }}" class="postTeaser__updated">{{ .Date | time.Format ":date_long" }}</time>
+						</div>
+					</div>
+				</header>
+			</div>
+		</article>
+		{{end}}
+	</div>
+</div>
+
+{{end}}

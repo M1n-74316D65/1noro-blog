@@ -1,0 +1,12 @@
+description = "Book style theme for record.ra.la"
+features = []
+homepage = "https://record.rat.la/"
+license = "GPL-3.0"
+licenselink = "https://github.com/1noro/record.rat.la-static/blob/main/LICENSE"
+min_version = "0.0.1"
+name = "recordratla-bookstyle"
+tags = ["blog", "clean", "minimal", "personal", "simple", "white"]
+
+[author]
+homepage = "https://github.com/1noro"
+name = "Inoro"
