@@ -1,0 +1,15 @@
+@use 'styles/main';
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    // font-family: main.$font-family, serif;
+    font-family: EB Garamond, serif;
+}
+
+:root {
+    --primary-color: main.$primary-color;
+    --primary-lighter-color: main.$primary-lighter-color;
+    --text-color: main.$text-color;
+    --text-inverted-color: main.$text-inverted-color;
+}
