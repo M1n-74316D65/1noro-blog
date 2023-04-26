@@ -1,53 +1,12 @@
-// $font-family-black: 'montserrat-black';
-// $font-family-black-italic: 'montserrat-black-italic';
-// $font-family-extra-bold: 'montserrat-extra-bold';
-// $font-family-extra-bold-italic: 'montserrat-extra-bold-italic';
-// $font-family-bold: 'montserrat-bold';
-// $font-family-semibold: 'montserrat-semibold';
-// $font-family: 'montserrat';
-// $font-family-light: 'montserrat-light';
-
-// @font-face {
-//   font-family: $font-family-black-italic;
-//   src: url('~src/assets/fonts/Montserrat-BlackItalic.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-black;
-//   src: url('~src/assets/fonts/Montserrat-Black.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-extra-bold-italic;
-//   src: url('~src/assets/fonts/Montserrat-ExtraBoldItalic.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-extra-bold;
-//   src: url('~src/assets/fonts/Montserrat-ExtraBold.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-bold;
-//   src: url('~src/assets/fonts/Montserrat-Bold.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-semibold;
-//   src: url('~src/assets/fonts/Montserrat-SemiBold.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family;
-//   src: url('~src/assets/fonts/Montserrat-Regular.ttf');
-// }
-
-// @font-face {
-//   font-family: $font-family-light;
-//   src: url('~src/assets/fonts/Montserrat-Light.ttf');
-// }
-
 $font-family: 'EB Garamond';
+$base-font-size: 125%; // 20px
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$small-font-size: 0.8rem;
+
 
 /* eb-garamond-regular */
 @font-face {
