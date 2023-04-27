@@ -10,25 +10,9 @@
 			{{ if .Params.subtitle }}
 			<h2 class="post__subtitle">{{ .Params.subtitle }}</h2>
 			{{ end }}
-			<!-- only show this section if is a post -->
-			{{ if in .Permalink "/post/" }}
-			<div class="post__meta">
-				<span class="post__byline">
-					Por {{ with .Params.author }}
-					<a href="/{{ . | urlize }}">{{ . }}</a>
-					{{ else }}
-					<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>
-					{{ end }}
-				</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
-					{{ range (.GetTerms "tags") }}
-					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
-					{{end}}
-				</span>
-			</div>
-			{{ end }}
 		</div>
 		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
-		<div class="post__summary post__summary--desktopOnly">
+		<div class="post__summary">
 			<p>{{ .Params.summary }}</p>
 		</div>
 		{{ end }}
@@ -43,6 +27,18 @@
 
 	<div class="container post__entryContent">
 		{{ .Content }}
+
+		<!-- only show this section if is a post -->
+		{{ if in .Permalink "/post/" }}
+		<div class="post__meta">
+			<span class="post__byline">
+				&mdash; Publicado por {{ with .Params.author }}<a href="/{{ . | urlize }}">{{ . }}</a>{{ else }}<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>{{ end }}</span>, <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+				{{ range (.GetTerms "tags") }}
+				<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
+				{{end}}
+			</span>
+		</div>
+		{{ end }}
 	</div>
 
 </article>

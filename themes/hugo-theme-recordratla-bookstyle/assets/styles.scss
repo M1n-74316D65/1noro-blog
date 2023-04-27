@@ -62,7 +62,12 @@ header, footer {
 
 header { padding: 0 1rem; }
 
-footer { padding: 4rem 0; }
+footer { padding: 0 0 3rem 0; }
+
+.dinkus {
+    margin: 3.5rem 0;
+    text-align: center;
+}
 
 .pageTitle {
     font-size: $h1-font-size;
@@ -86,11 +91,12 @@ footer { padding: 4rem 0; }
 .container {
     max-width: 43rem;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 .post {
     &__header {
+        margin-top: 2rem;
         margin-bottom: 1rem;
     }
     &__title {
@@ -99,8 +105,19 @@ footer { padding: 4rem 0; }
     &__subtitle {
         margin-top: 0;
     }
+    &__summary {
+        margin-bottom: 1rem;
+        p {
+            text-align: justify;
+            text-indent: 2rem;
+        }
+    }
     &__entryContent {
         text-align: justify;
         text-justify: inter-word;
+    }
+    &__meta {
+        margin-top: 1.5rem;
+        // font-size: $small-font-size;
     }
 }
