@@ -11,7 +11,6 @@
 
 <nav aria-label="Enlaces a las secciones de la página">
     <p class="webNav">
-        <a href="/" aria-label="Publicación más reciente.">nuevo</a> &nbsp;
         <a href="{{ "post" | relURL }}" aria-label="El archivo de páginas ordenadas por fecha.">archivo</a> &nbsp;
         <a href="{{ "faq" | relURL }}" aria-label="Preguntas frecuentes sobre esta página (faq).">faq</a> &nbsp;
         <a href="rss.xml" aria-label="Feed RSS para estar al tanto de las novedades de esta web.">rss</a>
@@ -23,5 +22,13 @@
         <em>"Y el pobre anciano Masson se hundió en la negrura de la muerte, con los locos chillidos de las ratas taladrándole los oídos" </em> – Henry Kuttner
     </small>
 </p>
+
+{{ else }}
+
+<a href="/">
+    <div class="circle">
+        <p>r</p>
+    </div>
+</a>
 
 {{ end }}

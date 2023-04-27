@@ -58,11 +58,11 @@ tecnología del averno en [esta página](/cookie), donde también podrás
 encontrar la [política de cookies de la
 web](/cookie#politica_de_cookies). -->
 
-## ¿Puedo compartir, citar o copiar el contenido o la totalidad de un post? {#acquireLicense}
+## ¿Puedo compartir, citar o copiar contenido? {#acquireLicense}
 
 Todo el contenido multimedia que se muestra en esta página se encuentra
 bajo la licencia [Creative Commons BY-SA
-4.0](https://creativecommons.org/licenses/by-sa/4.0/){rel="nofollow"}.
+4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Con contenido multimedia me refiero todos los textos, imágenes, vídeos y
 audios que puedas ver publicados aquí.
 
@@ -70,7 +70,7 @@ Por otro lado el código fuente en PHP, HTML, CSS, JS y PYTHON que
 escriba para que la web funcione está publicado en
 [GitHub](https://github.com/1noro/record.rat.la) bajo la licencia [GNU
 General Public License Versión
-3](https://www.gnu.org/licenses/gpl-3.0.html){rel="nofollow"}.
+3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## ¿Cómo puedo recibir actualizaciones sobre los nuevos contenidos de esta página?
 
@@ -78,12 +78,12 @@ Muy sencillo, solo tienes que descargarte un lector de RSS en tu PC o tu
 *smartphone*, copiar [mi enlace de RSS](rss.xml) y agregarlo a tu feed.
 
 > Personalmente recomiendo [Miniflux](https://miniflux.app/) como opción
-> *self-hosted* 👌 para todo tipo de dispositivos, [RSS
+> *self-hosted* para todo tipo de dispositivos, [RSS
 > Guard](https://github.com/martinrotter/rssguard) para PC y
 > [Feeder](https://gitlab.com/spacecowboy/Feeder) o
 > [NiceFeed](https://github.com/joshuacerdenia/NiceFeed) para Android.
 > Por si no tenéis ni idea del tema y no quereis perder tiempo
-> *googleando* 😉.
+> *googleando*.
 
 ## ¿En que zona horaria están las fechas de las publicaciones?
 

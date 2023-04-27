@@ -7,13 +7,17 @@
     </p>
 </nav>
 <nav aria-label="Enlaces útiles para moverse por la página">
-    <!-- este estilo es para que sea fácilmente clickable en dispositivos táctiles -->
-    <p style="line-height: 48px;">
-        <a href="#header">ir a la cabecera</a>&nbsp;&nbsp;&nbsp;<a href="#main">ir al contenido</a>&nbsp;&nbsp;&nbsp;<a href="archive">leer más publicaciones</a>&nbsp;&nbsp;&nbsp;<a href="donations">apoya mi trabajo</a>
+    <p>
+        <a href="{{ "info" | relURL }}">sobre esta web</a>&nbsp;&nbsp;&nbsp;<a href="{{ "faq" | relURL }}">faq</a>&nbsp;&nbsp;&nbsp;<a href="{{ "post" | relURL }}">archivo</a>&nbsp;&nbsp;&nbsp;<a href="{{ "tags" | relURL }}">tags</a>&nbsp;&nbsp;&nbsp;<a href="{{ "donaciones" | relURL }}">apoya mi trabajo</a>
     </p>
 </nav>
-<p id="license_text">
+<!-- <p id="license_text">
     <small>
         Software creado por <a href="https://github.com/1noro/record.rat.la">Inoro</a> bajo la licencia <a rel="license" href="LICENSE.GPL-3.0.txt" aria-label="Todo el código que sustenta la web está bajo la licencia GPLv3.">GPLv3</a>. Multimedia original bajo la licencia <a rel="license" href="LICENSE.CC-BY-SA-4.0.txt" aria-label="Texto de la licencia Creative Commons BY-SA-4.0.">Creative Commons BY-SA-4.0</a>
     </small>
-</p>
+</p> -->
+<div class="siteFooter__secondary">
+    <p class="siteFooter__secondary__text">
+        &copy; {{ dateFormat "2006" now }} Inoro <a rel="license" href="{{ "LICENSE.CC-BY-SA-4.0.txt" | relURL }}" aria-label="Texto de la licencia Creative Commons BY-SA-4.0.">CC BY-SA-4.0</a> & <a rel="license" href="{{ "LICENSE.GPL-3.0.txt" | relURL }}" aria-label="Todo el código que sustenta la web está bajo la licencia GPLv3.">GPLv3</a>
+    </p>
+</div>
