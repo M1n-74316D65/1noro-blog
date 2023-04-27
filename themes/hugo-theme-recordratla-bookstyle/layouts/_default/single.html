@@ -2,7 +2,14 @@
 <article class="post">
 	<header class="container">
 		<div class="post__header">
+			{{ if .Params.mainTitle }}
+			<h1 class="post__title">{{ .Params.mainTitle }}</h1>
+			{{ else }}
 			<h1 class="post__title">{{ .Title }}</h1>
+			{{ end }}
+			{{ if .Params.subtitle }}
+			<h2 class="post__subtitle">{{ .Params.subtitle }}</h2>
+			{{ end }}
 			<!-- only show this section if is a post -->
 			{{ if in .Permalink "/post/" }}
 			<div class="post__meta">
@@ -36,15 +43,6 @@
 
 	<div class="container post__entryContent">
 		{{ .Content }}
-
-		{{ if in .Permalink "/post/" }}
-		<p style="margin-top: 80px; text-align: center;">
-			<a class="btn btn--gradient" href="{{ "post" | relURL }}">
-				<!-- <span class="thermal-bg" style="background-position: calc((100 - var(--mouse-x)) * 1%) calc((100 - var(--mouse-y)) * 1%); --mouse-x: 127; --mouse-y: 32;"></span> -->
-				<span>Más posts</span>
-			</a>
-		</p>
-		{{ end }}
 	</div>
 
 </article>
