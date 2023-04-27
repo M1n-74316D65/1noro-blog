@@ -6,7 +6,7 @@
 			<!-- only show this section if is a post -->
 			{{ if in .Permalink "/post/" }}
 			<div class="post__meta">
-				<span class="postt__byline">
+				<span class="post__byline">
 					Por {{ with .Params.author }}
 					<a href="/{{ . | urlize }}">{{ . }}</a>
 					{{ else }}
@@ -25,18 +25,13 @@
 			<p>{{ .Params.summary }}</p>
 		</div>
 		{{ end }}
-		{{ if and .Params.image (not (eq .Params.featuredImage false)) }}
+		<!-- {{ if and .Params.image (not (eq .Params.featuredImage false)) }}
 		<figure class="post__featuredMedia">
 			<div class="post__featuredImage">
 				<img src="{{ .Params.image }}" alt="{{ .Title }}">
 			</div>
 		</figure>
-		{{ end }}
-		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
-		<div class="post__summary post__summary--mobileOnly">
-			<p>{{ .Params.summary }}</p>
-		</div>
-		{{ end }}
+		{{ end }} -->
 	</header>
 
 	<div class="container post__entryContent">
@@ -51,17 +46,6 @@
 		</p>
 		{{ end }}
 	</div>
-
-	<!--Related-->
-	<!-- {{ $related := .Site.RegularPages.Related . | first 5 }}
-	{{ with $related }}
-	<h3>See Also</h3>
-	<ul>
-		{{ range . }}
-		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-		{{ end }}
-	</ul>
-	{{ end }} -->
 
 </article>
 {{ end }}
