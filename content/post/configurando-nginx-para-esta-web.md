@@ -1,5 +1,5 @@
 ---
-title: "Montar un servidor para record.rat.la"
+title: "Un servidor para record.rat.la"
 date: 2020-09-19T01:40:00+02:00
 draft: false
 # tags: ["nginx", "debian", "php", "fpm", "web", "linux"]

@@ -1,5 +1,7 @@
 ---
 title: "Häxan. La brujería a través de los tiempos"
+mainTitle: "Häxan"
+subtitle: "La brujería a través de los tiempos"
 date: 2021-07-27T19:02:00+01:00
 draft: false
 # tags: ["documental", "cine", "cine mudo", "años 20", "brujería", "esoterismo", "religión"]

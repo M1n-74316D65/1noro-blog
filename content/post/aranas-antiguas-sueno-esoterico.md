@@ -1,5 +1,7 @@
 ---
 title: "Arañas antiguas, la transcripción de un sueño esotérico"
+mainTitle: "Arañas antiguas"
+subtitle: "La transcripción de un sueño esotérico"
 date: 2021-07-22T00:46:00+01:00
 draft: false
 # tags: ["esoterismo", "sueños"]

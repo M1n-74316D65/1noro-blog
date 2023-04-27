@@ -1,5 +1,7 @@
 ---
 title: "Gitlab con Nginx reverse proxy"
+mainTitle: "Gitlab con Nginx"
+subtitle: "Reverse proxy"
 date: 2021-03-07T11:07:00+01:00
 draft: false
 # tags: ["gitlab", "nginx", "reverse-proxy", "ssl", "letsencrypt", "certbot"]

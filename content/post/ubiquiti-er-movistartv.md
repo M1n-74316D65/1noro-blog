@@ -1,5 +1,7 @@
 ---
 title: "Configurar Ubiquiti EdgeRouter para Movistar TV"
+mainTitle: "Ubiquiti EdgeRouter"
+subtitle: "Para Movistar TV"
 date: 2020-09-20T01:44:00+01:00
 draft: true
 tags: ["redes", "ubiquiti"]

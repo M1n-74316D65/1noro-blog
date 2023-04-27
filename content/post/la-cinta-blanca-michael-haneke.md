@@ -1,5 +1,7 @@
 ---
 title: "La cinta blanca, un film de época por Michael Haneke"
+mainTitle: "La cinta blanca"
+subtitle: "Un film de época por Michael Haneke"
 date: 2022-11-30T19:04:00+01:00
 draft: false
 # tags: ["cine", "alemania", "michael haneke", "primera guerra mundial", "puritanismo", "religión", "b&w", "cine de época"]

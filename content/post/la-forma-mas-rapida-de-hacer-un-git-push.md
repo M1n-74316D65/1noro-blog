@@ -1,5 +1,7 @@
 ---
 title: "La forma más rápida de hacer un git push"
+mainTitle: "Git push"
+subtitle: "La forma más rápida"
 date: 2020-09-30T12:40:00+01:00
 draft: false
 tags: ["git", "shell"]

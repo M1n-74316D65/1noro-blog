@@ -1,5 +1,7 @@
 ---
 title: "Yojimbo, japón inspira al western"
+mainTitle: "Yojimbo"
+subtitle: "Japón inspira al western"
 date: 2021-07-24T20:57:00+02:00
 draft: false
 # tags: ["cine", "japón", "akira kurosawa", "samuráis", "acción", "western", "toshiro mifune"]

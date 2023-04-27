@@ -1,5 +1,7 @@
 ---
 title: "Cowboy Bebop, the real folk blues"
+mainTitle: "Cowboy Bebop"
+subtitle: "The real folk blues"
 date: 2020-09-28T18:10:00+02:00
 draft: false
 # tags: ["anime", "series", "western", "japón", "música", "espacio", "ciencia ficción"]
