@@ -1,7 +1,8 @@
 $font-family: 'EB Garamond', serif;
 $font-family-monospace: 'Courier Prime', Courier, monospace;
+// $font-family-monospace: 'Cutive Mono', Courier, monospace;
 
-// font-size calculation: https://typescale.com/ (scale 1.200)
+// font-size calculation: https://typescale.com/
 
 // $base-font-size: 112.5%; // 18px
 // $base-font-size: 118.8%; // 19px
@@ -14,12 +15,21 @@ $text-line-height: 1.3;
 $heading-line-height: 1.3;
 $heading-margin: 3rem 0 1.38rem;
 
-$h1-font-size: 2.488rem;
-$h2-font-size: 2.074rem;
-$h3-font-size: 1.728rem;
-$h4-font-size: 1.44rem;
-$h5-font-size: 1.2rem;
-$small-font-size: 0.833rem;
+// --- scale 1.200
+// $h1-font-size: 2.488rem;
+// $h2-font-size: 2.074rem;
+// $h3-font-size: 1.728rem;
+// $h4-font-size: 1.44rem;
+// $h5-font-size: 1.2rem;
+// $small-font-size: 0.833rem;
+
+// --- scale 1.125
+$h1-font-size: 1.802rem;
+$h2-font-size: 1.602rem;
+$h3-font-size: 1.424rem;
+$h4-font-size: 1.266rem;
+$h5-font-size: 1.125rem;
+$small-font-size: 0.889rem;
 
 /* eb-garamond-regular */
 @font-face {
@@ -132,3 +142,11 @@ $small-font-size: 0.833rem;
     font-weight: 700;
     src: local("Courier Prime Bold Italic"), local("CourierPrime-BoldItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-bold-italic.woff2") format("woff2");
 }
+
+// /* cutive-mono-regular */
+// @font-face {
+//     font-family: Cutive Mono;
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local("Cutive Mono Regular"), local("CutiveMono-Regular"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/cutive-mono/webfont/cutive-mono-regular.woff2") format("woff2");
+// }

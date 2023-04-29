@@ -25,17 +25,21 @@ h1, h2, h3, h4, h5, .page-title {
 
 h1, h2 {
     text-align: center;
+    
 }
 
 h1 {
     margin-top: 0;
     font-size: $h1-font-size;
-    font-variant-caps: small-caps;
-    letter-spacing: -0.1rem;
-    // line-height: 1;
+    letter-spacing: -0.05rem;
+    text-transform: uppercase;
 }
 
-h2 { font-size: $h2-font-size; }
+h2 {
+    font-size: $h2-font-size;
+    letter-spacing: -0.1rem;
+    font-variant-caps: small-caps;
+}
 
 h3 { font-size: $h3-font-size; }
 
@@ -54,11 +58,16 @@ p {
     }
 }
 
+code {
+    font-family: $font-family-monospace;
+    font-size: 0.85em;
+    word-break: break-all;
+}
+
 pre {
     max-width: 43rem - 7rem;
     margin: 2.5rem auto;
     padding: 0.8rem;
-    // border: 1px solid $border-color;
     white-space: pre-wrap;
     word-break: break-all;
     text-align: left;
@@ -66,18 +75,6 @@ pre {
         white-space: pre;
         overflow: auto;
     }
-}
-
-// .container {
-//     max-width: 43rem;
-//     margin: 0 auto;
-//     padding: 0 1.2rem;
-// }
-
-code {
-    font-family: $font-family-monospace;
-    font-size: 0.85em;
-    word-break: break-all;
 }
 
 small, .text--small { font-size: $small-font-size; }
@@ -102,6 +99,11 @@ img { width: 100%; }
 img.half {
     width: 40%;
     min-width: 300px;
+}
+
+ul {
+    // list-style-type: "›  ";
+    list-style-type: circle;
 }
 
 .header, .siteFooter {
@@ -181,7 +183,7 @@ img.half {
         font-variant-caps: small-caps;
     }
     &__summary {
-        margin-bottom: 1rem;
+        // margin-bottom: 1rem;
         p {
             text-align: justify;
             text-indent: 2rem;
