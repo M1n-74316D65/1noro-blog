@@ -7,7 +7,7 @@ draft: false
 # tags: ["documental", "cine", "cine mudo", "años 20", "brujería", "esoterismo", "religión"]
 tags: ["documental", "cine", "b&w"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210727/haxan-1300.jpg"
-summary: "Häxan - Suecia, Benjamin Christensen (1922) es un documental mudo que recorre la historia de la brujería a través de los tiempos."
+summary: "Häxan — Suecia, Benjamin Christensen (1922) es un documental mudo que recorre la historia de la brujería a través de los tiempos."
 ---
 
 Benjamin Christensen, de forma muy rudimentaria pero efectiva, nos

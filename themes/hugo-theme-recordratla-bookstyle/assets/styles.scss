@@ -1,5 +1,9 @@
 @import 'styles/main';
 
+// $text-max-width: 43rem;
+$text-max-width: 34rem;
+$text-indent: 2rem;
+
 html, body { height: 100%; }
 
 html { font-size: $base-font-size; }
@@ -21,11 +25,14 @@ h1, h2, h3, h4, h5, .page-title {
     margin: $heading-margin;
     font-weight: 600;
     line-height: $heading-line-height;
+
+    padding: 0 $text-indent;
+    letter-spacing: -0.06rem;
+    font-variant-caps: small-caps;
 }
 
 h1, h2 {
     text-align: center;
-    
 }
 
 h1 {
@@ -35,11 +42,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: $h2-font-size;
-    letter-spacing: -0.1rem;
-    font-variant-caps: small-caps;
-}
+h2 { font-size: $h2-font-size; }
 
 h3 { font-size: $h3-font-size; }
 
@@ -52,7 +55,7 @@ h5 { font-size: $h5-font-size; }
 p {
     // margin-bottom: $p-margin-bottom;
     margin: 0.2rem 0;
-    text-indent: 2rem;
+    text-indent: $text-indent;
     &.noIndent {
         text-indent: 0;
     }
@@ -60,17 +63,18 @@ p {
 
 code {
     font-family: $font-family-monospace;
-    font-size: 0.85em;
+    font-size: 0.9em;
     word-break: break-all;
 }
 
 pre {
-    max-width: 43rem - 7rem;
-    margin: 2.5rem auto;
-    padding: 0.8rem;
+    // max-width: $text-max-width - 7rem;
+    margin: 2rem $text-indent;
+    // padding: 0.8rem;
+    text-align: left;
     white-space: pre-wrap;
     word-break: break-all;
-    text-align: left;
+    
     @media screen and (max-width: 700px) {
         white-space: pre;
         overflow: auto;
@@ -133,7 +137,10 @@ ul {
 }
 
 .dinkus {
-    margin: 3.3rem 0;
+    // como los asterisco están descentrados verticalmente, hay que poner mas margen arriba que abajo
+    $dinkus-margin: 2rem;
+    margin: $dinkus-margin 0;
+    margin-top: $dinkus-margin + .5rem;
     text-align: center;
 }
 
@@ -162,7 +169,7 @@ ul {
 }
 
 .container {
-    max-width: 43rem;
+    max-width: $text-max-width;
     margin: 0 auto;
     padding: 0 1.2rem;
 }
@@ -177,16 +184,18 @@ ul {
     }
     &__title {
         margin-bottom: 0;
+        // padding: 0 $text-indent;
     }
     &__subtitle {
         margin-top: 0;
         font-variant-caps: small-caps;
+        // padding: 0 $text-indent;
     }
     &__summary {
         // margin-bottom: 1rem;
         p {
             text-align: justify;
-            text-indent: 2rem;
+            text-indent: $text-indent;
         }
     }
     &__entryContent {
@@ -200,9 +209,9 @@ ul {
 }
 
 .siteFooter {
-    padding: 0 0 3rem 0;
+    padding: 0 2rem 4rem 2rem;
     p {
-        margin: 0.2rem 0;
+        margin: 0.5rem 0;
     }
     &__secondary {
         &__text {

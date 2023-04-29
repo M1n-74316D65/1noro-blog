@@ -7,7 +7,7 @@ draft: false
 # tags: ["cine", "alemania", "michael haneke", "primera guerra mundial", "puritanismo", "religión", "b&w", "cine de época"]
 tags: ["cine", "b&w"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221130/la-cinta-blanca-1300.jpg"
-summary: "Das Weisse Band - Alemania, Michael Haneke (2009) es una película que nos presenta una reflexión sobre la maldad humana que durante su visionado te arranca más de un escalofrío."
+summary: "Das Weisse Band — Alemania, Michael Haneke (2009) es una película que nos presenta una reflexión sobre la maldad humana que durante su visionado te arranca más de un escalofrío."
 ---
 
 Una puritana aldea alemana en 1913 y una serie de desgracias de

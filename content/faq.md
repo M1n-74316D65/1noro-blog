@@ -63,8 +63,8 @@ web](/cookie#politica_de_cookies). -->
 Todo el contenido multimedia que se muestra en esta página se encuentra
 bajo la licencia [Creative Commons BY-SA
 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Con contenido multimedia me refiero todos los textos, imágenes, vídeos y
-audios que puedas ver publicados aquí.
+Con contenido multimedia me refiero todos los textos, imágenes, vídeos,
+audios... que puedas ver publicados aquí.
 
 Por otro lado el código fuente en PHP, HTML, CSS, JS y PYTHON que
 escriba para que la web funcione está publicado en
@@ -72,9 +72,9 @@ escriba para que la web funcione está publicado en
 General Public License Versión
 3](https://www.gnu.org/licenses/gpl-3.0.html).
 
-## ¿Cómo puedo recibir actualizaciones sobre los nuevos contenidos de esta página?
+## ¿Cómo recibir notificaciones?
 
-Muy sencillo, solo tienes que descargarte un lector de RSS en tu PC o tu
+Para recibir actualizaciones sobre las nuevas publicaciones de la página, solo tienes que descargarte un lector de RSS en tu PC o tu
 *smartphone*, copiar [mi enlace de RSS](rss.xml) y agregarlo a tu feed.
 
 > Personalmente recomiendo [Miniflux](https://miniflux.app/) como opción
@@ -85,12 +85,12 @@ Muy sencillo, solo tienes que descargarte un lector de RSS en tu PC o tu
 > Por si no tenéis ni idea del tema y no quereis perder tiempo
 > *googleando*.
 
-## ¿En que zona horaria están las fechas de las publicaciones?
+<!-- ## ¿En que zona horaria están las fechas de las publicaciones?
 
 Todas las fechas de la web están actualmente localizadas en la zona
 horaria `Europe/Madrid`. Si en el futuro esto se
 internacionaliza más podría plantearme el cambiarlo todo a
-`UTC`.
+`UTC`. -->
 
 ## ¿Qué software utilizas?
 
@@ -98,7 +98,7 @@ Me he currado una lista bastante detallada sobre el software que utilizo
 habitualmente en [esta página]({{< relref "mi-software" >}}). Espero
 que responda a la pregunta.
 
-## ¡Mi pregunta no aparece en la lista!
+## ¡Tengo otra pregunta!
 
 En el [footer](#footer) de la página podrás encontrar mi correo
 electrónico. Si quieres preguntarme cualquier cosa no dudes en

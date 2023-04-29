@@ -8,7 +8,7 @@ draft: false
 tags: ["cine", "anime", "cultura asiática"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux-750.jpg"
 featuredImage: false
-summary: "Le Sommet des Dieux - Francia, Patrick Imbert (2021) es una película que me ha tocado la fibra sensible y me ha dejado con ganas de más historias de alpinismo."
+summary: "Le Sommet des Dieux — Francia, Patrick Imbert (2021) es una película que me ha tocado la fibra sensible y me ha dejado con ganas de más historias de alpinismo."
 ---
 
 Adaptación francesa del manga homónimo escrito por Jiro Taniguchi que
@@ -42,5 +42,4 @@ más historias de este tipo. Creo que es una película fácil de ver y
 recomendable para todo el que quiera pasar un buen rato disfrutando de
 una emocionante aventura.
 
-> ---Ya era hora de romper la racha de películas difíciles de digerir
-> 😅---.
+> ---Ya era hora de romper la racha de películas difíciles de digerir---.
