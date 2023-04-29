@@ -6,7 +6,7 @@ html { font-size: $base-font-size; }
 
 body {
     margin: 0;
-    font-family: $font-family, serif;
+    font-family: $font-family;
     font-weight: 400;
     line-height: $text-line-height;
     background-color: $background-color;
@@ -15,22 +15,7 @@ body {
 
 // -----------------------------------------------------------------------------
 
-a {
-    color: $link-color;
-    // text-decoration-thickness: 1px;
-    text-decoration-thickness: from-font;
-    text-underline-offset: 2px;
-    // text-underline-offset: 0.1rem;
-}
-
-p {
-    // margin-bottom: $p-margin-bottom;
-    margin: 0.2rem 0;
-    text-indent: 2rem;
-    &.noIndent {
-        text-indent: 0;
-    }
-}
+// headings
 
 h1, h2, h3, h4, h5, .page-title {
     margin: $heading-margin;
@@ -58,7 +43,54 @@ h4 { font-size: $h4-font-size; }
 
 h5 { font-size: $h5-font-size; }
 
+// text blocks
+
+p {
+    // margin-bottom: $p-margin-bottom;
+    margin: 0.2rem 0;
+    text-indent: 2rem;
+    &.noIndent {
+        text-indent: 0;
+    }
+}
+
+pre {
+    max-width: 43rem - 7rem;
+    margin: 2.5rem auto;
+    padding: 0.8rem;
+    // border: 1px solid $border-color;
+    white-space: pre-wrap;
+    word-break: break-all;
+    text-align: left;
+    @media screen and (max-width: 700px) {
+        white-space: pre;
+        overflow: auto;
+    }
+}
+
+// .container {
+//     max-width: 43rem;
+//     margin: 0 auto;
+//     padding: 0 1.2rem;
+// }
+
+code {
+    font-family: $font-family-monospace;
+    font-size: 0.85em;
+    word-break: break-all;
+}
+
 small, .text--small { font-size: $small-font-size; }
+
+// elements
+
+a {
+    color: $link-color;
+    // text-decoration-thickness: 1px;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 2px;
+    // text-underline-offset: 0.1rem;
+}
 
 figure {
     margin: auto 0px;
@@ -139,7 +171,7 @@ img.half {
     }
     &__header {
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.38rem;
     }
     &__title {
         margin-bottom: 0;
