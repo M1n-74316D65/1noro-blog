@@ -7,6 +7,7 @@ draft: false
 # tags: ["arch", "linux", "nvidia"]
 tags: ["linux"]
 summary: "Configurar los drivers de Nvidia en Arch Linux con Gnome y Xorg."
+displaySummary: false
 ---
 
 Yo antes solo utilizaba mi fabulosa tarjeta gráfica integrada de **Intel
@@ -76,8 +77,7 @@ Borramos los drivers de Intel.
 
 ## Instalar y configurar los drivers de Nvidia
 
-Instalamos los controladores y utilidades extra de Nvidia, a ser posible
-[en este mismo orden]{.underline}.
+Instalamos los controladores y utilidades extra de Nvidia, a ser posible **en este mismo orden**.
 
     sudo pacman -S nvidia-utils
     sudo pacman -S nvidia
@@ -115,6 +115,6 @@ Y volvemos a generar la configuración del **GRUB**.
 
     sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-Ahora solo queda [reiniciar]{.underline} la máquina para que se aplique
+Ahora solo queda **reiniciar** la máquina para que se aplique
 la nueva configuración. Recuerda cambiar el cable de la pantalla y
 conectarlo a la gráfica.

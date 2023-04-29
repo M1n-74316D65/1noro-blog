@@ -39,17 +39,13 @@ En el archivo `/etc/php/7.3/fpm/php.ini` cambiamos
     systemctl restart php7.3-fpm.service
 
 Hacemos una copia de seguridad del archivo
-`/etc/nginx/sites-available/default` antes de modificarlo.
-
-Tomando como referencia `/etc/nginx/sites-available/default`
+`/etc/nginx/sites-available/default` antes de modificarlo. Y después, tomando como referencia `/etc/nginx/sites-available/default`
 creamos `/etc/nginx/conf.d/record.rat.la.conf`.
 
     cp /etc/nginx/sites-available/default /etc/nginx/conf.d/record.rat.la.conf
 
 Luego comentamos todas las lineas de
-`/etc/nginx/sites-available/default` para que quede \"vacío\".
-
-Ahora editamos `/etc/nginx/conf.d/record.rat.la.conf`.
+`/etc/nginx/sites-available/default` para que quede "vacío". Ahora editamos `/etc/nginx/conf.d/record.rat.la.conf`.
 
 ### `record.rat.la.conf` original
 
@@ -299,7 +295,7 @@ Guarda el archivo y recarga/reinicia el servicio.
     nginx -t
     systemctl reload nginx
 
-## Bibliografía
+## Referencias
 
 -   [¿Cómo Instalar Linux, Nginx, MySQL, PHP (LEMP stack) in Ubuntu
     16.04?](https://www.digitalocean.com/community/tutorials/como-instalar-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04-es)

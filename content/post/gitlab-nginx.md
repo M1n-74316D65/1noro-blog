@@ -203,7 +203,7 @@ Re-configuramos Gitlab.
 Una vez acabado este proceso ya podremos acceder a nuestro Gitlab a
 través de HTTPs para definir la contraseña del usuario `root`.
 
-## Bibliografía
+## Referencias
 
 -   [How to Install and Configure Fail2ban on Ubuntu
     20.04](https://linuxize.com/post/install-configure-fail2ban-on-ubuntu-20-04/)

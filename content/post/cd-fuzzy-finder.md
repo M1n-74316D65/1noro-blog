@@ -35,8 +35,7 @@ para abrir una nueva instancia de la terminal situada en el directorio
 directorio deseado lo más rápido posible desde ahí acabaría
 agradeciéndolo.
 
-Conocía el programa `fzf` ([enlace al
-repo](https://github.com/junegunn/fzf){aria-label="Repositorio de fzf"})
+Conocía el programa `fzf` ([enlace al repo](https://github.com/junegunn/fzf))
 que permite hacer una búsqueda sobre una lista de elementos que le
 mandes como input. Pero realmente, a pesar de el enorme potencial que
 tiene aún no le había encontrado una utilidad muy clara en mi
@@ -48,8 +47,7 @@ comando.
     cd "$(find * -type d | fzf)"
 
 > Nótese que es necesario haber instalado `fzf` para que funcione. He
-> aquí la [guía de
-> instalación](https://github.com/junegunn/fzf#installation){aria-label="Instrucciones de instalación de fzf"}.
+> aquí la [guía de instalación](https://github.com/junegunn/fzf#installation).
 
 Lo que hace básicamente es buscar todos los directorios a partir del
 actual con el comando `find` y pasar el output al `fzf`, dónde nosotros

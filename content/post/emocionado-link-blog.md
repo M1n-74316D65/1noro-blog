@@ -66,4 +66,4 @@ en esta nueva plataforma (os dejo con la intriga, jeje).
 
 > P.D. ---Poco se comenta que la web de Jason F. McBrayer y esta tienen
 > ambas la misma temática, y no me refiero a la temática tecnológica,
-> sino a la ambientación *Lovecraftiana* 🐙 que envuelve a ambas---
+> sino a la ambientación *Lovecraftiana* que envuelve a ambas---

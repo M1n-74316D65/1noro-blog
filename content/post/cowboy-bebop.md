@@ -36,13 +36,13 @@ guiño de géneros como el *cyberpunk* al estilo de Blade Runner, una
 combinación perfecta de imagen y sonido que producen un sinfín de
 sensaciones mientras estás sentado tranquilamente frente a tu televisor.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cowboy-bebop-ed.jpg" alt="Ed haciendo equilibrios con su PC sobre la cabeza." >}}
+<!-- {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cowboy-bebop-ed.jpg" alt="Ed haciendo equilibrios con su PC sobre la cabeza." >}}
 <em>
     I think it's time to blow this scene.<br>
     Get everybody and their stuff together.<br>
     Okay, three, two, one ¡Let's jam!
 </em>
-{{< /blockMediaText >}}
+{{< /blockMediaText >}} -->
 
 La historia se centra en la tripulación de la nave bautizada como
 *Bebop*, formada por un grupo de personajes muy variopintos: **Spike**;

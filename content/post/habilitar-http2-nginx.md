@@ -4,13 +4,12 @@ date: 2020-09-27T13:30:00+01:00
 draft: false
 tags: ["nginx", "linux"]
 summary: "Aumentar la eficiencia y la seguridad de una web con el protocolo HTTP/2."
+displaySummary: false
 ---
 
 Utilizando la configuración de Nginx ya explicada en [este artículo]({{< relref "post/configurando-nginx-para-esta-web" >}}) para
 esta misma página. Vamos a habilitar el protocolo HTTP/2 para mejorar la
-eficiencia y la seguridad a la hora de ofrecer la web al usuario final.
-
-Primero, editamos la configuración de nuestro *Virtual Host*.
+eficiencia y la seguridad a la hora de ofrecer la web al usuario final. Empezaremos por editar la configuración de nuestro *Virtual Host*.
 
     nano /etc/nginx/conf.d/record.rat.la.conf
 
@@ -32,12 +31,7 @@ Justo debajo de la línea comentada agregamos la siguiente.
 
     ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
 
-Guardamos el archivo y comprobamos si la configuración es correcta con
-`nginx -t`. Si todo está correcto, continuamos.
-
-Editamos o creamos el archivo
-`/etc/nginx/snippets/ssl-params.conf`, y localizamos la
-siguiente línea.
+Guardamos el archivo y comprobamos si la configuración es correcta con `nginx -t`. Si todo está correcto, editamos o creamos el archivo `/etc/nginx/snippets/ssl-params.conf`, y localizamos la siguiente línea.
 
     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
 
@@ -58,7 +52,7 @@ Podemos comprobar los cambios con el siguiente comando.
 
     curl -I -L https://record.rat.la
 
-este es el resultado:
+A continuación se muestra un ejemplo de la salida del comando anterior.
 
     HTTP/2 200
     server: nginx/1.14.2
@@ -73,5 +67,4 @@ Ahí se puede apreciar que ahora se está utilizando el protocolo HTTP/2.
 
 ## Referencias
 
--   [How To Set Up Nginx with HTTP/2 Support on Ubuntu
-    18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-18-04)
+-   [How To Set Up Nginx with HTTP/2 Support on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-18-04)

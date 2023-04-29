@@ -14,7 +14,7 @@ Ejemplos de código en Java y Python para resolver algunas series numéricas que
 > *Voy a tomar como regla que todas las listas serán de 100 elementos
 > como máximo.*
 
-## 1. La serie de Fibonacci
+## La serie de Fibonacci
 
 Mi explicación: Empezando con `[0, 1]`, el siguiente se calcula
 con la suma de los dos anteriores.
@@ -46,7 +46,7 @@ con la suma de los dos anteriores.
         lista.append(lista[-2] + lista[-1])
     print(lista)
 
-## 2. La serie de Tribonacci
+## La serie de Tribonacci
 
 Mi explicación: Empezando con `[1, 1, 2]`, el siguiente se
 calcula con la suma de los tres anteriores.
@@ -79,7 +79,7 @@ calcula con la suma de los tres anteriores.
         lista.append(lista[-3] + lista[-2] + lista[-1])
     print(lista)
 
-## 3. La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
+## La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
 
 Mi explicación: Empezamos con la lista `[1, 1]`.
 
@@ -122,7 +122,7 @@ Mi explicación: Empezamos con la lista `[1, 1]`.
             lista.append(lista[-1] + lista[-2] + lista[-3])
     print(lista)
 
-## 4. La serie de los cuadrados perfectos escritos al revés
+## La serie de los cuadrados perfectos escritos al revés
 
 Tengo dudas, no sé si se refiere a esto:
 
@@ -155,7 +155,7 @@ Tengo dudas, no sé si se refiere a esto:
         numero -= 1
     print(lista)
 
-## 5. La serie que suma las cifras de los anteriores
+## La serie que suma las cifras de los anteriores
 
 Ojo, se refiere a el **número de cifras**, no a la suma del os valores
 anteriores.

@@ -16,13 +16,13 @@ dos familias, observando el panorama se percata de que gracias a sus
 habilidades con la espada puede sacar provecho de la situación a pesar
 de las advertencias de la población local.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210724/yojimbo.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
+<!-- {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210724/yojimbo.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
 <em>—¿Qué ha pasado? ¿Por qué estás tan triste? Tu negocio debería estar en auge.<br>
 —No. Cuando los combates son tan graves, no se molestan en hacer ataúdes.</em>
 <p>Diálogo entre Hansuke y el tonelero.</p>
-<!--- <em>Mata a uno o a cien. Sólo te cuelgan una vez</em>
-<p>—Isuzu Yamada en el papel de Orin.</p> --->
-{{< /blockMediaText >}}
+- <em>Mata a uno o a cien. Sólo te cuelgan una vez</em>
+<p>—Isuzu Yamada en el papel de Orin.</p> -
+{{< /blockMediaText >}} -->
 
 Posiblemente el germen que dió lugar al *spaghetti western* debido a que
 Sergio Leone, precursor del género, plagió el argumento de esta película
