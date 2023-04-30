@@ -31,17 +31,13 @@ Justo debajo de la línea comentada agregamos la siguiente.
 
     ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
 
-Guardamos el archivo y comprobamos si la configuración es correcta con `nginx -t`. Si todo está correcto, editamos o creamos el archivo `/etc/nginx/snippets/ssl-params.conf`, y localizamos la siguiente línea.
+Guardamos el archivo y comprobamos si la configuración es correcta con `nginx -t`. Si todo está correcto, editamos o creamos el archivo `/etc/nginx/snippets/ssl-params.conf`, y localizamos la siguiente línea. ---Podría darse el caso en el que el archivo `/etc/nginx/snippets/ssl-params.conf` esté vacío, o no exista. En ese caso solo tendremos que agregar la línea modificada---.
 
     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
 
-    Y la modificamos como esta.
+Y la modificamos como esta.
 
     ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
-
-> Puede darse el caso en el que el archivo
-> `/etc/nginx/snippets/ssl-params.conf` esté vacío, o no
-> exista. En ese caso solo tendremos que agregar la línea modificada.
 
 Volvemos a comprobar la configuración con `nginx -t`. Si es correcta,
 refrescamos la configuración del Nginx.
