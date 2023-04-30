@@ -23,14 +23,7 @@ buen amante del *default* que soy. En [este apartado de la Arch
 Wiki](https://wiki.archlinux.org/index.php/NVIDIA#Installation) podrás
 confirmar si tu gráfica se ajusta a estas instrucciones o no.
 
-> Antes de comenzar a explicar debo informar que en este artículo no vas
-> a encontrar una mejor solución que [en la Arch
-> Wiki](https://wiki.archlinux.org/index.php/NVIDIA). Escribo esto para
-> que yó, que ya me he leído la wiki, y la he adaptado a mi situación,
-> no tenga que volver a hacerlo la próxima vez que instale mi PC. Si
-> encuentras algún problema durante este proceso puedes consultarme,
-> pero personalmente te recomiendo que consultes la wiki. Estoy seguro
-> de que tu solución específica se encuentra ahí.
+Antes de comenzar a explicar debo informar que en este artículo no vas a encontrar una mejor solución que [en la Arch Wiki](https://wiki.archlinux.org/index.php/NVIDIA). Escribo esto para que yó, que ya me he leído la wiki, y la he adaptado a mi situación, no tenga que volver a hacerlo la próxima vez que instale mi PC. Si encuentras algún problema durante este proceso puedes consultarme, pero personalmente te recomiendo que consultes la wiki. Estoy seguro de que tu solución específica se encuentra ahí.
 
 ## Eliminar la instalación previa de Intel
 

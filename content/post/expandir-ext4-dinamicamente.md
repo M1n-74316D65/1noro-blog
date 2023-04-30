@@ -11,11 +11,7 @@ El sistema de archivos EXT4 te permite redimensionar las particiones de
 un disco duro sin tener que apagar el PC ni borrar tus datos. En caso de
 no utilizar el 100% de tu disco duro, o si estas gestionando discos
 virtuales, estes sencillos comandos te pueden facilitar la vida sin
-tener que volver a formatear el disco.
-
-> *Antes de realizar cualquier modificacion en el disco es necesario
-> señalar la importancia de tener un backup reciente a mano por si
-> metemos la pata.*
+tener que volver a formatear el disco.{{< footnoteRef number="1" >}}
 
 ## Aumentar partición hasta un tamaño exacto
 
@@ -36,6 +32,10 @@ podemos ejecutar los siguientes comandos para que lo ocupe todo:
     sudo parted /dev/sdb resizepart 1 100%
     sudo resize2fs /dev/sdb1
 
-> Cualquier mejora o precaución que veais necesaria añadir a estos
-> comandos es bienvenida, en tal caso solo debeis hacermelo saber a
-> través del [medio que prefirais](#contacto).
+Para concluir, solo tengo que recordar que, cualquier mejora o precaución que creas necesaria añadir a estos comandos es bienvenida, en tal caso solo debes hacérmelo saber a través del [medio que prefieras](#contacto).
+
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Antes de realizar cualquier modificación en el disco es necesario señalar la importancia de tener un backup reciente a mano por si metemos la pata.
+{{< /footnoteText >}}

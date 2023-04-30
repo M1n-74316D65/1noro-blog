@@ -56,21 +56,13 @@ Equivalente más detallada del comando anterior.
 
     git push origin <branch>
 
-> Encuentre una referencia que coincida con `<branch>` en el repositorio
-> de *origin* (lo más probable es que encuentre *refs / heads / master /
-> main*) y actualice la misma referencia (por ejemplo, *refs / heads /
-> master / main*) en el repositorio de *origin* con él. Si el `<branch>`
-> no existiera de forma remota, se crearía. - *Modificación sobre la
-> definición del manual `man git push`*.
+Encuentre una referencia que coincida con `<branch>` en el repositorio de  `origin ` (lo más probable es que encuentre  `refs `/ `heads `/ `master `/ `main `) y actualice la misma referencia (por ejemplo,  `refs `/ `heads `/ `master `/ `main `) en el repositorio de  `origin ` con él. Si el `<branch>` no existiera de forma remota, se crearía. - *Modificación sobre la definición del manual `man git push`*.
 
 ## Trabajar con ramas --- *branches*
 
-Listar ramas **locales**.
+Listar ramas **locales**.{{< footnoteRef number="1" >}}
 
     git branch
-
-> Agregando la opción `---all` se pueden ver también las **ramas
-> remotas**.
 
 Crear una rama nueva y moverte a ella.
 
@@ -88,3 +80,8 @@ Borrar una rama remota.
 
     git push origin ---delete <branch_name>
 
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Agregando la opción `---all` se pueden ver también las **ramas remotas**.
+{{< /footnoteText >}}
