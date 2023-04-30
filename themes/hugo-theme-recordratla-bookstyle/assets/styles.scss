@@ -3,6 +3,8 @@
 // $text-max-width: 43rem;
 $text-max-width: 34rem;
 $text-indent: 2rem;
+$blockquote-vertical-margin: 2rem;
+$blockquote-horizontal-margin: $text-indent;
 
 html, body { height: 100%; }
 
@@ -61,6 +63,13 @@ p {
     }
 }
 
+blockquote {
+    margin: $blockquote-vertical-margin $blockquote-horizontal-margin;
+    p {
+        text-indent: 0;
+    }
+}
+
 code {
     font-family: $font-family-monospace;
     font-size: 0.9em;
@@ -68,13 +77,11 @@ code {
 }
 
 pre {
-    // max-width: $text-max-width - 7rem;
-    margin: 2rem $text-indent;
-    // padding: 0.8rem;
+    // margin: 2rem $text-indent;
+    margin: $blockquote-vertical-margin $text-indent;
     text-align: left;
     white-space: pre-wrap;
     word-break: break-all;
-    
     @media screen and (max-width: 700px) {
         white-space: pre;
         overflow: auto;
@@ -179,8 +186,9 @@ ul {
         margin-top: 3rem;
     }
     &__header {
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 1.38rem;
+        // margin-bottom: 2rem;
     }
     &__title {
         margin-bottom: 0;
@@ -203,8 +211,8 @@ ul {
         text-justify: inter-word;
     }
     &__meta {
-        margin-top: 1.5rem;
-        // font-size: $small-font-size;
+        // margin-top: 1.5rem;
+        margin-top: $blockquote-vertical-margin - 1rem;
     }
 }
 

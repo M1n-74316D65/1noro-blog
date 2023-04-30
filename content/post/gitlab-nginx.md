@@ -13,11 +13,9 @@ displaySummary: false
 Voy a documentar el proceso de instalación de Gitlab en una máquina
 virtual detrás de un Nginx haciendo de _reverse proxy_.
 
-## Escenario
+## Descripción del escenario
 
 {{< blockHorizontalImage src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210307/gitlab-nginx.webp" alt="Diagrama en el que me basaré para la explicación" >}}
-
-### Características
 
 -   Certificado SSL con Let\'s Encrypt y certbot.
 -   Escuchar en los puertos 80 (HTTP) y 443 (HTTPs) con una redirección
@@ -38,10 +36,7 @@ router creamos dos registros nuevos sobre el protocolo TCP.
 
 ## Configuración de Nginx
 
-Nos situamos en la máquina que va a ejercer de reverse proxy con Nginx.
-
-Creamos el archivo
-`/etc/nginx/sites-available/git.example.com.conf`
+Nos situamos en la máquina que va a ejercer de reverse proxy con Nginx y creamos el archivo `/etc/nginx/sites-available/git.example.com.conf`.
 
     server {
         listen 80;
@@ -75,11 +70,7 @@ certbot.
 
     certbot ---nginx -d git.example.com
 
-> Durante el proceso de creación del certificado indicamos que queremos
-> redireccionar el tráfico HTTP al HTTPs.
-
-Archivo `/etc/nginx/sites-available/git.example.com.conf`
-después de ejecutar el certbot.
+Durante el proceso de creación del certificado indicamos que queremos redireccionar el tráfico HTTP al HTTPs. Y a continuación se expone cómo quedará `/etc/nginx/sites-available/git.example.com.conf` después de ejecutar el certbot.
 
     server {
         server_name git.example.com;
@@ -117,17 +108,11 @@ después de ejecutar el certbot.
 
 ## Configuración SSH
 
-[Generamos en nuestro equipo una clave
-SSH.](https://docs.github.com/es/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-Copiamos la clave a la máquina del Gitlab (192.168.1.108).
+[Generamos en nuestro equipo una clave SSH](https://docs.github.com/es/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) y copiamos la clave a la máquina del Gitlab (192.168.1.108).
 
     ssh-copy-id -i ~/.ssh/id_rsa.pub user@192.168.1.108
 
-Nos situamos en la máquina que va a ejecutar Gitlab (192.168.1.108).
-
-Editamos el archivo `/etc/ssh/sshd_config` y nos aseguramos de
-que las siguientes lineas tengan los valores mostrados.
+Nos situamos en la máquina que va a ejecutar Gitlab (192.168.1.108) y editamos el archivo `/etc/ssh/sshd_config`. Después nos aseguramos de que las siguientes lineas tengan los valores mostrados.
 
     UsePAM yes
     PasswordAuthentication no
@@ -165,9 +150,7 @@ Guardamos y reiniciamos el servicio.
 
 ## Instalación y configuración de Gitlab
 
-Nos situamos en la máquina que va a ejecutar Gitlab (192.168.1.108).
-
-Instalamos los paquetes necesarios y agregamos el repositorio de Gitlab.
+Nos situamos en la máquina que va a ejecutar Gitlab (192.168.1.108) e instalamos los paquetes necesarios. Luego agregamos el repositorio de Gitlab.
 
     sudo apt update
     sudo apt install curl openssh-server ca-certificates tzdata perl postfix
@@ -176,11 +159,7 @@ Instalamos los paquetes necesarios y agregamos el repositorio de Gitlab.
 
     sudo EXTERNAL_URL="http://git.example.com" apt-get install gitlab-ce
 
-> Nótese que el parámetro `EXTERNAL_URL` se define con
-> `http` y no con `https`.
-
-Editamos el archivo `/etc/gitlab/gitlab.rb` y agregamos las
-siguientes lineas al final.
+**Nótese que el parámetro `EXTERNAL_URL` se define con `http` y no con `https`.** Posteriormente editamos el archivo `/etc/gitlab/gitlab.rb` y agregamos las siguientes lineas al final.
 
     nginx['listen_port'] = 80
     nginx['listen_https'] = false
@@ -197,11 +176,7 @@ Re-configuramos Gitlab.
 
     sudo gitlab-ctl reconfigure
 
-> Hay que espera un rato a que se reconfigure, incluso después de que el
-> comando haya finalizado.
-
-Una vez acabado este proceso ya podremos acceder a nuestro Gitlab a
-través de HTTPs para definir la contraseña del usuario `root`.
+Hay que esperar un rato a que se reconfigure, incluso después de que el comando haya finalizado. Una vez acabado este proceso ya podremos acceder a nuestro Gitlab a través de HTTPs para definir la contraseña del usuario `root`.
 
 ## Referencias
 

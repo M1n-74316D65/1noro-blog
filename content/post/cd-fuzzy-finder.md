@@ -90,6 +90,4 @@ me gustaría buscar dentro del contenido de las carpetas `Library` o
 
     cd "$(find * \( -path Library -o -path Applications -o -path opt \) -prune -o -print | fzf)"
 
-> He de decir que aún estoy empezando a incorporar esta nueva idea a mi
-> día a día por lo que puede que el comando y, como consecuencia, este
-> articulo sean actualizados a medida que pase el tiempo.
+He de decir que aún estoy empezando a incorporar esta nueva idea a mi día a día por lo que puede que el comando y, como consecuencia, este articulo sean actualizados a medida que pase el tiempo.

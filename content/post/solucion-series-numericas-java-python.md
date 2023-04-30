@@ -9,14 +9,11 @@ summary: "Ejemplos de código en Java y Python para resolver algunas series num�
 displaySummary: false
 ---
 
-Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase.
-
-> *Voy a tomar como regla que todas las listas serán de 100 elementos
-> como máximo.*
+Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase. ---Para este ejemplo tomaré como regla que todas las listas serán de 100 elementos como máximo---.
 
 ## La serie de Fibonacci
 
-Mi explicación: Empezando con `[0, 1]`, el siguiente se calcula
+Mi explicación: empezando con `[0, 1]`, el siguiente se calcula
 con la suma de los dos anteriores.
 
 ### Fibonacci en Java
@@ -48,8 +45,7 @@ con la suma de los dos anteriores.
 
 ## La serie de Tribonacci
 
-Mi explicación: Empezando con `[1, 1, 2]`, el siguiente se
-calcula con la suma de los tres anteriores.
+Mi explicación: empezando con `[1, 1, 2]`, el siguiente se calcula con la suma de los tres anteriores.
 
 ### Tribonacci en Java
 
@@ -81,12 +77,7 @@ calcula con la suma de los tres anteriores.
 
 ## La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
 
-Mi explicación: Empezamos con la lista `[1, 1]`.
-
--   Si el último es impar, se suman los 2 últimos para calcular el
-    siguiente.
--   Si el último es par, se suman los 3 últimos para calcular el
-    siguiente.
+Mi explicación: empezamos con la lista `[1, 1]`. Si el último es impar, se suman los 2 últimos para calcular el siguiente. De lo contrario, si el último es par, se suman los 3 últimos para calcular el siguiente.
 
 ### La serie anterior en Java
 
@@ -124,7 +115,7 @@ Mi explicación: Empezamos con la lista `[1, 1]`.
 
 ## La serie de los cuadrados perfectos escritos al revés
 
-Tengo dudas, no sé si se refiere a esto:
+Tengo dudas, no sé si se refiere a esto.
 
 ### Los cuadrados perfectos al revés en Java
 
@@ -157,8 +148,7 @@ Tengo dudas, no sé si se refiere a esto:
 
 ## La serie que suma las cifras de los anteriores
 
-Ojo, se refiere a el **número de cifras**, no a la suma del os valores
-anteriores.
+Ojo, se refiere al **número de cifras**, no a la suma del os valores anteriores.
 
 ### La suma las cifras de los anteriores en Java
 

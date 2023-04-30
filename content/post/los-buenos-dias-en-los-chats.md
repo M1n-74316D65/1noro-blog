@@ -9,7 +9,7 @@ summary: "¿Quién se atreve a decir \"Buenos días\" en un chat on-line?"
 displaySummary: false
 ---
 
-Nos ponemos en situación; tú estás en un chat en el que puedes, o no, conocer a todos los integrantes, pongamos que te levantas a las 6:00 AM (típica hora rutinaria durante el curso escolar) y como no hay mensajes nuevos y, aludiendo Calderón ---o calla o algo di que mejor que callar sea---, te quedarás calladito. Opino que a las 6:00 AM no tienes nada interesante que quieras o puedas decir.
+Nos ponemos en situación; tú estás en un chat en el que puedes, o no, conocer a todos los integrantes, pongamos que te levantas a las 6:00 AM (típica hora rutinaria durante el curso escolar) y como no hay mensajes nuevos y, aludiendo Calderón "_o calla o algo di que mejor que callar sea_", te quedarás calladito. Opino que a las 6:00 AM no tienes nada interesante que quieras o puedas decir.
 
 Aunque la vida es imprevisible, si mientras vas andando por la calle en la mañana, se te cruza un hombre con frac y bombín portando,  con gran maestría, en su hombro derecho un arpón ballenero, no creo que debas quedarte callado. Eso merece, como mínimo, foto y difusión completa en las redes.
 
@@ -25,4 +25,4 @@ Esta clase de reflexiones no son muy comunes, pero cuando surgen así, de la nad
 
 “Buenos días” en mi opinión no es un mensaje con sentido que se deba escribir en un grupo de chat. Sobre todo habiendo personas que no comparten tu mismo huso horario. Simplemente, no tiene sentido. Eso es algo que dices por la calle cuando te cruzas con alguien en un pueblo, ya que en las ciudades, hoy en día, tampoco se practica.
 
-> Esta reflexión fué escrita originalmente el 25 de enero de 2015 a las 18:12.
+---Esta reflexión fué escrita originalmente el 25 de enero de 2015 a las 18:12.
