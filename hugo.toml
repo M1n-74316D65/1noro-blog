@@ -1,4 +1,4 @@
-baseURL = 'http://record.rat.la/'
+baseURL = 'https://future.record.rat.la/'
 languageCode = 'es-ES'
 defaultContentLanguage = 'es'
 title = 'record.rat.la'

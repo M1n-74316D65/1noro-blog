@@ -26,20 +26,5 @@
 	<div class="container post__entryContent">
 		{{ .Content }}
 	</div>
-
-	<!-- only show this section if is a post -->
-	<!-- {{ if in .Permalink "/post/" }}
-	<footer class="container">
-		<p class="post__meta">
-			<span class="post__byline">
-				&mdash;Publicado por {{ with .Params.author }}<a href="/{{ . | urlize }}">{{ . }}</a>{{ else }}<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>{{ end }}</span> el <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time> con las etiquetas: <span class="post_tags" aria-label="Etiquetas">
-				{{ range (.GetTerms "tags") }}
-				<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
-				{{end}}
-			</span>
-		</p>
-	</footer>
-	{{ end }} -->
-
 </article>
 {{ end }}
