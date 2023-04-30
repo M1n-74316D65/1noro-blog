@@ -1,5 +1,7 @@
 ---
 title: "Genesis de record.rat.la"
+mainTitle: "Genesis"
+subtitle: "record.rat.la"
 date: 2020-09-18T14:57:00+02:00
 modified: 2022-12-15T19:57:00+01:00
 draft: false

@@ -212,7 +212,10 @@ ul {
     }
     &__meta {
         // margin-top: 1.5rem;
-        margin-top: $blockquote-vertical-margin - 1rem;
+        // margin-top: $blockquote-vertical-margin - 1rem;
+        text-align: center;
+        font-size: $small-font-size;
+        margin-bottom: 1.38rem;
     }
 }
 
