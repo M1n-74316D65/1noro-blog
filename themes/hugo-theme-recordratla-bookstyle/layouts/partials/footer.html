@@ -1,9 +1,9 @@
 <nav id="contacto" aria-label="Enlaces de contacto">
     <p>
-        <a href="https://github.com/1noro" aria-label="Enlace a mi perfil de GitHub">github</a> &middot; 
-        <a href="https://gitlab.com/1noro" aria-label="Enlace a mi perfil de GitLab">gitlab</a> &middot; 
-        <!-- <a href="https://tilde.zone/@1noro" aria-label="Enlace a mi perfil de Mastodon">mastodon</a> &middot;  -->
-        mail (<a href="res/publickey.ppuubblliicc@protonmail.com.asc" aria-label="¡Mándame un correo cifrado con gpg!">gpg</a>)
+        <a href="{{ .Site.Params.github }}" aria-label="Enlace a mi perfil de GitHub">github</a> &middot; 
+        <a href="{{ .Site.Params.gitlab }}" aria-label="Enlace a mi perfil de GitLab">gitlab</a> &middot; 
+        <!-- <a href="{{ .Site.Params.mastodon }}" aria-label="Enlace a mi perfil de Mastodon">mastodon</a> &middot;  -->
+        mail (<a href="{{ .Site.Params.pgpPubKey }}" aria-label="¡Mándame un correo cifrado con pgp!">pgp</a>)
     </p>
 </nav>
 
