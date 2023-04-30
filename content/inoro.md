@@ -14,12 +14,8 @@ afán de tener un lugar donde escribir y trastear con tecnologías web.
 Por el momento, soy el único administrador de este sítio y asimismo
 único creador de contenido.
 
-<!-- {{< imgSquare src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp" alt="Inoro's profile picture" >}}
-Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.
-{{< /imgSquare >}} -->
-
 {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp" alt="Inoro's profile picture" >}}
-*Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.*
+<em>Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.</em>
 {{< /blockMediaText >}}
 
 Aquí no voy a contar mucho sobre mi. Solo voy a comentar la anodina

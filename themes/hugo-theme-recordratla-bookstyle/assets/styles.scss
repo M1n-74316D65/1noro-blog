@@ -298,7 +298,7 @@ ul {
         direction: ltr;
         grid-column: 2;
         grid-row: 1;
-        padding: 0 8%;
+        // padding: 0 8%;
         // word-break: break-word;
         font-size: $small-font-size;
         // line-height: 1.55556;
@@ -308,6 +308,8 @@ ul {
         // padding-left: 48px;
         padding-right: $text-indent + 0.5rem;
         padding-left: $text-indent + 0.5rem;
+        // padding-right: $text-indent;
+        // padding-left: $text-indent;
         p {
             text-align: left;
             text-indent: 0;
@@ -327,7 +329,7 @@ ul {
             margin-top: 0.5rem;
             padding-right: 0.5rem;
             padding-left: 0.5rem;
-            p { text-align: center; }
+            // p { text-align: center; }
         }
     }
 }

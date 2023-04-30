@@ -13,13 +13,13 @@ Aquí intentaré aclarar algunas de las cuestiones que, se me ocurre, pueden sur
 
 La página `record.rat.la` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales. En el apartado ["sobre esta web"]({{< relref "info" >}}) puedes encontrar una descripción más detallada del asunto.
 
-<!-- {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/faq-rats-1024.jpg" alt="Un puñado de ratas preguntándose cosas." >}}
+{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/faq-rats-1024.jpg" alt="Un puñado de ratas preguntándose cosas." >}}
 <em>
     Y el pobre anciano Masson se hundió en la negrura de la muerte, con los locos chillidos de las ratas taladrándole los oídos.
 </em>
 <br>
 – Henry Kuttner
-{{< /blockMediaText >}} -->
+{{< /blockMediaText >}}
 
 ## ¿Porqué rat.la?
 
