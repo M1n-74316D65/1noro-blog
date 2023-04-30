@@ -8,9 +8,12 @@ draft: false
 tags: ["anime", "series", "cultura asiática"]
 image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cover.webp"
 summary: "Cowboy Bebop — Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop."
+displaySummary: false
 ---
 
----Este artículo lo publiqué originalmente el 9 de abril de 2016 en un antiguo blog que hoy en día está desaparecido. Y ya que últimamente estoy haciendo reorganización y borrado de *backups* encuentro muchas antiguas joyas. Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero que os anime a ver esta maravillosa serie, por la que sigo sintiendo el mismo aprecio que se ve reflejado aquí---.
+Cowboy Bebop — Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop.{{< footnoteRef number="1" >}}
+
+<!-- ---Este artículo lo publiqué originalmente el 9 de abril de 2016 en un antiguo blog que hoy en día está desaparecido. Y ya que últimamente estoy haciendo reorganización y borrado de *backups* encuentro muchas antiguas joyas. Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero que os anime a ver esta maravillosa serie, por la que sigo sintiendo el mismo aprecio que se ve reflejado aquí---. -->
 
 La humanidad en el año 2071, una época decadente en la que todo acaba,
 donde los hombres se dedican a explorar los confines del vasto universo,
@@ -88,3 +91,9 @@ frase que muchas veces resume a la perfección lo que se acaba de
 presenciar. Yo también despediré este artículo con una de esas frases.
 
 > *SEE YOU SPACE COWBOY...*
+
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Este artículo lo publiqué originalmente el 9 de abril de 2016 en un antiguo blog que hoy en día está desaparecido. Y ya que últimamente estoy haciendo reorganización y borrado de *backups* encuentro muchas antiguas joyas. Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero que os anime a ver esta maravillosa serie, por la que sigo sintiendo el mismo aprecio que se ve reflejado aquí.
+{{< /footnoteText >}}

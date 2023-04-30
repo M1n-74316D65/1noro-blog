@@ -41,12 +41,9 @@ tiene aún no le había encontrado una utilidad muy clara en mi
 *workflow*.
 
 Entonces en un momento de lucidez me vino a la mente el siguiente
-comando.
+comando.{{< footnoteRef number="1" >}}
 
     cd "$(find * -type d | fzf)"
-
-> Nótese que es necesario haber instalado `fzf` para que funcione. He
-> aquí la [guía de instalación](https://github.com/junegunn/fzf#installation).
 
 Lo que hace básicamente es buscar todos los directorios a partir del
 actual con el comando `find` y pasar el output al `fzf`, dónde nosotros
@@ -58,7 +55,7 @@ especial.
 
 Y ahora que ya tenía lo que yo quería solo necesitaba que fuese
 accesible lo más rápido posible, por lo que se me ocurrió agregarlo como
-un *bind* en mi `~/.bashrc`, aunque otra opción buena habría sido
+un *bind*{{< footnoteRef number="2" >}} en mi `~/.bashrc`, aunque otra opción buena habría sido
 agregarlo como alias, pero sin embargo creo que el *bind* es más rápido
 en este caso.
 
@@ -70,9 +67,6 @@ siguiente línea.
 Y en caso de usar **zsh** habría que agregar lo siguiente al `~/.zshrc`.
 
     bindkey -s '^g' 'cd "$(find * -type d | fzf)"^M'
-
-> En mi caso *bindeé* la combinación de teclas `Ctrl+G` para ejecutar la
-> sentencia.
 
 ## Variaciones
 
@@ -91,3 +85,13 @@ me gustaría buscar dentro del contenido de las carpetas `Library` o
     cd "$(find * \( -path Library -o -path Applications -o -path opt \) -prune -o -print | fzf)"
 
 He de decir que aún estoy empezando a incorporar esta nueva idea a mi día a día por lo que puede que el comando y, como consecuencia, este articulo sean actualizados a medida que pase el tiempo.
+
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Nótese que es necesario haber instalado `fzf` para que funcione. He aquí la [guía de instalación](https://github.com/junegunn/fzf#installation).
+{{< /footnoteText >}}
+
+{{< footnoteText number="2" >}}
+En mi caso *bindeé* la combinación de teclas `Ctrl+G` para ejecutar la sentencia.
+{{< /footnoteText >}}

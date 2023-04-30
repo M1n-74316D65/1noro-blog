@@ -98,6 +98,7 @@ a {
     text-decoration-thickness: from-font;
     text-underline-offset: 2px;
     // text-underline-offset: 0.1rem;
+    &.noDecoration { text-decoration: none; }
 }
 
 figure {
@@ -182,25 +183,18 @@ ul {
 }
 
 .post {
-    &--index {
-        margin-top: 3rem;
-    }
+    &--index { margin-top: 3rem; }
     &__header {
         margin-top: 3rem;
         margin-bottom: 1.38rem;
         // margin-bottom: 2rem;
     }
-    &__title {
-        margin-bottom: 0;
-        // padding: 0 $text-indent;
-    }
+    &__title { margin-bottom: 0; }
     &__subtitle {
         margin-top: 0;
         font-variant-caps: small-caps;
-        // padding: 0 $text-indent;
     }
     &__summary {
-        // margin-bottom: 1rem;
         p {
             text-align: justify;
             text-indent: $text-indent;
@@ -221,12 +215,24 @@ ul {
 
 .siteFooter {
     padding: 0 2rem 4rem 2rem;
-    p {
-        margin: 0.5rem 0;
-    }
+    p { margin: 0.5rem 0; }
     &__secondary {
-        &__text {
-            font-size: $small-font-size;
-        }
+        &__text { font-size: $small-font-size; }
+    }
+}
+
+.footnote {
+    &__ref {
+        margin-left: .1rem;
+    }
+    &__text {
+        font-size: $small-font-size;
+        p { text-indent: $text-indent; }
+    }
+    &__separator {
+        margin-top: $blockquote-vertical-margin;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid $text-color;
+        width: $text-max-width - 28rem;
     }
 }
