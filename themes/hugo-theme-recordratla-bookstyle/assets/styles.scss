@@ -148,26 +148,26 @@ ul {
     p { text-indent: 0; }
 }
 
-.header { padding: 0 1rem; }
+// .header { padding: 0 1rem; }
 
-.circle {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    width: 50px;
-    height: 50px;
-    background-color: $_black;
-    border-radius: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $_white;
-    font-size: 50px;
-    p {
-        margin: 0;
-        padding-bottom: 12px;
-    }
-}
+// .circle {
+//     position: fixed;
+//     bottom: 1rem;
+//     right: 1rem;
+//     width: 50px;
+//     height: 50px;
+//     background-color: $_black;
+//     border-radius: 25%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: $_white;
+//     font-size: 50px;
+//     p {
+//         margin: 0;
+//         padding-bottom: 12px;
+//     }
+// }
 
 .dinkus {
     // como los asterisco están descentrados verticalmente, hay que poner mas margen arriba que abajo
@@ -180,7 +180,7 @@ ul {
 .pageTitle {
     margin-top: 6rem;
     margin-bottom: 1rem;
-    font-size: $h1-font-size;
+    font-size: $h1-font-size + 0.5rem;
     &__rat {
         width: initial;
         height: 0.8em;
@@ -189,15 +189,28 @@ ul {
             fill: black;
         }
     }
+    &--single {
+        max-width: $text-max-width;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 0.38rem 0;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        font-size: $h4-font-size;
+    }
 }
 
 .webNav {
-    font-size: $h4-font-size;
+    font-size: $h3-font-size;
     margin: 2rem 0;
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
+    font-weight: 500;
+    letter-spacing: -.1rem;
 }
 
 .indexQuote {
-    max-width: 20rem;
+    max-width: 17rem;
     margin: 0.2rem auto;
 }
 
@@ -210,7 +223,7 @@ ul {
 .post {
     &--index { margin-top: 3rem; }
     &__header {
-        margin-top: 3rem;
+        margin-top: 2rem;
         margin-bottom: 1.38rem;
         // margin-bottom: 2rem;
     }
@@ -257,7 +270,8 @@ ul {
     &__separator {
         margin-top: $blockquote-vertical-margin;
         margin-bottom: 1rem;
-        border-bottom: 1px solid $text-color;
+        // border-bottom: 1px solid $text-color;
+        border-bottom: 1px solid $border-color;
         width: $text-max-width - 28rem;
         // width: $text-max-width - 24rem;
     }
