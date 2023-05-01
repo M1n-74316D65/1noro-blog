@@ -41,7 +41,7 @@ con mis requisitos.
 
 Tras esa ardua búsqueda encontré en oferta el dominio `.la` y
 pensando un subdominio adecuado se me ocurrió \"rat\", como una rata
-cantando *La, la, la*. ---Además de darse la casualidad de que era la palabra mas corta y sonora que estaba disponible---.
+cantando: *La, la, la*. ---Además de darse la casualidad de que era la palabra más corta y sonora que estaba disponible---.
 
 {{< imgLandscape src="images/ratBbg.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
 Antigua portada de la página
@@ -49,9 +49,9 @@ Antigua portada de la página
 
 Esta imagen ilustra bien la chorrada en la que estaba pensando a la hora
 de elegir el dominio. Está dibujada por mi amiga **pepunto.reik** ([este
-es su Instagram](https://www.instagram.com/pepunto.reik)) la cual fué
+es su Instagram](https://www.instagram.com/pepunto.reik)) la cual fue
 muy amable y me ofreció varios dibujos para que yo eligiera. Durante los
-primeros meses de la web fué la portada de la página hasta que mi
+primeros meses de la web fue la portada de la página hasta que mi
 obsesión por la simplicidad y la eficiencia en la carga me obligaron a
 tomar la horrible decisión de relegarla a un segundo plano. Pero en
 compensación la he trasladado a esta página para que no caiga en el
