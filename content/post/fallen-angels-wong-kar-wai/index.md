@@ -22,6 +22,10 @@ Michelle Reis y Takeshi Kaneshiro en moto por un túnel de Hong Kong.
 Michelle Reis en el metro de Hong Kong.
 {{< /imgLandscape >}} -->
 
+<!-- {{< blockMediaText src="Takeshi-Kaneshiro-fallen-angels.jpg" alt="" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nisl euismod, ultrices nisl quis, ultrices nisl. Sed e
+{{< /blockMediaText >}} -->
+
 Primero, creo que la dirección de Wong Kar-Wai es impresionante. El uso de la cámara es innovador y arriesgado, con muchos planos que capturan el ambiente de las calles de Hong Kong de manera brillante. Además, la música y el sonido son excelentes y ayudan a crear la perfecta atmósfera decadente (mi atmósfera favorita) para la película.
 
 En segundo lugar, me parece fascinante el estilo *noir* moderno que transmite. Las tramas de la pareja de asesinos y del chico mudo tienen elementos clásicos del género, como el crimen y la violencia, pero Wong Kar-Wai los presenta de una manera desenfadada y hasta cómica en algunos casos. La película es oscura, pero también tiene momentos de belleza y poesía. Hay planos que son tan extraños que hasta me hicieron salir de la película preguntándome cosas como: ¿en qué posición están puestos los personajes? ¿Dónde diablos está la cámara? ¿Cómo se ha hecho ese movimiento?
