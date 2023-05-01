@@ -29,6 +29,10 @@
 
 
 {{ $styles := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<!-- <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen"> -->
+<!-- embedded css -->
+<style>
+	{{ $styles.Content | safeCSS }}
+</style>
 
 <!-- <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}"> -->

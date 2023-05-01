@@ -126,6 +126,7 @@ figure {
             display: block;
             max-width: $text-max-width - $text-indent * 2;
             width: 100%;
+            height: auto; // para que no se deforme
             margin: 0 auto;
         }
     }

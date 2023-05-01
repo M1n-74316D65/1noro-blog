@@ -4,7 +4,7 @@ draft: false
 summary: "Bienvenido a record.rat.la, donde un servidor, junto a las ratas del cementerio de Salem, registran sus desvaríos mentales."
 ---
 
-{{< blockMediaText src="images/rats-in-salem.png" alt="Un puñado de ratas preguntándose cosas." >}}
+{{< blockMediaText src="images/rats-in-salem.webp" alt="Un puñado de ratas preguntándose cosas." >}}
 <em>
     "De acuerdo con lo que decían los ancianos, las ratas llevaban un mensaje entre nuestro mundo y esas cuevas de las profundidades."
 </em>

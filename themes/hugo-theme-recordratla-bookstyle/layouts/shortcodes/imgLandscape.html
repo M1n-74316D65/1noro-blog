@@ -3,17 +3,17 @@
     <!-- Trying to find image in global resources -->
     {{ with resources.Get (.Get "src") }}
         {{ $imageResized := .Resize "600x" }}
-        <img class="img img--landscape" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+        <img class="img img--landscape" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
     {{ else }}
         <!-- Image not found in global resources, trying local resource -->
         {{ with .Page.Resources.Get (.Get "src") }}
             {{ $imageResized := .Resize "600x" }}
-            <img class="img img--landscape" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+            <img class="img img--landscape" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
         {{ else }}
             <!-- Image not found in local resources, using 404 image -->
             {{ $image := resources.Get "images/404-1300.webp" }}
             {{ $imageResized := $image.Resize "350x" }}
-            <img class="img img--landscape" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+            <img class="img img--landscape" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
         {{ end }}
     {{ end }}
     <figcaption class="figcaption figcaption--landscape">{{ .Inner }}</figcaption>
