@@ -43,6 +43,11 @@ sentir curiosidad por cosas nuevas.
 - https://themes.gohugo.io/themes/slick/
 - https://themes.gohugo.io/themes/hugo-rocinante/
 
+## Webs de inspiración para la temática de las imágenes
+
+- https://wilburwhateley.tumblr.com/
+- https://mockman.com/comic/lovecraft-sketch-mwf-pickmans-model-2/
+
 ## Licencias
 
 Este trabajo está bajo la licencia GPL-3.0 en lo que respecta al software y 
