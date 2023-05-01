@@ -2,15 +2,18 @@
     <figure class="wp-block-media-text__media">
         {{ $alt := .Get "alt" }}
         {{ with resources.Get (.Get "src") }}
-            <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full">
+            {{ $imageResized := .Resize "350x" }}
+            <img loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
         {{ else }}
             <!-- Image not found in global resources, trying local resource -->
             {{ with .Page.Resources.Get (.Get "src") }}
-                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full">
+                {{ $imageResized := .Resize "350x" }}
+                <img loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
             {{ else }}
                 <!-- Image not found in local resources, using 404 image -->
-                {{ $image := resources.Get "images/404-1300.webp" }}
-                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full">
+                {{ $image := resources.Get "images/404.webp" }}
+                {{ $imageResized := $image.Resize "350x" }}
+                <img loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
             {{ end }}
         {{ end }}
     </figure>

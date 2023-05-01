@@ -1,15 +1,18 @@
 <figure>
     {{ $alt := .Get "alt" }}
     {{ with resources.Get (.Get "src") }}
-        <img class="img img--square" loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}">
+        {{ $imageResized := .Resize "350x" }}
+        <img class="img img--square" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
     {{ else }}
         <!-- Image not found in global resources, trying local resource -->
         {{ with .Page.Resources.Get (.Get "src") }}
-            <img class="img img--square" loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}">
+            {{ $imageResized := .Resize "350x" }}
+            <img class="img img--square" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
         {{ else }}
             <!-- Image not found in local resources, using 404 image -->
-            {{ $image := resources.Get "images/404-1300.webp" }}
-            <img class="img img--square" loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}">
+            {{ $image := resources.Get "images/404.webp" }}
+            {{ $imageResized := $image.Resize "350x" }}
+            <img class="img img--square" loading="lazy" src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
         {{ end }}
     {{ end }}
     <figcaption class="figcaption figcaption--square">{{ .Inner }}</figcaption>
