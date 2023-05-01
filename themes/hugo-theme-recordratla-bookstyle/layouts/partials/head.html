@@ -9,6 +9,25 @@
 	{{ end }}
 </title>
 
+<!-- preload eb-garamond -->
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-bold.woff2" as="font" type="font/woff2" crossorigin>
+<!-- <link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-extrabold.woff2" as="font" type="font/woff2" crossorigin> -->
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-medium-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-semibold-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-bold-italic.woff2" as="font" type="font/woff2" crossorigin>
+<!-- <link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-extrabold-italic.woff2" as="font" type="font/woff2" crossorigin> -->
+
+<!-- preload courier-prime -->
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-regular.woff2" as="font" type="font/woff2" crossorigin>
+<!-- <link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-italic.woff2" as="font" type="font/woff2" crossorigin> -->
+<link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-bold.woff2" as="font" type="font/woff2" crossorigin>
+<!-- <link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-bold-italic.woff2" as="font" type="font/woff2" crossorigin> -->
+
+
 {{ $styles := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
