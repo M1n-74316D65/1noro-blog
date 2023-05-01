@@ -43,7 +43,9 @@ Tras esa ardua búsqueda encontré en oferta el dominio `.la` y
 pensando un subdominio adecuado se me ocurrió \"rat\", como una rata
 cantando *La, la, la*. ---Además de darse la casualidad de que era la palabra mas corta y sonora que estaba disponible---.
 
-{{< blockHorizontalImage src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/ratBbg.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
+{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/ratBbg.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
+Antigua portada de la página
+{{< /imgLandscape >}}
 
 Esta imagen ilustra bien la chorrada en la que estaba pensando a la hora
 de elegir el dominio. Está dibujada por mi amiga **pepunto.reik** ([este
