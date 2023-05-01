@@ -18,6 +18,10 @@ image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/
 > en base a este podrá verse cómo ha evolucionado desde la idea
 > original.*
 
+{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/genesis-2001-1190.jpg" alt="Primera escena de 2001: Una odisea del espacio" >}}
+Y dijo Dios: Sea la luz; y fue la luz. — Genesis 1:3
+{{< /imgLandscape >}}
+
 El concepto de esta aventura internáutica se basa en la simplicidad.
 Aprovechando ya las características de HTML5 y un poco de PHP crearé una
 web estilo Blog basada únicamente en su contenido, sus entradas, con un

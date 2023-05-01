@@ -27,10 +27,10 @@ h1, h2, h3, h4, h5, .page-title {
     margin: $heading-margin;
     font-weight: 600;
     line-height: $heading-line-height;
-
     padding: 0 $text-indent;
     letter-spacing: -0.06rem;
     font-variant-caps: small-caps;
+    text-align: left;
 }
 
 h1, h2 {

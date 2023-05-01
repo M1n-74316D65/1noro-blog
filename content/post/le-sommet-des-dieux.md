@@ -1,7 +1,7 @@
 ---
-title: "La cumbre de los dioses, la película que reafirma mi ansia de subir una montaña"
+title: "La cumbre de los dioses, la película que reafirma mi deseo de subir una montaña"
 mainTitle: "La cumbre de los dioses"
-subtitle: "La película que reafirma mi ansia de subir una montaña"
+subtitle: "La película que reafirma mi deseo de subir una montaña"
 date: 2022-12-05T20:20:00+01:00
 draft: false
 # tags: ["cine", "animación", "alpinismo", "manga", "himalaya", "everest", "fotografía"]

@@ -15,7 +15,9 @@ virtual detrás de un Nginx haciendo de _reverse proxy_.
 
 ## Descripción del escenario
 
-{{< blockHorizontalImage src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210307/gitlab-nginx.webp" alt="Diagrama en el que me basaré para la explicación" >}}
+{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210307/gitlab-nginx.webp" alt="Diagrama en el que me basaré para la explicación" >}}
+Diagrama en el que me basaré para la explicación.
+{{< /imgLandscape >}}
 
 -   Certificado SSL con Let\'s Encrypt y certbot.
 -   Escuchar en los puertos 80 (HTTP) y 443 (HTTPs) con una redirección

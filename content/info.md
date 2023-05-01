@@ -10,6 +10,10 @@ Hola, me presento, puedes llamarme [Inoro]({{< relref "inoro" >}}). La
 página `record.rat.la` es un blog/web personal autogestionado donde iré
 registrando mis proyectos y mis líos mentales.
 
+<!-- {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/rat-la-la-la.jpg" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
+Lores ipsum dolor sit amet, consectetur adipiscing elit.
+{{< /blockMediaText >}} -->
+
 Debido a que siempre estoy iniciando y abandonando nuevos proyectos, y
 que cada dos por tres no dejo de saltar entre centrarme en la
 programación, en las redes o en ese pozo sin fondo también conocido como
