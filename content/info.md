@@ -3,14 +3,14 @@ title: "Sobre esta web"
 draft: false
 summary: "Intentaré describir de la forma más clara posible el motivo de esta web."
 displaySummary: false
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/rat-la-la-la.jpg"
+image: "images/rat-la-la-la.jpg"
 ---
 
 Hola, me presento, puedes llamarme [Inoro]({{< relref "inoro" >}}). La
 página `record.rat.la` es un blog/web personal autogestionado donde iré
 registrando mis proyectos y mis líos mentales.
 
-<!-- {{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/rat-la-la-la.jpg" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
+<!-- {{< blockMediaText src="images/rat-la-la-la.jpg" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
 Lores ipsum dolor sit amet, consectetur adipiscing elit.
 {{< /blockMediaText >}} -->
 

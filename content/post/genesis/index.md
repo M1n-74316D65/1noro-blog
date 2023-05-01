@@ -9,7 +9,7 @@ draft: false
 tags: ["web", "php", "html", "css", "javascript"]
 summary: "Intentaré reflexionar sobre el origen de esta web, su estructura y su estilo."
 displaySummary: false
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/genesis-2001-1190.jpg"
+image: "genesis-2001-1190.jpg"
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con
@@ -18,7 +18,7 @@ image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/
 > en base a este podrá verse cómo ha evolucionado desde la idea
 > original.*
 
-{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/genesis-2001-1190.jpg" alt="Primera escena de 2001: Una odisea del espacio" >}}
+{{< imgLandscape src="genesis-2001-1190.jpg" alt="Primera escena de 2001: Una odisea del espacio" >}}
 Y dijo Dios: Sea la luz; y fue la luz. — Genesis 1:3
 {{< /imgLandscape >}}
 

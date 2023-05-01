@@ -10,6 +10,9 @@ Paginate = 50
 copyright = 'Esta obra está bajo una Licencia Creative Commons BY-SA-4.0. Y el código HTML y CSS bajo la GNU GPL v3.'
 rssLimit = 15
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [author]
   name = 'Inoro'
 

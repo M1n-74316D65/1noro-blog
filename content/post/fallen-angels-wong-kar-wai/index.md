@@ -8,17 +8,17 @@ date: 2023-03-18T01:09:00+01:00
 draft: false
 # tags: ["cine", "hong kong", "Wong Kar-Wai", "neo noir", "china"]
 tags: ["cine", "cultura asiática"]
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20230318/fallen-angels-1300-2.jpg"
+image: "fallen-angels-1300-2.jpg"
 summary: "Fallen Angels — Hong Kong, Wong Kar-Wai (1995) es una película cautivadora y original que combina elementos de cine noir con un enfoque innovador y experimental."
 ---
 
 No sé por qué llevaba esquivando esta película desde hace varios años. Ronda mis listas de “películas que quiero ver” desde que vi Deseando Amar (2000). Más tarde un par de personas me la recomendaron muy efusivamente, asegurando que me encantaría, y yo, siguiendo mi costumbre de solo ver lo que me apetece en cada momento, no les hice ni caso. Hasta hoy, día en que después de un largo recorrido por FilmAffinity buscando qué ver esta noche, mi hermana me propuso esta película. Sin duda todos tenían razón, la película me ha encantado, me gusta tanto que me ha quitado el sueño y me ha dado fuerzas para escribir este artículo. ¿Por dónde empezaré?
 
-{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20230318/fallen-angels-1300-2.jpg" alt="Michelle Reis y Takeshi Kaneshiro en moto por un túnel de Hong Kong." >}}
+{{< imgLandscape src="fallen-angels-1300-2.jpg" alt="Michelle Reis y Takeshi Kaneshiro en moto por un túnel de Hong Kong." >}}
 Michelle Reis y Takeshi Kaneshiro en moto por un túnel de Hong Kong.
 {{< /imgLandscape >}}
 
-<!-- {{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20230318/fallen-angels-750.jpg" alt="Michelle Reis en el metro de Hong Kong." >}}
+<!-- {{< imgLandscape src="fallen-angels-750.jpg" alt="Michelle Reis en el metro de Hong Kong." >}}
 Michelle Reis en el metro de Hong Kong.
 {{< /imgLandscape >}} -->
 

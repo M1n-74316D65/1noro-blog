@@ -1,4 +1,17 @@
 <figure>
-    <img class="img img--landscape" loading="lazy" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+    {{ $alt := .Get "alt" }}
+    <!-- Trying to find image in global resources -->
+    {{ with resources.Get (.Get "src") }}
+        <img class="img img--landscape" loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}">
+    {{ else }}
+        <!-- Image not found in global resources, trying local resource -->
+        {{ with .Page.Resources.Get (.Get "src") }}
+            <img class="img img--landscape" loading="lazy" src="{{ .RelPermalink }}" alt="{{ $alt }}">
+        {{ else }}
+            <!-- Image not found in local resources, using 404 image -->
+            {{ $image := resources.Get "images/404-1300.webp" }}
+            <img class="img img--landscape" loading="lazy" src="{{  $image.RelPermalink }}" alt="{{ $alt }}">
+        {{ end }}
+    {{ end }}
     <figcaption class="figcaption figcaption--landscape">{{ .Inner }}</figcaption>
 </figure>

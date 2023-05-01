@@ -6,8 +6,8 @@ draft: false
 tags: ["linux", "shell"]
 summary: "Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux."
 displaySummary: false
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20220924/fzf-1300.jpg"
-featuredImage: false
+# image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20220924/fzf-1300.jpg"
+# featuredImage: false
 ---
 
 Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux. Resulta que durante mis largas jornadas de trabajo, donde estoy

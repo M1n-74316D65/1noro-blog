@@ -15,7 +15,7 @@ virtual detrás de un Nginx haciendo de _reverse proxy_.
 
 ## Descripción del escenario
 
-{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210307/gitlab-nginx.webp" alt="Diagrama en el que me basaré para la explicación" >}}
+{{< imgLandscape src="gitlab-nginx.webp" alt="Diagrama en el que me basaré para la explicación" >}}
 Diagrama en el que me basaré para la explicación.
 {{< /imgLandscape >}}
 

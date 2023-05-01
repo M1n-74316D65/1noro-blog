@@ -7,7 +7,7 @@ draft: false
 # tags: ["cine", "japón", "akira kurosawa", "samuráis", "acción", "western", "toshiro mifune"]
 tags: ["cine", "b&w", "cultura asiática"]
 summary: "Yojimbo (用心棒) — Japón, Akira Kurosawa (1961) es una película de acción japonesa ambientada en el Japón feudal, en la que un rōnin juega a dos bandas en la guerra entre dos familias."
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210724/yojimbo-375.jpg"
+image: "yojimbo-375.jpg"
 featuredImage: false
 ---
 
@@ -16,7 +16,7 @@ dos familias, observando el panorama se percata de que gracias a sus
 habilidades con la espada puede sacar provecho de la situación a pesar
 de las advertencias de la población local.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20210724/yojimbo.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
+{{< blockMediaText src="yojimbo.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
 <em>—¿Qué ha pasado? ¿Por qué estás tan triste? Tu negocio debería estar en auge.<br>
 —No. Cuando los combates son tan graves, no se molestan en hacer ataúdes.</em>
 <p>Diálogo entre Hansuke y el tonelero.</p>

@@ -6,11 +6,11 @@ date: 2022-11-30T19:04:00+01:00
 draft: false
 # tags: ["cine", "alemania", "michael haneke", "primera guerra mundial", "puritanismo", "religión", "b&w", "cine de época"]
 tags: ["cine", "b&w"]
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221130/la-cinta-blanca-1300.jpg"
+image: "la-cinta-blanca-1300.jpg"
 summary: "Das Weisse Band — Alemania, Michael Haneke (2009) es una película que nos presenta una reflexión sobre la maldad humana que durante su visionado te arranca más de un escalofrío."
 ---
 
-{{< imgLandscape src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221130/la-cinta-blanca-1300.jpg" alt="Sebastian Hülk descarga su ira contra los repollos del barón." >}}
+{{< imgLandscape src="la-cinta-blanca-1300.jpg" alt="Sebastian Hülk descarga su ira contra los repollos del barón." >}}
 Sebastian Hülk descarga su ira contra los repollos del barón.
 {{< /imgLandscape >}}
 

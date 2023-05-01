@@ -6,14 +6,14 @@ date: 2022-12-05T20:20:00+01:00
 draft: false
 # tags: ["cine", "animación", "alpinismo", "manga", "himalaya", "everest", "fotografía"]
 tags: ["cine", "anime", "cultura asiática"]
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux-750.jpg"
+image: "le-sommet-des-dieux-750.jpg"
 featuredImage: false
 summary: "Le Sommet des Dieux — Francia, Patrick Imbert (2021) es una película que me ha tocado la fibra sensible y me ha dejado con ganas de más historias de alpinismo."
 ---
 
 Adaptación francesa del manga homónimo escrito por Jiro Taniguchi que narra la historia de Makoto Fukamachi, un aventurero y fotógrafo japonés que sigue el rastro de un misterioso alpinista debido a la sospecha de que este podría tener bajo su custodia una cámara perteneciente a [George Mallory](https://es.wikipedia.org/wiki/George_Leigh_Mallory). El revelado de ese carrete podría desvelar el misterio de si Mallory efectivamente llegó a la cima del Everest en 1924 antes de desaparecer para siempre, 29 años antes del primer ascenso oficial.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20221205/le-sommet-des-dieux.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
+{{< blockMediaText src="le-sommet-des-dieux.jpg" alt="Imagen generada por Stable Diffusion 2.1 de unos alpinistas ascendiendo al Everest." >}}
 <p><em>Mis ojos se fijaron en un par de pequeños puntos negros [...] El primero se acercó entonces al gran escalón de roca y pronto emergió en la cima; el segundo hizo lo mismo. Entonces toda la fascinante visión se desvaneció, envuelta en nubes una vez más</em></p>
 <p>—Noel Odell, último hombre que vio a Mallory e Irvine con vida, 8 de junio de 1924.</p>
 {{< /blockMediaText >}}

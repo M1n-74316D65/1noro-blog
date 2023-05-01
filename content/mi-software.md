@@ -4,7 +4,7 @@ date: 2021-09-24T17:01:00+01:00
 draft: false
 summary: "Listado de programas que componen mi workflow."
 displaySummary: true
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/gnu-1300.jpg"
+image: "images/gnu-1300.jpg"
 ---
 
 <!-- todo: actualizar, no refleja la realidad -->

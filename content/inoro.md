@@ -4,7 +4,7 @@ date: 2022-09-24T16:59:00+01:00
 draft: false
 summary: "Sobre Inoro, el autor de este blog"
 displaySummary: false
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp"
+image: "images/profile.webp"
 featuredImage: false
 ---
 
@@ -14,7 +14,7 @@ afán de tener un lugar donde escribir y trastear con tecnologías web.
 Por el momento, soy el único administrador de este sítio y asimismo
 único creador de contenido.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/common/profile.webp" alt="Inoro's profile picture" >}}
+{{< blockMediaText src="images/profile.webp" alt="Inoro's profile picture" >}}
 <em>Creo firmemente que el sentido de la vida reside en que no todas las personas llevan sombrero.</em>
 {{< /blockMediaText >}}
 
