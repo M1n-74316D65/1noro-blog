@@ -1,0 +1,23 @@
+<div class="wp-block-media-text is-stacked-on-mobile">
+    <figure class="wp-block-media-text__media">
+        {{ $alt := .Get "alt" }}
+        {{ with resources.Get (.Get "src") }}
+            {{ $imageResized := .Resize "350x" }}
+            <img src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+        {{ else }}
+            <!-- Image not found in global resources, trying local resource -->
+            {{ with .Page.Resources.Get (.Get "src") }}
+                {{ $imageResized := .Resize "350x" }}
+                <img src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+            {{ else }}
+                <!-- Image not found in local resources, using 404 image -->
+                {{ $image := resources.Get "images/404.webp" }}
+                {{ $imageResized := $image.Resize "350x" }}
+                <img src="{{ $imageResized.RelPermalink }}" alt="{{ $alt }}" class="wp-image-353046 size-full" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}">
+            {{ end }}
+        {{ end }}
+    </figure>
+    <div class="wp-block-media-text__content">
+        <p>{{ .Inner }}</p>
+    </div>
+</div>

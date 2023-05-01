@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="post">
+	<header class="container">
+		<div class="post__header">
+			{{ if .Params.mainTitle }}
+			<h1 class="post__title">{{ .Params.mainTitle }}</h1>
+			{{ else }}
+			<h1 class="post__title">{{ .Title }}</h1>
+			{{ end }}
+			{{ if .Params.subtitle }}
+			<h2 class="post__subtitle">{{ .Params.subtitle }}</h2>
+			{{ end }}
+		</div>
+		{{ if in .Permalink "/post/" }}
+		<div class="post__meta">
+			<span class="post__byline">{{ with .Params.author }}<a href="/{{ . | urlize }}">{{ . }}</a>{{ else }}<a href="/{{ .Site.Author.name | urlize }}">{{ .Site.Author.name }}</a>{{ end }}</span> · <time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time><br><span class="post__tags" aria-label="Etiquetas">{{ range (.GetTerms "tags") }}&nbsp;<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>&nbsp;{{end}}</span>
+		</div>
+		{{ end }}
+		{{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+		<div class="post__summary">
+			<p>{{ .Params.summary }}</p>
+		</div>
+		{{ end }}
+	</header>
+
+	<div class="container post__entryContent">
+		{{ .Content }}
+	</div>
+</article>
+{{ end }}

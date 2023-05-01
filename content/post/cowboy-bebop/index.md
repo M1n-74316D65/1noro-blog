@@ -1,19 +1,20 @@
 ---
 title: "Cowboy Bebop, the real folk blues"
+mainTitle: "Cowboy Bebop"
+subtitle: "The real folk blues"
 date: 2020-09-28T18:10:00+02:00
 draft: false
 # tags: ["anime", "series", "western", "japón", "música", "espacio", "ciencia ficción"]
 tags: ["anime", "series", "cultura asiática"]
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cover.webp"
-summary: "Cowboy Bebop - Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop."
+image: "cover.webp"
+summary: "Cowboy Bebop — Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop."
+displaySummary: false
 ---
 
-> Este artículo lo publiqué originalmente en un antiguo blog que hoy en
-> día está desaparecido. Y ya que últimamente estoy haciendo
-> reorganización y borrado de *backups* encuentro muchas antiguas joyas.
-> Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero
-> que os anime a ver esta maravillosa serie, por la que sigo sintiendo el
-> mismo aprecio que se ve reflejado aquí.
+Cowboy Bebop — Japón, Shinichirō Watanabe (1998-1999) es una serie ambientada en el año 2071, en un futuro en el que la humanidad ha colonizado el sistema solar, y sigue las aventuras de un grupo de cazarrecompensas a bordo de la nave espacial Bebop.{{< footnoteRef number="1" >}}
+
+<!-- {{< imgLandscape src="cover.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
+{{< /imgLandscape >}} -->
 
 La humanidad en el año 2071, una época decadente en la que todo acaba,
 donde los hombres se dedican a explorar los confines del vasto universo,
@@ -34,22 +35,21 @@ guiño de géneros como el *cyberpunk* al estilo de Blade Runner, una
 combinación perfecta de imagen y sonido que producen un sinfín de
 sensaciones mientras estás sentado tranquilamente frente a tu televisor.
 
-{{< blockMediaText src="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200928/cowboy-bebop-ed.jpg" alt="Ed haciendo equilibrios con su PC sobre la cabeza." >}}
+{{< blockMediaText src="cowboy-bebop-ed.jpg" alt="Ed haciendo equilibrios con su PC sobre la cabeza." >}}
 <em>
-    I think it's time to blow this scene.<br>
-    Get everybody and their stuff together.<br>
-    Okay, three, two, one ¡Let's jam!
+    Okay, three, two, one<br>
+    ¡Let's jam!
 </em>
 {{< /blockMediaText >}}
 
 La historia se centra en la tripulación de la nave bautizada como
-*Bebop*, formada por un grupo de personajes muy variopintos: **Spike**;
+*Bebop*, formada por un grupo de personajes muy variopintos: Spike;
 pasota, sarcástico, divertido, fiel, temerario y con un cierto parecido
-a Lucky Luck. **Jet**; un amigo de toda confianza que siempre está allí
-para cuando se le necesita. **Faye**; una chica independiente que viene
+a Lucky Luck. Jet; un amigo de toda confianza que siempre está allí
+para cuando se le necesita. Faye; una chica independiente que viene
 y va según su parecer y, aunque se empeñe en ocultarlo ella también
-tiene sentimientos. **Ed**; una niña espontánea, graciosa y muy
-inteligente, con grandes facetas como *hacker*. Y **Ein**; un
+tiene sentimientos. Ed; una niña espontánea, graciosa y muy
+inteligente, con grandes facetas como *hacker*. Y Ein; un
 [corgi](https://es.wikipedia.org/wiki/Corgi_gal%C3%A9s_de_Pembroke "Raza de perro.")
 que destaca por su gran astucia. Una tropa de cazarrecompensas que vagan
 por el espacio viviendo aventuras y subsistiendo como pueden. Ellos no
@@ -90,6 +90,10 @@ reflexionar ante la pantalla. Dejándonos al final de cada capítulo una
 frase que muchas veces resume a la perfección lo que se acaba de
 presenciar. Yo también despediré este artículo con una de esas frases.
 
-*SEE YOU SPACE COWBOY\...*
+> *SEE YOU SPACE COWBOY...*
 
-> Publicado originalmente el 9 de abril de 2016 en mi antiguo blog.
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Este artículo lo publiqué originalmente el 9 de abril de 2016 en un antiguo blog que hoy en día está desaparecido. Y ya que últimamente estoy haciendo reorganización y borrado de *backups* encuentro muchas antiguas joyas. Esta en concreto me gusta bastante, así que decidí re-publicarla. Espero que os anime a ver esta maravillosa serie, por la que sigo sintiendo el mismo aprecio que se ve reflejado aquí.
+{{< /footnoteText >}}

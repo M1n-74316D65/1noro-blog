@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}">
+	<head >
+		{{- partial "head.html" . -}}
+	</head>
+	<body>
+		<header id="header" class="header" aria-label="Cabecera" tabindex="-1">
+			{{- partial "header.html" . -}}
+		</header>
+		<main id="main" aria-label="Contenido principal" tabindex="-1">
+			{{- block "main" . }}{{- end }}
+		</main>
+		<div class="dinkus">*&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;*</div>
+		<footer id="footer" class="siteFooter" aria-label="Licencias, contactos y más enlaces" tabindex="-1">
+			{{- partial "footer.html" . -}}
+		</footer>
+	</body>
+</html>

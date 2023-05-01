@@ -1,10 +1,13 @@
 ---
-title: "Configurar los drivers de Nvidia en Arch Linux"
+title: "Configurar drivers de Nvidia en Arch Linux"
+mainTitle: "Configurar drivers de Nvidia"
+subtitle: "En Arch Linux"
 date: 2021-03-29T22:56:00+01:00
 draft: false
 # tags: ["arch", "linux", "nvidia"]
 tags: ["linux"]
 summary: "Configurar los drivers de Nvidia en Arch Linux con Gnome y Xorg."
+displaySummary: false
 ---
 
 Yo antes solo utilizaba mi fabulosa tarjeta gráfica integrada de **Intel
@@ -20,14 +23,7 @@ buen amante del *default* que soy. En [este apartado de la Arch
 Wiki](https://wiki.archlinux.org/index.php/NVIDIA#Installation) podrás
 confirmar si tu gráfica se ajusta a estas instrucciones o no.
 
-> Antes de comenzar a explicar debo informar que en este artículo no vas
-> a encontrar una mejor solución que [en la Arch
-> Wiki](https://wiki.archlinux.org/index.php/NVIDIA). Escribo esto para
-> que yó, que ya me he leído la wiki, y la he adaptado a mi situación,
-> no tenga que volver a hacerlo la próxima vez que instale mi PC. Si
-> encuentras algún problema durante este proceso puedes consultarme,
-> pero personalmente te recomiendo que consultes la wiki. Estoy seguro
-> de que tu solución específica se encuentra ahí.
+Antes de comenzar a explicar debo informar que en este artículo no vas a encontrar una mejor solución que [en la Arch Wiki](https://wiki.archlinux.org/index.php/NVIDIA). Escribo esto para que yó, que ya me he leído la wiki, y la he adaptado a mi situación, no tenga que volver a hacerlo la próxima vez que instale mi PC. Si encuentras algún problema durante este proceso puedes consultarme, pero personalmente te recomiendo que consultes la wiki. Estoy seguro de que tu solución específica se encuentra ahí.
 
 ## Eliminar la instalación previa de Intel
 
@@ -74,8 +70,7 @@ Borramos los drivers de Intel.
 
 ## Instalar y configurar los drivers de Nvidia
 
-Instalamos los controladores y utilidades extra de Nvidia, a ser posible
-[en este mismo orden]{.underline}.
+Instalamos los controladores y utilidades extra de Nvidia, a ser posible **en este mismo orden**.
 
     sudo pacman -S nvidia-utils
     sudo pacman -S nvidia
@@ -113,6 +108,6 @@ Y volvemos a generar la configuración del **GRUB**.
 
     sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-Ahora solo queda [reiniciar]{.underline} la máquina para que se aplique
+Ahora solo queda **reiniciar** la máquina para que se aplique
 la nueva configuración. Recuerda cambiar el cable de la pantalla y
 conectarlo a la gráfica.

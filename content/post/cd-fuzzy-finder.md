@@ -5,13 +5,12 @@ draft: false
 # tags: ["bash", "fzf", "cli", "terminal", "tips", "shell", "linux"]
 tags: ["linux", "shell"]
 summary: "Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux."
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20220924/fzf-1300.jpg"
-featuredImage: false
+displaySummary: false
+# image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20220924/fzf-1300.jpg"
+# featuredImage: false
 ---
 
-## El problema
-
-Resulta que durante mis largas jornadas de trabajo, donde estoy
+Presento aquí mi solución personal al problema de moverse rápido entre directorios por la Shell de GNU/Linux. Resulta que durante mis largas jornadas de trabajo, donde estoy
 constantemente entrando y saliendo de carpetas, he notado que moverme
 con el ratón por el explorador de archivos y luego hacer *click* derecho
 en un hueco vacío para abrir un terminal en ese directorio no es un
@@ -27,7 +26,7 @@ ejecutándolos desde el directorio que me interesa, antes hacer el
 proceso inverso abriendo estos programas desde el entorno gráfico y
 luego navegar hasta el directorio desde el.
 
-## La solución
+## Solución
 
 Yo ya estoy muy acostumbrado a utilizar el atajo de teclado `Ctrl+Alt+T`
 para abrir una nueva instancia de la terminal situada en el directorio
@@ -35,21 +34,16 @@ para abrir una nueva instancia de la terminal situada en el directorio
 directorio deseado lo más rápido posible desde ahí acabaría
 agradeciéndolo.
 
-Conocía el programa `fzf` ([enlace al
-repo](https://github.com/junegunn/fzf){aria-label="Repositorio de fzf"})
+Conocía el programa `fzf` ([enlace al repo](https://github.com/junegunn/fzf))
 que permite hacer una búsqueda sobre una lista de elementos que le
 mandes como input. Pero realmente, a pesar de el enorme potencial que
 tiene aún no le había encontrado una utilidad muy clara en mi
 *workflow*.
 
 Entonces en un momento de lucidez me vino a la mente el siguiente
-comando.
+comando.{{< footnoteRef number="1" >}}
 
     cd "$(find * -type d | fzf)"
-
-> Nótese que es necesario haber instalado `fzf` para que funcione. He
-> aquí la [guía de
-> instalación](https://github.com/junegunn/fzf#installation){aria-label="Instrucciones de instalación de fzf"}.
 
 Lo que hace básicamente es buscar todos los directorios a partir del
 actual con el comando `find` y pasar el output al `fzf`, dónde nosotros
@@ -61,7 +55,7 @@ especial.
 
 Y ahora que ya tenía lo que yo quería solo necesitaba que fuese
 accesible lo más rápido posible, por lo que se me ocurrió agregarlo como
-un *bind* en mi `~/.bashrc`, aunque otra opción buena habría sido
+un *bind*{{< footnoteRef number="2" >}} en mi `~/.bashrc`, aunque otra opción buena habría sido
 agregarlo como alias, pero sin embargo creo que el *bind* es más rápido
 en este caso.
 
@@ -74,10 +68,7 @@ Y en caso de usar **zsh** habría que agregar lo siguiente al `~/.zshrc`.
 
     bindkey -s '^g' 'cd "$(find * -type d | fzf)"^M'
 
-> En mi caso *bindeé* la combinación de teclas `Ctrl+G` para ejecutar la
-> sentencia.
-
-## Posibles variaciones
+## Variaciones
 
 Hay que tener en cuenta que este comando ignora las carpetas ocultas a
 propósito porque a mi me conviene, pero si quisieras listar también esos
@@ -93,6 +84,14 @@ me gustaría buscar dentro del contenido de las carpetas `Library` o
 
     cd "$(find * \( -path Library -o -path Applications -o -path opt \) -prune -o -print | fzf)"
 
-> He de decir que aún estoy empezando a incorporar esta nueva idea a mi
-> día a día por lo que puede que el comando y, como consecuencia, este
-> articulo sean actualizados a medida que pase el tiempo.
+He de decir que aún estoy empezando a incorporar esta nueva idea a mi día a día por lo que puede que el comando y, como consecuencia, este articulo sean actualizados a medida que pase el tiempo.
+
+{{< footnoteSeparator >}}
+
+{{< footnoteText number="1" >}}
+Nótese que es necesario haber instalado `fzf` para que funcione. He aquí la [guía de instalación](https://github.com/junegunn/fzf#installation).
+{{< /footnoteText >}}
+
+{{< footnoteText number="2" >}}
+En mi caso *bindeé* la combinación de teclas `Ctrl+G` para ejecutar la sentencia.
+{{< /footnoteText >}}

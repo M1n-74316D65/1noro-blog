@@ -1,12 +1,15 @@
 ---
 title: "Genesis de record.rat.la"
+mainTitle: "Genesis"
+subtitle: "record.rat.la"
 date: 2020-09-18T14:57:00+02:00
 modified: 2022-12-15T19:57:00+01:00
 draft: false
 # tags: ["web", "genesis", "php", "html5", "css3", "javascript", "diseño"]
 tags: ["web", "php", "html", "css", "javascript"]
-summary: "Intento reflexionar sobre el origen de esta web, su estructura y su estilo."
-image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/genesis-2001-1190.jpg"
+summary: "Intentaré reflexionar sobre el origen de esta web, su estructura y su estilo."
+displaySummary: false
+image: "genesis-2001-1190.jpg"
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con
@@ -14,6 +17,10 @@ image: "https://recordratla-public-res.s3.eu-south-2.amazonaws.com/img/20200918/
 > a la hora de explicar las razones por las que comencé este proyecto, y
 > en base a este podrá verse cómo ha evolucionado desde la idea
 > original.*
+
+{{< imgLandscape src="genesis-2001-1190.jpg" alt="Primera escena de 2001: Una odisea del espacio" >}}
+Y dijo Dios: Sea la luz; y fue la luz. — Genesis 1:3
+{{< /imgLandscape >}}
 
 El concepto de esta aventura internáutica se basa en la simplicidad.
 Aprovechando ya las características de HTML5 y un poco de PHP crearé una
@@ -107,7 +114,7 @@ momento este es todo el CSS que he necesitado:
 
 Puede que la selección de colores resulte un tanto\... como decirlo\...
 horrorosa. Pero en mi defensa diré que me he basado en un
-[paper](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf){rel="nofollow"}
+[paper](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf)
 para elegir la combinación de colores fondo/letra. Esta tonalidad de
 fondo `#edd1b0` (melocotón) sobre el negro de la tipografía es
 la que más me ha convencido de las tres opciones que daba el artículo
@@ -120,13 +127,13 @@ De todas formas una elección de color si que va en contra completamente
 de lo que indica el anterior artículo. Se trata de el verde
 (`#dfdebe`) que escogí para resaltar los cuadros de código
 sobre el fondo melocotón. Para llegar a este color lo consulté con la
-[encicolorpedia](https://encycolorpedia.es/edd1b0){rel="nofollow"} y lo
+[encicolorpedia](https://encycolorpedia.es/edd1b0) y lo
 encontré en la sección de análogos.
 
 De todas formas la elección del color, aunque yo creo que estoy contento
 con ella, por el momento queda bajo revisión. Y en el futuro me gustaría
 añadir un selector de temas estilo
-[4chan](https://4chan.org){rel="nofollow"} donde también agregare el
+[4chan](https://4chan.org) donde también agregare el
 cada vez más popular *dark mode*, entre otros que a mi me gusten.
 
 Con respecto a la fuente las cosas han sido más fáciles. Posiblemente
@@ -147,12 +154,12 @@ concretamente porque los dispositivos Android no traen la letra
 `Times` instalada, indico que el dispositivo elija la letra
 estilo `Serif` que tenga por defecto.
 
-## Inspiraciones
+## Webs que me inspiraron
 
 -   [motherfuckingwebsite.com](http://motherfuckingwebsite.com/)
 -   [mango.pdf.zone](https://mango.pdf.zone/)
 
-## A tener en cuenta
+## Referencias
 
 -   [Good Background Colors for Readers: A Study of People with and
     without

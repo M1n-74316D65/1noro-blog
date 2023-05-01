@@ -1,5 +1,7 @@
 ---
 title: "Solución a algunas series numéricas en Java y Python"
+mainTitle: "Series numéricas"
+subtitle: "En Java y Python"
 date: 2020-10-04T11:36:00+01:00
 draft: false
 tags: ["java", "python"]
@@ -7,14 +9,11 @@ summary: "Ejemplos de código en Java y Python para resolver algunas series num�
 displaySummary: false
 ---
 
-Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase.
+Ejemplos de código en Java y Python para resolver algunas series numéricas que me han propuesto en clase. ---Para este ejemplo tomaré como regla que todas las listas serán de 100 elementos como máximo---.
 
-> *Voy a tomar como regla que todas las listas serán de 100 elementos
-> como máximo.*
+## La serie de Fibonacci
 
-## 1. La serie de Fibonacci
-
-Mi explicación: Empezando con `[0, 1]`, el siguiente se calcula
+Mi explicación: empezando con `[0, 1]`, el siguiente se calcula
 con la suma de los dos anteriores.
 
 ### Fibonacci en Java
@@ -44,10 +43,9 @@ con la suma de los dos anteriores.
         lista.append(lista[-2] + lista[-1])
     print(lista)
 
-## 2. La serie de Tribonacci
+## La serie de Tribonacci
 
-Mi explicación: Empezando con `[1, 1, 2]`, el siguiente se
-calcula con la suma de los tres anteriores.
+Mi explicación: empezando con `[1, 1, 2]`, el siguiente se calcula con la suma de los tres anteriores.
 
 ### Tribonacci en Java
 
@@ -77,14 +75,9 @@ calcula con la suma de los tres anteriores.
         lista.append(lista[-3] + lista[-2] + lista[-1])
     print(lista)
 
-## 3. La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
+## La serie en la cual si el anterior es par se suman los tres anteriores y, si es impar, solo los dos anteriores
 
-Mi explicación: Empezamos con la lista `[1, 1]`.
-
--   Si el último es impar, se suman los 2 últimos para calcular el
-    siguiente.
--   Si el último es par, se suman los 3 últimos para calcular el
-    siguiente.
+Mi explicación: empezamos con la lista `[1, 1]`. Si el último es impar, se suman los 2 últimos para calcular el siguiente. De lo contrario, si el último es par, se suman los 3 últimos para calcular el siguiente.
 
 ### La serie anterior en Java
 
@@ -120,9 +113,9 @@ Mi explicación: Empezamos con la lista `[1, 1]`.
             lista.append(lista[-1] + lista[-2] + lista[-3])
     print(lista)
 
-## 4. La serie de los cuadrados perfectos escritos al revés
+## La serie de los cuadrados perfectos escritos al revés
 
-Tengo dudas, no sé si se refiere a esto:
+Tengo dudas, no sé si se refiere a esto.
 
 ### Los cuadrados perfectos al revés en Java
 
@@ -153,10 +146,9 @@ Tengo dudas, no sé si se refiere a esto:
         numero -= 1
     print(lista)
 
-## 5. La serie que suma las cifras de los anteriores
+## La serie que suma las cifras de los anteriores
 
-Ojo, se refiere a el **número de cifras**, no a la suma del os valores
-anteriores.
+Ojo, se refiere al **número de cifras**, no a la suma del os valores anteriores.
 
 ### La suma las cifras de los anteriores en Java
 

@@ -1,0 +1,169 @@
+$font-family: 'EB Garamond', serif;
+$font-family-monospace: 'Courier Prime', Courier, monospace;
+// $font-family-monospace: 'Cutive Mono', Courier, monospace;
+
+// font-size calculation: https://typescale.com/
+
+// $base-font-size: 112.5%; // 18px
+$base-font-size: 118.8%; // 19px
+// $base-font-size: 125%; // 20px
+
+// $p-margin-bottom: 1rem; // recomended by https://typescale.com/
+// $text-line-height: 1.75; // recomended by https://typescale.com/
+$text-line-height: 1.3;
+
+$heading-line-height: 1.3;
+$heading-margin: 3rem 0 1.38rem;
+
+// --- scale 1.200
+// $h1-font-size: 2.488rem;
+// $h2-font-size: 2.074rem;
+// $h3-font-size: 1.728rem;
+// $h4-font-size: 1.44rem;
+// $h5-font-size: 1.2rem;
+// $small-font-size: 0.833rem;
+
+// --- scale 1.125
+$h1-font-size: 1.802rem;
+$h2-font-size: 1.602rem;
+$h3-font-size: 1.424rem;
+$h4-font-size: 1.266rem;
+$h5-font-size: 1.125rem;
+$small-font-size: 0.889rem;
+
+/* eb-garamond-regular */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 400;
+    src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-medium */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 500;
+    src: local("EB Garamond Medium"), local("EBGaramond-Medium"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-semibold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 600;
+    src: local("EB Garamond SemiBold"), local("EBGaramond-SemiBold"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-semibold.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-bold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 700;
+    src: local("EB Garamond Bold"), local("EBGaramond-Bold"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-extrabold */
+@font-face {
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 800;
+    src: local("EB Garamond ExtraBold"), local("EBGaramond-ExtraBold"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-extrabold.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 400;
+    src: local("EB Garamond Italic"), local("EBGaramond-Italic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-medium-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 500;
+    src: local("EB Garamond Medium Italic"), local("EBGaramond-MediumItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-medium-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-semibold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 600;
+    src: local("EB Garamond SemiBold Italic"), local("EBGaramond-SemiBoldItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-semibold-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-bold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 700;
+    src: local("EB Garamond Bold Italic"), local("EBGaramond-BoldItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-bold-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* eb-garamond-extrabold-italic */
+@font-face {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: 800;
+    src: local("EB Garamond ExtraBold Italic"), local("EBGaramond-ExtraBoldItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-extrabold-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+/* courier-prime-regular */
+@font-face {
+    font-family: Courier Prime;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Courier Prime Regular"), local("CourierPrime-Regular"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* courier-prime-italic */
+@font-face {
+    font-family: Courier Prime;
+    font-style: italic;
+    font-weight: 400;
+    src: local("Courier Prime Italic"), local("CourierPrime-Italic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* courier-prime-bold */
+@font-face {
+    font-family: Courier Prime;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Courier Prime Bold"), local("CourierPrime-Bold"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* courier-prime-bold-italic */
+@font-face {
+    font-family: Courier Prime;
+    font-style: italic;
+    font-weight: 700;
+    src: local("Courier Prime Bold Italic"), local("CourierPrime-BoldItalic"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/courier-prime/webfont/courier-prime-bold-italic.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+// /* cutive-mono-regular */
+// @font-face {
+//     font-family: Cutive Mono;
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local("Cutive Mono Regular"), local("CutiveMono-Regular"), url("https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/cutive-mono/webfont/cutive-mono-regular.woff2") format("woff2");
+//     font-display: swap;
+// }

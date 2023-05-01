@@ -1,0 +1,41 @@
+{{define "main"}}
+<article class="post">
+	<header class="container">
+		<div class="post__header">
+			{{ if eq .Kind "term" }}
+			<h1 class="post__title">Tag: {{ .Title }}</h1>
+			{{ else }}
+			<h1 class="post__title">{{ .Title }}</h1>
+			{{ end }}
+		</div>
+		<!-- {{ if and .Params.summary (not (eq .Params.displaySummary false)) }}
+		<div class="post__summary">
+			<p>{{ .Params.summary }}</p>
+		</div>
+		{{ end }} -->
+	</header>
+	<div class="container post__entryContent">
+		<!-- {{$p := .Pages}}
+		{{if .IsHome}}
+		{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+		{{else if eq .Kind "taxonomy"}}
+		{{$p = $p.ByTitle}}
+		{{end}}
+		{{$paginator := .Paginate $p}}
+		<ul>
+			{{range $paginator.Pages}}
+			<li>{{.Date.Format "2006-01-02"}} - <a href="{{.RelPermalink}}">{{.Title}}</a></li>
+			{{end}}
+		</ul> -->
+		{{ range .Pages.GroupByDate "2006" }}
+		<h2>{{ .Key }}</h2>
+		{{ range .Pages }}
+		<p class="noIndent">
+			<span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+			<span><time datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_long" }}</time></span>
+		</p>
+		{{ end }}
+		{{ end }}
+	</div>
+</article>
+{{end}}
