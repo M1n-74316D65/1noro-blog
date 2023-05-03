@@ -30,7 +30,7 @@
 		<div class="list__itemHeader">
 			<h2 class="list__itemTitle"><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
 			<div class="post__meta">
-				<time datetime="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
+				<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format ":date_long" }}</time> · <span class="post_tags" aria-label="Etiquetas">
 					{{ range (.GetTerms "tags") }}
 					<a href="{{.RelPermalink}}">{{ .LinkTitle }}</a>
 					{{end}}
@@ -73,7 +73,7 @@
 								<a class="d-inline-block Link--primary color-fg-default" href="/{{ .Site.Params.author | urlize }}">{{ .Site.Params.author }}</a>
 								{{ end }}
 							</span>
-							<time datetime="{{ .Date }}" class="d-inline-block f5-mktg text-mono color-fg-muted mt-1">{{ .Date | time.Format ":date_long" }}</time>
+							<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" class="d-inline-block f5-mktg text-mono color-fg-muted mt-1">{{ .Date | time.Format ":date_long" }}</time>
 						</div>
 					</div>
 				</div>
