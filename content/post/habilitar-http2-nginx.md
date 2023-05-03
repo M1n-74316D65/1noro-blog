@@ -7,7 +7,7 @@ summary: "Aumentar la eficiencia y la seguridad de una web con el protocolo HTTP
 displaySummary: false
 ---
 
-Utilizando la configuración de Nginx ya explicada en [este artículo]({{< relref "post/configurando-nginx-para-esta-web" >}}) para
+Utilizando la configuración de Nginx ya explicada en [este artículo]({{< relref "post/un-servidor-para-record-rat-la" >}}) para
 esta misma página. Vamos a habilitar el protocolo HTTP/2 para mejorar la
 eficiencia y la seguridad a la hora de ofrecer la web al usuario final. Empezaremos por editar la configuración de nuestro *Virtual Host*.
 

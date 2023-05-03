@@ -1,5 +1,5 @@
 ---
-title: "Reflexión sobre los \"Buenos días\" en los chats on-line"
+title: "Los \"Buenos días\" en los chats on-line"
 mainTitle: "Los \"Buenos días\""
 subtitle: "En los chats on-line"
 date: 2020-09-26T12:32:00+01:00

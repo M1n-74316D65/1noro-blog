@@ -251,6 +251,32 @@ ul {
     }
 }
 
+.listItem {
+    margin-bottom: 2rem;
+    &__title {
+        margin-bottom: 0.5rem;
+        font-size: $h4-font-size;
+        font-variant-caps: small-caps;
+        letter-spacing: -0.06rem;
+        text-align: left;
+        a { text-decoration: none; }
+    }
+    &__date {
+        display: inline-block;
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    } 
+    // &__date {
+    //     font-size: $small-font-size;
+    //     text-decoration: underline;
+    //     text-decoration-style: double;
+    // }
+    // &__summary::first-letter {
+    //     text-transform: lowercase;
+    // }
+}
+
 .siteFooter {
     padding: 0 2rem 4rem 2rem;
     p { margin: 0.5rem 0; }
@@ -275,6 +301,11 @@ ul {
         width: $text-max-width - 28rem;
         // width: $text-max-width - 24rem;
     }
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-variant-caps: normal;
 }
 
 /* --- square figure with side text --- */

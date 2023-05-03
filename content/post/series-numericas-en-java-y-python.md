@@ -1,5 +1,5 @@
 ---
-title: "Solución a algunas series numéricas en Java y Python"
+title: "Series numéricas en Java y Python"
 mainTitle: "Series numéricas"
 subtitle: "En Java y Python"
 date: 2020-10-04T11:36:00+01:00
