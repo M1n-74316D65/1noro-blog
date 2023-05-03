@@ -22,7 +22,7 @@
 		<div class="listItem">
 			<p class="listItem__title noIndent"><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a></p>
 			<p class="noIndent">
-				<time class="listItem__date" datetime="{{ .Date.Format "2006-01-30" }}">{{ .Date | time.Format ":date_full" }}</time> / <span class="listItem__summary">{{ .Params.summary }}</span>
+				<time class="listItem__date" datetime="{{ .Date }}">{{ .Date | time.Format ":date_full" }}</time> / <span class="listItem__summary">{{ .Params.summary }}</span>
 			</p>
 		</div>
 		{{ end }}
