@@ -15,19 +15,8 @@
 		{{ end }} -->
 	</header>
 	<div class="container post__entryContent">
-		<!-- {{$p := .Pages}}
-		{{if .IsHome}}
-		{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
-		{{else if eq .Kind "taxonomy"}}
-		{{$p = $p.ByTitle}}
-		{{end}}
-		{{$paginator := .Paginate $p}}
-		<ul>
-			{{range $paginator.Pages}}
-			<li>{{.Date.Format "2006-01-02"}} - <a href="{{.RelPermalink}}">{{.Title}}</a></li>
-			{{end}}
-		</ul> -->
 		{{ range .Pages.GroupByDate "2006" }}
+		<!-- <h2>~ <span class="uppercase">{{ .Key }}</span> ~</h2> -->
 		<h2><span class="uppercase">{{ .Key }}</span></h2>
 		{{ range .Pages }}
 		<div class="listItem">
