@@ -1,4 +1,4 @@
-# record.rat.la-static
+# rats.land
 
 Blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
 

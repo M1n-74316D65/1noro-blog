@@ -11,7 +11,7 @@ Aquí intentaré aclarar algunas de las cuestiones que, se me ocurre, pueden sur
 
 ## ¿Qué es esto?
 
-La página `record.rat.la` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales. En el apartado ["sobre esta web"]({{< relref "info" >}}) puedes encontrar una descripción más detallada del asunto.
+La página `rats.land` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales. En el apartado ["sobre esta web"]({{< relref "info" >}}) puedes encontrar una descripción más detallada del asunto.
 
 <!-- {{< blockMediaText src="images/faq-rats-1024.jpg" alt="Un puñado de ratas preguntándose cosas." >}}
 <em>
@@ -73,7 +73,7 @@ web](/cookie#politica_de_cookies). -->
 
 Todo el contenido multimedia que se muestra en esta página se encuentra bajo la licencia [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Lo que significa que puedes compartir, copiar, redistribuir, adaptar, transformar y construir sobre el material de esta web para cualquier propósito, incluso comercial, siempre y cuando se atribuya la autoría y se comparta bajo la misma licencia. Con contenido multimedia me refiero todos los textos, imágenes, vídeos, audios... que puedas ver publicados aquí.
 
-Por otro lado el código fuente en HTML, CSS y JS ---base necesaria para que la web funcione--- está publicado en [GitHub](https://github.com/1noro/record.rat.la-static) bajo la licencia [GNU General Public License Versión 3](https://www.gnu.org/licenses/gpl-3.0.html).
+Por otro lado el código fuente en HTML, CSS y JS ---base necesaria para que la web funcione--- está publicado en [GitHub](https://github.com/1noro/rats.land) bajo la licencia [GNU General Public License Versión 3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## ¿Cómo recibir notificaciones?
 

@@ -29,7 +29,7 @@ else:
 draw = ImageDraw.Draw(img)
 
 # Escribir el texto en el centro de la imagen
-text = "record.rat.la"
+text = "rats.land"
 textheight = 100
 font = ImageFont.truetype("res/PublicSans-Bold.ttf", textheight)
 textwidth = draw.textlength(text, font=font)

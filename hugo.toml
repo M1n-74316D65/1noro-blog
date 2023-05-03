@@ -1,9 +1,9 @@
-baseURL = 'https://future.record.rat.la/'
+baseURL = 'https://rats.land/'
 languageCode = 'es-ES'
 defaultContentLanguage = 'es'
-title = 'record.rat.la'
-# theme = 'hugo-theme-recordratla-sans-serif'
-theme = 'hugo-theme-recordratla-bookstyle'
+title = 'rats.land'
+# theme = 'hugo-theme-ratsland-sans-serif'
+theme = 'hugo-theme-ratsland-bookstyle'
 enableRobotsTXT = true
 enableGitInfo = true
 Paginate = 50
@@ -17,8 +17,8 @@ unsafe = true
   name = 'Inoro'
 
 [Params]
-  webRepo = 'https://github.com/1noro/record.rat.la-static'
-  description = 'record.rat.la'
+  webRepo = 'https://github.com/1noro/rats.land'
+  description = 'rats.land'
   github = 'https://github.com/1noro'
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'

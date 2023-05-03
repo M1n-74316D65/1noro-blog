@@ -6,7 +6,7 @@ displaySummary: false
 image: "images/rat-la-la-la.jpg"
 ---
 
-Hola, me presento, puedes llamarme [Inoro]({{< relref "inoro" >}}). La página `record.rat.la` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
+Hola, me presento, puedes llamarme [Inoro]({{< relref "inoro" >}}). La página `rats.land` es un blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
 
 <!-- {{< blockMediaText src="images/rat-la-la-la.jpg" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
 Lores ipsum dolor sit amet, consectetur adipiscing elit.

@@ -1,10 +1,10 @@
 description = "New sans-serif theme for record.ra.la"
 features = []
-homepage = "https://record.rat.la/"
+homepage = "https://rats.land/"
 license = "GPL-3.0"
-licenselink = "https://github.com/1noro/record.rat.la-static/blob/main/LICENSE"
+licenselink = "https://github.com/1noro/rats.land/blob/main/LICENSE"
 min_version = "0.0.1"
-name = "recordratla-sans-serif"
+name = "ratsland-sans-serif"
 tags = ["blog", "clean", "minimal", "personal", "simple", "white"]
 
 [author]
