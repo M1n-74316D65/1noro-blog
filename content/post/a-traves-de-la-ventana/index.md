@@ -1,7 +1,7 @@
 ---
-title: "El hombre en la ventana"
+title: "A través de la ventana"
 date: 2023-05-02T18:15:00+02:00
-draft: false
+draft: true
 tags: ["sueños"]
 summary: "Transcripción de una pesadilla macabra."
 displaySummary: false

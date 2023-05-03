@@ -29,33 +29,24 @@ La página `rats.land` es un blog/web personal autogestionado donde iré registr
 – Shakespeare, Hamlet
 {{< /blockMediaText >}}
 
-## ¿Porqué rat.la?
+## ¿Por qué rats.land?
 
-Compré el dominio `rat.la` en busca de tres cosas: un nombre
-fácil de recordar, corto y asequible. Busqué durante mucho tiempo,
-probando múltiples combinaciones de letras, intentando evitar los
-números y descartando los dominios de nivel superior muy largos, estilo
-`.website`. Incluso llegué a utilizar generadores de palabras
-aleatorias para conseguir las palabras con 3 letras que encajasen mejor
-con mis requisitos.
+Originalmente, esta web se llamaba `record.rat.la`. Compré el dominio `rat.la` en busca de tres cosas: un nombre fácil de recordar, corto y asequible. Busqué durante mucho tiempo, probando múltiples combinaciones de letras, intentando evitar los números y descartando los dominios de nivel superior muy largos, estilo `.website`. Incluso llegué a utilizar generadores de palabras aleatorias para conseguir las palabras con 3 letras que encajasen mejor con mis requisitos.
 
-Tras esa ardua búsqueda encontré en oferta el dominio `.la` y
-pensando un subdominio adecuado se me ocurrió \"rat\", como una rata
-cantando: *La, la, la*. ---Además de darse la casualidad de que era la palabra más corta y sonora que estaba disponible---.
+Tras esa ardua búsqueda encontré en oferta el dominio `.la` y pensando un subdominio adecuado se me ocurrió "rat", como una rata cantando: *La, la, la*. —Además de darse la casualidad de que era la palabra más corta y sonora que estaba disponible—.
 
 {{< imgLandscape src="images/ratBbg.webp" alt="Logotipo inicial de la web, una rata cantando: la la la." >}}
 Antigua portada de la página
 {{< /imgLandscape >}}
 
-Esta imagen ilustra bien la chorrada en la que estaba pensando a la hora
-de elegir el dominio. Está dibujada por mi amiga **pepunto.reik** ([este
-es su Instagram](https://www.instagram.com/pepunto.reik)) la cual fue
-muy amable y me ofreció varios dibujos para que yo eligiera. Durante los
-primeros meses de la web fue la portada de la página hasta que mi
-obsesión por la simplicidad y la eficiencia en la carga me obligaron a
-tomar la horrible decisión de relegarla a un segundo plano. Pero en
-compensación la he trasladado a esta página para que no caiga en el
-olvido, posibilitando su futuro retorno al primer plano.
+Esta imagen ilustra bien la chorrada en la que estaba pensando a la hora de elegir el dominio. Está dibujada por mi amiga **pepunto.reik** ([este
+es su Instagram](https://www.instagram.com/pepunto.reik)) la cual fue muy amable y me ofreció varios dibujos para que yo eligiera —muchos de ellos siguen hoy en día adornando algunos rincones de la web—. Durante los primeros meses de la web fue la portada de la página hasta que mi obsesión por la simplicidad y la eficiencia en la carga me obligaron a tomar la horrible decisión de relegarla a un segundo plano. Pero en compensación la he trasladado a esta página para que no caiga en el olvido, posibilitando su futuro retorno al primer plano.
+
+Después de tres años decido emprender una ardua, pero satisfactoria, migración que consistía en pasar de un precioso monolito en PHP que tenía como *backend* a utilizar el [famoso generador de sitios estáticos HUGO](https://gohugo.io/). Esto, a su vez, se conjuga con que estoy aprendiendo a usar AWS un poco más en serio y veo que alojar la web en [S3](https://aws.amazon.com/es/s3/) supondría una oportunidad de oro para aprender y otorgar una mayor estabilidad al sito. Pero me encontré con un problema, en [Route53](https://aws.amazon.com/es/route53/) —el servicio de DNS de AWS— no se pueden gestionar aún los dominios `.la`. Por lo que decido tomar la dura; sin embargo, necesaria decisión de cambiar de dominio —y tirar por la borda el modesto posicionamiento SEO que había trabajado con `record.rat.la`—.
+
+El nuevo nombre es `rats.land`, un dominio que tiene muchas reminiscencias con el anterior y guarda parte del significado —ya que no estaba dispuesto a tirar por la borda la magnífica ambientación que me había trabajado poco a poco a lo largo de los años—.
+
+La trayectoria de esta web desde sus inicios viene a demostrarme a mí mismo que soy un culo inquieto y que no soy capaz de quedarme parado por nada del mundo, siempre tengo que estar probando cosas nuevas y nunca me cansaré de hacerlo. Por esta misma razón me parece una buena idea redactar un [*changelog*]({{< relref "changelog" >}}) para recoger los cambios más importantes que han dado forma a esta página con el paso del tiempo.
 
 <!-- ## ¿Cómo puede ser que esta web utilice Cookies?
 
@@ -79,12 +70,9 @@ Por otro lado el código fuente en HTML, CSS y JS ---base necesaria para que la 
 
 Para recibir actualizaciones sobre las nuevas publicaciones de la página, solo tienes que descargarte un lector de RSS en tu PC o tu *smartphone*, copiar [mi enlace de RSS](rss.xml) y agregarlo a tu feed. Por si no tenéis ni idea del tema y no queréis perder tiempo *googleando*, personalmente recomiendo [Miniflux](https://miniflux.app/) como opción *self-hosted* para todo tipo de dispositivos, [RSS Guard](https://github.com/martinrotter/rssguard) para PC y [Feeder](https://gitlab.com/spacecowboy/Feeder) o [NiceFeed](https://github.com/joshuacerdenia/NiceFeed) para Android. 
 
-<!-- ## ¿En que zona horaria están las fechas de las publicaciones?
+## ¿Qué zona horaria utilizas?
 
-Todas las fechas de la web están actualmente localizadas en la zona
-horaria `Europe/Madrid`. Si en el futuro esto se
-internacionaliza más podría plantearme el cambiarlo todo a
-`UTC`. -->
+Todas las fechas de la web están actualmente localizadas en la zona horaria `Europe/Madrid`. Si en el futuro esto se internacionaliza más podría plantearme el cambiarlo todo a `UTC`.
 
 ## ¿Qué software utilizas?
 
