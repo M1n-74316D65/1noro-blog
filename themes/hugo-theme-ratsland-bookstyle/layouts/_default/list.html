@@ -15,9 +15,20 @@
 		{{ end }} -->
 	</header>
 	<div class="container post__entryContent">
+		{{ if in .Permalink "/post/" }}
 		{{ range .Pages.GroupByDate "2006" }}
 		<!-- <h2>~ <span class="uppercase">{{ .Key }}</span> ~</h2> -->
 		<h2><span class="uppercase">{{ .Key }}</span></h2>
+		{{ range .Pages }}
+		<div class="listItem">
+			<p class="listItem__title noIndent"><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a></p>
+			<p class="noIndent">
+				<time class="listItem__date" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format ":date_full" }}</time> / <span class="listItem__summary">{{ .Params.summary }}</span>
+			</p>
+		</div>
+		{{ end }}
+		{{ end }}
+		{{ else }}
 		{{ range .Pages }}
 		<div class="listItem">
 			<p class="listItem__title noIndent"><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a></p>

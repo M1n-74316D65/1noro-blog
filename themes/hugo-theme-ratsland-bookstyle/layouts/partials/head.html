@@ -11,7 +11,10 @@
 <link rel="canonical" href="{{ .Page.Permalink }}">
 
 <!-- Para decirle al navegador que tengo RSS -->
-<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="RSS de rats.land">
+<!-- <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="RSS de rats.land"> -->
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
 <!-- preload eb-garamond -->
 <link rel="preload" href="https://recordratla-public-res.s3.eu-south-2.amazonaws.com/fonts/eb-garamond/webfont-static/eb-garamond-regular.woff2" as="font" type="font/woff2" crossorigin>
