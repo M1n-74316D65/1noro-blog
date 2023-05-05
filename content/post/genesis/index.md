@@ -11,11 +11,7 @@ displaySummary: false
 image: "genesis-2001-1190.jpg"
 ---
 
-> *Nota: esta publicación está desactualizada y no se corresponde con
-> cómo ha acabado siendo esta web. Sin embargo sigue siendo ilustrativa
-> a la hora de explicar las razones por las que comencé este proyecto, y
-> en base a este podrá verse cómo ha evolucionado desde la idea
-> original.*
+> *Nota: esta publicación está desactualizada y no se corresponde con cómo ha acabado siendo esta web. Sin embargo, sigue siendo ilustrativa a la hora de explicar las razones por las que comencé este proyecto, y basándonos en este podrá verse cómo ha evolucionado desde la idea original. En [esta sección de las FAQ]({{< relref "faq#por-que" >}}) explico el porqué de la migración de dominio.*
 
 {{< imgLandscape src="genesis-2001-1190.jpg" alt="Primera escena de 2001: Una odisea del espacio" >}}
 Y dijo Dios: Sea la luz; y fue la luz. — Genesis 1:3

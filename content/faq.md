@@ -29,7 +29,7 @@ La página `rats.land` es un blog/web personal autogestionado donde iré registr
 – Shakespeare, Hamlet
 {{< /blockMediaText >}}
 
-## ¿Por qué rats.land?
+## ¿Por qué rats.land? {#por-que}
 
 Originalmente, esta web se llamaba `record.rat.la`. Compré el dominio `rat.la` en busca de tres cosas: un nombre fácil de recordar, corto y asequible. Busqué durante mucho tiempo, probando múltiples combinaciones de letras, intentando evitar los números y descartando los dominios de nivel superior muy largos, estilo `.website`. Incluso llegué a utilizar generadores de palabras aleatorias para conseguir las palabras con 3 letras que encajasen mejor con mis requisitos.
 

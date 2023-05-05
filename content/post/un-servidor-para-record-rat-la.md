@@ -9,9 +9,9 @@ displaySummary: false
 ---
 
 > *Nota: esta publicación está desactualizada y no se corresponde con la
-> configuración actual del servidor. Sin embargo sigue siendo
+> configuración actual del servidor. Sin embargo, sigue siendo
 > ilustrativa a la hora de explicar la configuración de un servidor web
-> Nginx.*
+> Nginx. En [esta sección de las FAQ]({{< relref "faq#por-que" >}}) explico el porqué de la migración de dominio.*
 
 Como por el momento esta web será para uso personal, y no tendrá una
 enorme carga de trabajo, voy a optar por instalarla en una máquina
