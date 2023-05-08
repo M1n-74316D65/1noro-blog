@@ -22,7 +22,7 @@ unsafe = true
   github = 'https://github.com/1noro'
   gitlab = 'https://gitlab.com/1noro'
   mastodon = 'https://tilde.zone/@1noro'
-  email = ''
+  email = 'inoro@cover.mozmail.com'
   pgpPubKey = 'https://recordratla-public-res.s3.eu-south-2.amazonaws.com/publickey.ppuubblliicc%40protonmail.com.asc'
   articleDefaultImage = 'images/article_default_img_peach.jpg'
 
