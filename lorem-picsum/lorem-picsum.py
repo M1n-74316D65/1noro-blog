@@ -20,11 +20,7 @@ width, height = img.size
 avg_pixel_value = sum(img.convert("L").getdata()) / (width * height)
 
 # Elegir el color del texto en función del valor promedio de los píxeles
-if avg_pixel_value < 128:
-    text_color = "white"
-else:
-    text_color = "black"
-
+text_color = "white" if avg_pixel_value < 128 else "black"
 # Crear un objeto ImageDraw
 draw = ImageDraw.Draw(img)
 
