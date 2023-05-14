@@ -68,7 +68,7 @@ Por otro lado el código fuente en HTML, CSS y JS ---base necesaria para que la 
 
 ## ¿Cómo recibir notificaciones?
 
-Para recibir actualizaciones sobre las nuevas publicaciones de la página, solo tienes que descargarte un lector de RSS en tu PC o tu *smartphone*, copiar [mi enlace de RSS](rss.xml) y agregarlo a tu feed. Por si no tenéis ni idea del tema y no queréis perder tiempo *googleando*, personalmente recomiendo [Miniflux](https://miniflux.app/) como opción *self-hosted* para todo tipo de dispositivos, [RSS Guard](https://github.com/martinrotter/rssguard) para PC y [Feeder](https://gitlab.com/spacecowboy/Feeder) o [NiceFeed](https://github.com/joshuacerdenia/NiceFeed) para Android. 
+Para recibir actualizaciones sobre las nuevas publicaciones de la página, solo tienes que descargarte un lector de RSS en tu PC o tu *smartphone*, copiar [mi enlace de RSS](/index.xml) y agregarlo a tu feed. Por si no tenéis ni idea del tema y no queréis perder tiempo *googleando*, personalmente recomiendo [Miniflux](https://miniflux.app/) como opción *self-hosted* para todo tipo de dispositivos, [RSS Guard](https://github.com/martinrotter/rssguard) para PC y [Feeder](https://gitlab.com/spacecowboy/Feeder) o [NiceFeed](https://github.com/joshuacerdenia/NiceFeed) para Android. 
 
 ## ¿Qué zona horaria utilizas?
 
