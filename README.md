@@ -1,3 +1,4 @@
+![tumbleweed image](https://imgs.search.brave.com/Evd82GJjeDSjpv48LuizBR-e73jokUXwetjpHqt54G0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM0/MjQwNzkvcGhvdG8v/dHVtYmxld2VlZC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/VzB1dllKVE9PTGUy/ZjIycXFSZTJ6QmNl/NzJGSEphV2xZV0lf/NmhUMS1UOD0)
 # rats.land
 
 Blog/web personal autogestionado donde iré registrando mis proyectos y mis líos mentales.
